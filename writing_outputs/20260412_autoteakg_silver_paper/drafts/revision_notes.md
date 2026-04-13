@@ -48,3 +48,16 @@ Changes from v4:
 - Added `LLM Usage Statement`.
 - Added `Ethics Statement`.
 - Recompiled successfully with no undefined citations or references.
+
+## v6 Database-oriented
+
+Date: 2026-04-13
+
+Changes from v5:
+
+- Added Database URL after the abstract.
+- Folded Related Work into the Introduction as `Prior work and resource gap`.
+- Converted appendix headings to `Supplementary Data` sections.
+- Converted long appendix tables to `tabularx` where appropriate.
+- Added `reviews/VENUE_CONVERSION_NOTE_v6.md`.
+- Recompiled successfully with no undefined citations or references.

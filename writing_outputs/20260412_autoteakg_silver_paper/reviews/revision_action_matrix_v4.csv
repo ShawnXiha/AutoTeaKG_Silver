@@ -6,6 +6,6 @@ P2,Stage-wise ablation and QC table,Shows each extraction stage contributes,Tabl
 P2,Computational related work expansion,Current related work lacks IE/KG/LLM context,New subsection with 13 verified citations,medium,medium,completed
 P2,Data and code availability statement,Submission compliance and reproducibility,Short data/code availability section,low,medium,completed
 P2,LLM usage statement,Venue compliance for AI-assisted extraction,Short LLM/API usage disclosure,low,medium,completed
-P3,Venue/template conversion,Generic article format is not submission format,Target venue template and page-fit plan,medium,medium,pending
-P3,Appendix refinement,Keep main text clean while preserving reproducibility,Supplement tables for paths schema vocab uncertainty,low,medium,pending
-P3,Minor layout polish,Remove remaining overfull and tune figure placement,Clean compile log and camera-ready figure placement,low,low,pending
+P3,Venue/template conversion,Generic article format is not submission format,Database-oriented v6 manuscript and venue conversion note,medium,medium,completed
+P3,Appendix refinement,Keep main text clean while preserving reproducibility,Supplementary Data sections and tabularx appendix tables,low,medium,completed
+P3,Minor layout polish,Remove remaining overfull and tune figure placement,Reduced major table issues; remaining warnings need camera-ready polish,low,low,partial

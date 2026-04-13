@@ -4,8 +4,10 @@ Date: 2026-04-12
 
 ## Main Deliverables
 
-- Latest final PDF: `final/AutoTeaKG_Silver_v5.pdf`
-- Latest final TeX: `final/AutoTeaKG_Silver_v5.tex`
+- Latest final PDF: `final/AutoTeaKG_Silver_v6_database.pdf`
+- Latest final TeX: `final/AutoTeaKG_Silver_v6_database.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v5.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v5.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v4.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v4.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v3.pdf`
@@ -15,7 +17,7 @@ Date: 2026-04-12
 - Previous PDF: `final/AutoTeaKG_Silver_v1.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v1.tex`
 - Editable draft: `drafts/v1_draft.tex`
-- Latest editable draft: `drafts/v5_draft.tex`
+- Latest editable draft: `drafts/v6_database_draft.tex`
 - References: `references/references.bib`
 - Figures: `figures/`
 - Figure-ready tables: `data/`
@@ -52,11 +54,11 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 
 ## QA
 
-- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed for v1, v2, v3, v4, and v5.
-- Final v5 PDF generated successfully.
+- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed for v1, v2, v3, v4, v5, and v6 Database-oriented draft.
+- Final v6 Database-oriented PDF generated successfully.
 - Citation keys checked against BibTeX: no missing keys.
 - LaTeX log checked: no undefined citations or references.
-- v5 draft length: 4,699 words.
+- v6 Database-oriented draft length: 4,712 words.
 
 ## v2 Additions
 
@@ -91,6 +93,16 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 - Added `Ethics Statement`.
 - Marked data/code availability and LLM usage statement as completed in the v4 action matrix.
 - v5 compiles with no undefined citations or references. Some table overfull warnings remain and should be polished during camera-ready formatting.
+
+## v6 Database-Oriented Additions
+
+- Added Database URL after the abstract.
+- Folded Related Work into the Introduction as `Prior work and resource gap`.
+- Renamed appendices as `Supplementary Data` sections.
+- Converted long appendix tables to `tabularx` where useful.
+- Added `reviews/VENUE_CONVERSION_NOTE_v6.md`.
+- Marked venue conversion and appendix refinement as completed in the action matrix.
+- v6 compiles with no undefined citations or references. Minor table layout warnings remain for camera-ready polish.
 
 ## Review Artifacts
 
