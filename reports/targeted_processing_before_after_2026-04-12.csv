@@ -1,0 +1,636 @@
+record_id,paper_id,activity_category,study_type,component_before,component_after,processing_before,processing_after,extraction_before,extraction_after,uncertainty_before,uncertainty_after,context_score_before,context_score_after,component_added,processing_added,extraction_added
+PMID_37082776_GLM1,PMID_37082776,other,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_37584203_GLM1,PMID_37584203,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_37584203_GLM2,PMID_37584203,other,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_37584203_GLM3,PMID_37584203,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_38031409_GLM1,PMID_38031409,anti-obesity,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_38031409_GLM2,PMID_38031409,antioxidant,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_38242204_AUTO1,PMID_38242204,other,randomized controlled trial,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_38501370_GLM1,PMID_38501370,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38501370_GLM2,PMID_38501370,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38501370_GLM3,PMID_38501370,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38503153_GLM1,PMID_38503153,anti-inflammatory,meta-analysis,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38520117_GLM1,PMID_38520117,anti-obesity,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38520117_GLM2,PMID_38520117,antioxidant,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38521977_GLM1,PMID_38521977,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38571923_GLM2,PMID_38571923,anti-obesity,systematic review,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38622917_GLM1,PMID_38622917,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38622917_GLM2,PMID_38622917,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38622917_GLM3,PMID_38622917,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38695344_GLM1,PMID_38695344,other,animal study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_38719093_AUTO1,PMID_38719093,anti-obesity,randomized controlled trial,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_38740187_GLM1,PMID_38740187,anti-inflammatory,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38757229_GLM1,PMID_38757229,anti-obesity,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38757229_GLM2,PMID_38757229,anti-inflammatory,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38764154_GLM1,PMID_38764154,antioxidant,randomized controlled trial,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38764154_GLM3,PMID_38764154,anti-inflammatory,randomized controlled trial,multiple component groups,multiple component groups,,matcha production,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_38778045_GLM1,PMID_38778045,anti-obesity,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38778685_AUTO1,PMID_38778685,anti-obesity,cohort study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_38781878_AUTO1,PMID_38781878,antioxidant,unspecified,multiple component groups,multiple component groups,processing category contrast,processing category contrast,other extraction,other extraction,high_uncertainty,high_uncertainty,0.750,0.750,false,false,false
+PMID_38820660_GLM1,PMID_38820660,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_38848972_GLM1,PMID_38848972,gut microbiota modulation,animal study,catechins,catechins,storage/aging,storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_38848972_GLM2,PMID_38848972,other,animal study,catechins,catechins,storage/aging,storage/aging,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_38852447_GLM1,PMID_38852447,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,low_uncertainty,low_uncertainty,0.550,0.550,false,false,false
+PMID_38852447_GLM2,PMID_38852447,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38852447_GLM3,PMID_38852447,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_38878905_GLM1,PMID_38878905,anti-obesity,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_38897845_GLM1,PMID_38897845,other,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_38936303_GLM2,PMID_38936303,metabolic improvement,randomized controlled trial,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39014963_GLM1,PMID_39014963,cardiovascular protection,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39014963_GLM3,PMID_39014963,neuroprotection,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39033639_GLM1,PMID_39033639,other,unspecified,catechins,catechins,,,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_39047823_GLM1,PMID_39047823,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39047823_GLM2,PMID_39047823,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39050670_GLM1,PMID_39050670,neuroprotection,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39092514_GLM1,PMID_39092514,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39092514_GLM2,PMID_39092514,other,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39096025_GLM2,PMID_39096025,other,systematic review,theaflavins,theaflavins,enzymatic treatment,enzymatic treatment,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_39096274_GLM1,PMID_39096274,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39115505_AUTO1,PMID_39115505,anti-inflammatory,randomized controlled trial,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_39125321_GLM1,PMID_39125321,metabolic improvement,cohort study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_39153160_GLM1,PMID_39153160,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39153160_GLM3,PMID_39153160,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39222688_GLM1,PMID_39222688,anti-inflammatory,cohort study,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39256061_GLM1,PMID_39256061,gut microbiota modulation,randomized controlled trial,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39256061_GLM2,PMID_39256061,gut microbiota modulation,randomized controlled trial,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39256061_GLM3,PMID_39256061,gut microbiota modulation,randomized controlled trial,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39256541_GLM1,PMID_39256541,anti-obesity,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39287934_GLM1,PMID_39287934,metabolic improvement,cohort study,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39339787_GLM1,PMID_39339787,gut microbiota modulation,randomized controlled trial,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_39339787_GLM2,PMID_39339787,anti-inflammatory,randomized controlled trial,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_39339787_GLM3,PMID_39339787,other,randomized controlled trial,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_39340256_GLM1,PMID_39340256,metabolic improvement,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39350601_GLM1,PMID_39350601,anti-obesity,meta-analysis,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39391512_GLM1,PMID_39391512,neuroprotection,systematic review,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39391512_GLM2,PMID_39391512,other,systematic review,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39405832_GLM1,PMID_39405832,anti-inflammatory,animal study,tea polysaccharides,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39405832_GLM2,PMID_39405832,antioxidant,animal study,tea polysaccharides,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39405832_GLM3,PMID_39405832,other,animal study,tea polysaccharides,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39420779_GLM1,PMID_39420779,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39503925_GLM1,PMID_39503925,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39517154_GLM2,PMID_39517154,anti-obesity,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39522375_GLM1,PMID_39522375,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_39522375_GLM2,PMID_39522375,anti-obesity,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_39566179_GLM1,PMID_39566179,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39571432_GLM1,PMID_39571432,other,animal study,theaflavins,theaflavins,,black tea formation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_39571432_GLM2,PMID_39571432,gut microbiota modulation,animal study,theaflavins,theaflavins,,black tea formation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_39571724_GLM1,PMID_39571724,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39571724_GLM3,PMID_39571724,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39574401_GLM1,PMID_39574401,anti-obesity,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39574401_GLM2,PMID_39574401,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39574401_GLM3,PMID_39574401,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39606571_GLM1,PMID_39606571,anti-obesity,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39606571_GLM2,PMID_39606571,gut microbiota modulation,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39632169_GLM1,PMID_39632169,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39643357_GLM1,PMID_39643357,gut microbiota modulation,animal study,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39643357_GLM3,PMID_39643357,neuroprotection,animal study,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39686858_AUTO1,PMID_39686858,anti-inflammatory,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_39706596_GLM1,PMID_39706596,other,randomized controlled trial,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39745600_GLM1,PMID_39745600,other,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_39757367_GLM1,PMID_39757367,neuroprotection,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39757367_GLM2,PMID_39757367,antioxidant,systematic review,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_39765834_GLM1,PMID_39765834,anti-inflammatory,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39765834_GLM2,PMID_39765834,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39806767_GLM1,PMID_39806767,metabolic improvement,cohort study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_39806767_GLM2,PMID_39806767,cardiovascular protection,cohort study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_39807528_GLM1,PMID_39807528,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39807528_GLM2,PMID_39807528,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39807528_GLM3,PMID_39807528,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39831602_GLM1,PMID_39831602,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39849318_GLM1,PMID_39849318,neuroprotection,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39849851_AUTO1,PMID_39849851,anti-obesity,cohort study,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_39849851_AUTO2,PMID_39849851,anti-inflammatory,cohort study,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_39900709_GLM1,PMID_39900709,gut microbiota modulation,animal study,whole extract,whole extract,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_39900709_GLM2,PMID_39900709,antioxidant,animal study,whole extract,whole extract,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_39900709_GLM3,PMID_39900709,anti-inflammatory,animal study,whole extract,whole extract,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_39914738_AUTO1,PMID_39914738,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_39920567_GLM1,PMID_39920567,gut microbiota modulation,systematic review,catechins,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.300,false,false,false
+PMID_39940310_GLM1,PMID_39940310,metabolic improvement,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39942757_GLM1,PMID_39942757,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39942757_GLM2,PMID_39942757,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39942757_GLM3,PMID_39942757,anti-inflammatory,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39943157_GLM1,PMID_39943157,anti-inflammatory,in vitro,tea polysaccharides,tea polysaccharides,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39943157_GLM2,PMID_39943157,other,in vitro,tea polysaccharides,tea polysaccharides,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_39948758_GLM1,PMID_39948758,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,raw; ripened; post-fermentation,,,low_uncertainty,low_uncertainty,0.550,0.800,false,true,false
+PMID_39948758_GLM2,PMID_39948758,anti-obesity,animal study,mixed polyphenols,mixed polyphenols,,raw Pu-erh; ripened Pu-erh,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_39949547_GLM1,PMID_39949547,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39954639_GLM1,PMID_39954639,antioxidant,unspecified,mixed polyphenols,mixed polyphenols,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_39954639_GLM2,PMID_39954639,other,unspecified,mixed polyphenols,mixed polyphenols,storage/aging,storage/aging,,,high_uncertainty,high_uncertainty,0.550,0.550,false,false,false
+PMID_39967149_GLM1,PMID_39967149,gut microbiota modulation,systematic review,theaflavins,theaflavins,,,,isolation; purification,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_39967149_GLM2,PMID_39967149,gut microbiota modulation,systematic review,theaflavins,theaflavins,,,,isolation; purification,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_39967149_GLM3,PMID_39967149,gut microbiota modulation,systematic review,theaflavins,theaflavins,,,,isolation; purification,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_39976450_GLM1,PMID_39976450,anti-inflammatory,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39976450_GLM2,PMID_39976450,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_39997764_GLM1,PMID_39997764,other,cohort study,multiple component groups,multiple component groups,,,aqueous extraction,aqueous extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_39997764_GLM2,PMID_39997764,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,,aqueous extraction,aqueous extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_39997764_GLM3,PMID_39997764,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,,aqueous extraction,aqueous extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40001172_GLM1,PMID_40001172,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40002949_GLM1,PMID_40002949,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40002949_GLM2,PMID_40002949,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40002949_GLM3,PMID_40002949,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40020787_GLM1,PMID_40020787,gut microbiota modulation,systematic review,tea polysaccharides,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40020787_GLM2,PMID_40020787,anti-inflammatory,systematic review,tea polysaccharides,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40020803_GLM1,PMID_40020803,antioxidant,animal study,caffeine,caffeine,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40020803_GLM2,PMID_40020803,other,animal study,caffeine,caffeine,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40027965_AUTO1,PMID_40027965,anti-inflammatory,animal study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_40077632_GLM1,PMID_40077632,anti-inflammatory,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40077632_GLM2,PMID_40077632,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40077632_GLM3,PMID_40077632,antioxidant,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40101818_GLM1,PMID_40101818,antioxidant,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40121496_GLM1,PMID_40121496,other,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40122029_GLM1,PMID_40122029,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40126033_GLM1,PMID_40126033,cardiovascular protection,meta-analysis,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40134056_GLM1,PMID_40134056,metabolic improvement,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40147275_GLM1,PMID_40147275,antioxidant,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40147275_GLM2,PMID_40147275,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40157008_GLM1,PMID_40157008,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40160899_GLM1,PMID_40160899,antioxidant,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40160899_GLM2,PMID_40160899,anti-inflammatory,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40164251_GLM1,PMID_40164251,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40164251_GLM2,PMID_40164251,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40169473_GLM1,PMID_40169473,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40169473_GLM2,PMID_40169473,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40169473_GLM3,PMID_40169473,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40192349_GLM1,PMID_40192349,metabolic improvement,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40215650_GLM1,PMID_40215650,gut microbiota modulation,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40215650_GLM2,PMID_40215650,anti-inflammatory,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40215650_GLM3,PMID_40215650,gut microbiota modulation,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40228342_GLM1,PMID_40228342,gut microbiota modulation,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_40228342_GLM2,PMID_40228342,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40228342_GLM3,PMID_40228342,anti-obesity,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_40241697_GLM1,PMID_40241697,antioxidant,animal study,tea polysaccharides,tea polysaccharides,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40245621_GLM1,PMID_40245621,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40245621_GLM2,PMID_40245621,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40253129_GLM1,PMID_40253129,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40253129_GLM2,PMID_40253129,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40253129_GLM3,PMID_40253129,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40263915_GLM1,PMID_40263915,anti-obesity,randomized controlled trial,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40263915_GLM2,PMID_40263915,other,randomized controlled trial,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40306054_GLM1,PMID_40306054,metabolic improvement,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40308148_GLM1,PMID_40308148,metabolic improvement,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40314930_GLM1,PMID_40314930,neuroprotection,meta-analysis,theanine,theanine,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40324528_GLM3,PMID_40324528,other,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40326418_GLM1,PMID_40326418,anti-obesity,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40358678_GLM1,PMID_40358678,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40358678_GLM3,PMID_40358678,gut microbiota modulation,systematic review,catechins,catechins,,,,,high_uncertainty,high_uncertainty,0.550,0.550,false,false,false
+PMID_40391588_GLM1,PMID_40391588,neuroprotection,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40391588_GLM2,PMID_40391588,other,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40421240_AUTO1,PMID_40421240,anti-obesity,cohort study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_40427462_GLM1,PMID_40427462,antioxidant,animal study,catechins,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40427462_GLM3,PMID_40427462,other,animal study,catechins,catechins,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40436588_GLM1,PMID_40436588,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40436588_GLM2,PMID_40436588,anti-inflammatory,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40436588_GLM3,PMID_40436588,other,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40438590_GLM1,PMID_40438590,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40440765_GLM1,PMID_40440765,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40446924_GLM1,PMID_40446924,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40451727_GLM1,PMID_40451727,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40451727_GLM2,PMID_40451727,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40456886_GLM1,PMID_40456886,cardiovascular protection,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40456886_GLM3,PMID_40456886,other,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40497293_GLM1,PMID_40497293,cardiovascular protection,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40507186_GLM2,PMID_40507186,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40509019_GLM1,PMID_40509019,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40509019_GLM2,PMID_40509019,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40509019_GLM3,PMID_40509019,gut microbiota modulation,systematic review,catechins,catechins,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40525136_GLM1,PMID_40525136,cardiovascular protection,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40534238_GLM1,PMID_40534238,antioxidant,animal study,catechins,catechins,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40536509_GLM1,PMID_40536509,metabolic improvement,cohort study,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40536553_GLM1,PMID_40536553,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40543124_GLM1,PMID_40543124,other,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40552775_GLM1,PMID_40552775,gut microbiota modulation,animal study,catechins,catechins,,,,,low_uncertainty,low_uncertainty,0.550,0.550,false,false,false
+PMID_40552775_GLM2,PMID_40552775,gut microbiota modulation,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40555782_AUTO1,PMID_40555782,neuroprotection,cohort study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_40566930_GLM1,PMID_40566930,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40566930_GLM2,PMID_40566930,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40570454_GLM1,PMID_40570454,antioxidant,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40570454_GLM2,PMID_40570454,other,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40587877_GLM1,PMID_40587877,neuroprotection,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40609356_GLM1,PMID_40609356,antioxidant,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40609356_GLM2,PMID_40609356,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40635852_GLM1,PMID_40635852,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40637029_GLM1,PMID_40637029,anti-obesity,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40637029_GLM2,PMID_40637029,other,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40637142_GLM1,PMID_40637142,antioxidant,randomized controlled trial,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40645013_GLM1,PMID_40645013,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40664289_GLM1,PMID_40664289,gut microbiota modulation,animal study,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40664289_GLM2,PMID_40664289,gut microbiota modulation,animal study,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40664289_GLM3,PMID_40664289,gut microbiota modulation,animal study,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40684409_GLM1,PMID_40684409,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40696344_GLM1,PMID_40696344,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40696344_GLM2,PMID_40696344,other,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40701649_GLM1,PMID_40701649,gut microbiota modulation,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40701649_GLM2,PMID_40701649,gut microbiota modulation,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,extract,moderate_uncertainty,moderate_uncertainty,0.550,0.750,false,false,true
+PMID_40709622_GLM1,PMID_40709622,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,aqueous extraction; other extraction,aqueous extraction; other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40709622_GLM2,PMID_40709622,antioxidant,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,aqueous extraction; other extraction,aqueous extraction; other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40732933_GLM1,PMID_40732933,metabolic improvement,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40732933_GLM3,PMID_40732933,other,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40732996_GLM1,PMID_40732996,gut microbiota modulation,randomized controlled trial,multiple component groups,multiple component groups,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40732996_GLM2,PMID_40732996,metabolic improvement,randomized controlled trial,multiple component groups,multiple component groups,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40748185_GLM1,PMID_40748185,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation; enzymatic treatment,fermentation/oxidation; enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40748185_GLM2,PMID_40748185,other,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation; enzymatic treatment,fermentation/oxidation; enzymatic treatment,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40755497_GLM1,PMID_40755497,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40762434_AUTO1,PMID_40762434,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40762434_AUTO2,PMID_40762434,anti-obesity,animal study,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40762434_AUTO3,PMID_40762434,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40768551_GLM1,PMID_40768551,neuroprotection,systematic review,whole extract,whole extract,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40774472_GLM1,PMID_40774472,other,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40784131_GLM1,PMID_40784131,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40784131_GLM2,PMID_40784131,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40785250_GLM1,PMID_40785250,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40791226_GLM1,PMID_40791226,metabolic improvement,animal study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40812038_GLM1,PMID_40812038,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40812038_GLM2,PMID_40812038,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40817213_AUTO1,PMID_40817213,other,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40822422_GLM1,PMID_40822422,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40822528_GLM1,PMID_40822528,neuroprotection,systematic review,theanine,theanine,,,,isolation,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_40822528_GLM2,PMID_40822528,metabolic improvement,systematic review,theanine,theanine,,,,isolation,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_40822528_GLM3,PMID_40822528,other,systematic review,theanine,theanine,,,,isolated,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_40823011_GLM1,PMID_40823011,cardiovascular protection,cohort study,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40830941_GLM1,PMID_40830941,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40830941_GLM3,PMID_40830941,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40834920_GLM1,PMID_40834920,other,systematic review,mixed polyphenols,mixed polyphenols,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40836822_GLM1,PMID_40836822,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40836822_GLM3,PMID_40836822,other,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40865615_GLM1,PMID_40865615,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40867561_GLM1,PMID_40867561,metabolic improvement,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40869245_GLM1,PMID_40869245,antioxidant,systematic review,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40869245_GLM2,PMID_40869245,anti-inflammatory,systematic review,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40870767_GLM1,PMID_40870767,gut microbiota modulation,animal study,whole extract,whole extract,storage/aging,storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40870767_GLM2,PMID_40870767,gut microbiota modulation,animal study,whole extract,whole extract,storage/aging,storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40870767_GLM3,PMID_40870767,anti-inflammatory,animal study,whole extract,whole extract,storage/aging,storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40871693_GLM1,PMID_40871693,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40871693_GLM2,PMID_40871693,other,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40875308_GLM1,PMID_40875308,anti-inflammatory,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_40875308_GLM2,PMID_40875308,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40878851_GLM1,PMID_40878851,metabolic improvement,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40878851_GLM3,PMID_40878851,other,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_40887285_GLM1,PMID_40887285,anti-obesity,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40902558_GLM1,PMID_40902558,other,systematic review,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40906738_GLM1,PMID_40906738,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40906738_GLM2,PMID_40906738,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_40909391_GLM1,PMID_40909391,anti-obesity,animal study,catechins,catechins,,,,cold brewing; hot brewing,moderate_uncertainty,low_uncertainty,0.550,0.750,false,false,true
+PMID_40909391_GLM2,PMID_40909391,gut microbiota modulation,animal study,catechins,catechins,,,,cold brewing; hot brewing,moderate_uncertainty,moderate_uncertainty,0.550,0.750,false,false,true
+PMID_40910807_GLM1,PMID_40910807,antioxidant,systematic review,mixed polyphenols,mixed polyphenols,,,,chromatography; mass spectrometry; nuclear magnetic resonance,high_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_40910807_GLM2,PMID_40910807,other,systematic review,mixed polyphenols,mixed polyphenols,,,,chromatography; mass spectrometry; nuclear magnetic resonance,high_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_40917836_GLM1,PMID_40917836,anti-inflammatory,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40917836_GLM2,PMID_40917836,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40923241_GLM1,PMID_40923241,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40923241_GLM2,PMID_40923241,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_40930359_GLM1,PMID_40930359,gut microbiota modulation,systematic review,tea polysaccharides,tea polysaccharides,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40930783_GLM1,PMID_40930783,antioxidant,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40932098_GLM1,PMID_40932098,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40935265_GLM1,PMID_40935265,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40935265_GLM3,PMID_40935265,cardiovascular protection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40939879_GLM1,PMID_40939879,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40944237_GLM1,PMID_40944237,metabolic improvement,randomized controlled trial,mixed polyphenols,mixed polyphenols,,,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_40944258_GLM1,PMID_40944258,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_40969419_GLM1,PMID_40969419,antioxidant,systematic review,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40969419_GLM2,PMID_40969419,anti-inflammatory,systematic review,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40969419_GLM3,PMID_40969419,other,systematic review,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_40972869_GLM1,PMID_40972869,cardiovascular protection,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_40976893_GLM1,PMID_40976893,antioxidant,systematic review,whole extract,whole extract,storage/aging,storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_40978769_AUTO1,PMID_40978769,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41008240_AUTO1,PMID_41008240,other,systematic review,caffeine,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41009815_GLM1,PMID_41009815,antioxidant,systematic review,catechins,catechins,,minimal processing,,,moderate_uncertainty,low_uncertainty,0.550,0.800,false,true,false
+PMID_41009815_GLM2,PMID_41009815,other,systematic review,catechins,catechins,,minimal processing,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41010475_GLM1,PMID_41010475,metabolic improvement,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41010475_GLM3,PMID_41010475,other,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41010543_GLM1,PMID_41010543,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41011225_GLM1,PMID_41011225,cardiovascular protection,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41019326_GLM1,PMID_41019326,anti-obesity,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41019326_GLM2,PMID_41019326,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41045993_GLM1,PMID_41045993,metabolic improvement,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41046082_GLM1,PMID_41046082,anti-obesity,systematic review,volatile compounds; mixed polyphenols,volatile compounds; mixed polyphenols,drying,drying,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41052623_GLM1,PMID_41052623,antioxidant,randomized controlled trial,multiple component groups,multiple component groups,,,aqueous extraction,aqueous extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41055146_AUTO1,PMID_41055146,gut microbiota modulation,animal study,catechins,catechins,,,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41061287_GLM1,PMID_41061287,anti-obesity,animal study,theaflavins,theaflavins,storage/aging,storage/aging,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41061287_GLM2,PMID_41061287,anti-inflammatory,animal study,theaflavins,theaflavins,storage/aging,storage/aging,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41061287_GLM3,PMID_41061287,gut microbiota modulation,animal study,theaflavins,theaflavins,storage/aging,storage/aging,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41063115_GLM1,PMID_41063115,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41067627_GLM1,PMID_41067627,other,systematic review,theanine,theanine,,processing transformations,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,true,false
+PMID_41073208_GLM1,PMID_41073208,metabolic improvement,meta-analysis,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41081687_AUTO1,PMID_41081687,other,randomized controlled trial,multiple component groups,multiple component groups,,,aqueous extraction,aqueous extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41088897_AUTO1,PMID_41088897,neuroprotection,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41089755_GLM1,PMID_41089755,gut microbiota modulation,systematic review,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41089755_GLM2,PMID_41089755,other,systematic review,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41106481_GLM1,PMID_41106481,gut microbiota modulation,systematic review,catechins,catechins,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41106481_GLM2,PMID_41106481,gut microbiota modulation,systematic review,catechins,catechins,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41106481_GLM3,PMID_41106481,gut microbiota modulation,systematic review,catechins,catechins,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41128781_AUTO1,PMID_41128781,other,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41135302_GLM1,PMID_41135302,cardiovascular protection,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41140078_GLM1,PMID_41140078,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41140078_GLM2,PMID_41140078,anti-inflammatory,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41140262_GLM1,PMID_41140262,cardiovascular protection,systematic review,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41142253_GLM1,PMID_41142253,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41149402_GLM1,PMID_41149402,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41149402_GLM2,PMID_41149402,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41149402_GLM3,PMID_41149402,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41151447_GLM1,PMID_41151447,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41156555_GLM1,PMID_41156555,anti-obesity,systematic review,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41156555_GLM2,PMID_41156555,other,systematic review,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41157739_GLM1,PMID_41157739,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41157739_GLM2,PMID_41157739,other,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41161636_GLM1,PMID_41161636,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41163054_GLM1,PMID_41163054,gut microbiota modulation,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41163054_GLM2,PMID_41163054,metabolic improvement,randomized controlled trial,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41175620_GLM2,PMID_41175620,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,thermal processing; heating,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,true,false
+PMID_41184896_GLM1,PMID_41184896,other,cohort study,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41195861_GLM1,PMID_41195861,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41195861_GLM2,PMID_41195861,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41207049_GLM1,PMID_41207049,other,animal study,catechins,catechins,pan-firing/fixation,pan-firing/fixation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41210635_GLM1,PMID_41210635,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41210635_GLM2,PMID_41210635,antioxidant,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41210635_GLM3,PMID_41210635,anti-inflammatory,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41220294_GLM1,PMID_41220294,other,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41226835_GLM1,PMID_41226835,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41235304_GLM1,PMID_41235304,gut microbiota modulation,meta-analysis,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41244722_GLM1,PMID_41244722,other,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41255516_GLM2,PMID_41255516,other,cohort study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41265599_GLM1,PMID_41265599,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41269420_GLM1,PMID_41269420,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41271838_AUTO1,PMID_41271838,gut microbiota modulation,systematic review,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,high_uncertainty,high_uncertainty,0.550,0.550,false,false,false
+PMID_41274681_GLM2,PMID_41274681,other,animal study,catechins,catechins,storage/aging,storage/aging,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_41275554_GLM1,PMID_41275554,antioxidant,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41275554_GLM2,PMID_41275554,other,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41277259_GLM1,PMID_41277259,neuroprotection,systematic review,mixed polyphenols,mixed polyphenols,roasting,roasting,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41277394_GLM1,PMID_41277394,gut microbiota modulation,animal study,tea polysaccharides,mixed polyphenols,,,,,low_uncertainty,low_uncertainty,0.550,0.550,false,false,false
+PMID_41277394_GLM2,PMID_41277394,other,animal study,tea polysaccharides,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41282206_GLM1,PMID_41282206,metabolic improvement,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41282206_GLM2,PMID_41282206,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41284344_GLM1,PMID_41284344,anti-obesity,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41284344_GLM2,PMID_41284344,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41290504_GLM1,PMID_41290504,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41296402_GLM1,PMID_41296402,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41300675_GLM1,PMID_41300675,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41300675_GLM2,PMID_41300675,other,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41303338_GLM1,PMID_41303338,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41303363_GLM1,PMID_41303363,gut microbiota modulation,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41304966_GLM1,PMID_41304966,antioxidant,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,aqueous extraction,aqueous extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_41308222_GLM1,PMID_41308222,neuroprotection,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41308222_GLM2,PMID_41308222,other,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41308222_GLM3,PMID_41308222,antioxidant,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41314057_GLM2,PMID_41314057,anti-obesity,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41316291_GLM1,PMID_41316291,antioxidant,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41316291_GLM3,PMID_41316291,metabolic improvement,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41337925_GLM1,PMID_41337925,antioxidant,animal study,mixed polyphenols,mixed polyphenols,enzymatic treatment,enzymatic treatment,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41337925_GLM3,PMID_41337925,other,animal study,mixed polyphenols,mixed polyphenols,enzymatic treatment,enzymatic treatment,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41341495_GLM1,PMID_41341495,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_41343461_GLM1,PMID_41343461,anti-inflammatory,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41343461_GLM2,PMID_41343461,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41353598_GLM1,PMID_41353598,other,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41356832_GLM1,PMID_41356832,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41357894_GLM1,PMID_41357894,other,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41357894_GLM2,PMID_41357894,anti-inflammatory,meta-analysis,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41362433_GLM1,PMID_41362433,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41362433_GLM2,PMID_41362433,other,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41366683_GLM1,PMID_41366683,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41371855_GLM1,PMID_41371855,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,,,,purification,low_uncertainty,low_uncertainty,0.550,0.750,false,false,true
+PMID_41371855_GLM2,PMID_41371855,anti-inflammatory,animal study,tea polysaccharides,tea polysaccharides,,,,purification,low_uncertainty,low_uncertainty,0.550,0.750,false,false,true
+PMID_41373414_GLM1,PMID_41373414,anti-inflammatory,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41373951_GLM1,PMID_41373951,anti-obesity,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41384531_GLM1,PMID_41384531,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41384531_GLM2,PMID_41384531,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41384531_GLM3,PMID_41384531,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41409372_GLM1,PMID_41409372,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41411000_GLM1,PMID_41411000,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41411000_GLM2,PMID_41411000,other,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41418292_GLM1,PMID_41418292,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41418292_GLM3,PMID_41418292,cardiovascular protection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41425625_GLM1,PMID_41425625,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41427140_GLM1,PMID_41427140,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,tea processing by-product,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41427140_GLM2,PMID_41427140,antioxidant,cohort study,multiple component groups,multiple component groups,,tea dust production,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41427140_GLM3,PMID_41427140,gut microbiota modulation,cohort study,multiple component groups,multiple component groups,,tea processing by-product,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41431168_GLM1,PMID_41431168,gut microbiota modulation,systematic review,theanine,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41431168_GLM2,PMID_41431168,metabolic improvement,systematic review,theanine,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41435602_GLM1,PMID_41435602,anti-inflammatory,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41435602_GLM2,PMID_41435602,antioxidant,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41439563_GLM1,PMID_41439563,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41439563_GLM2,PMID_41439563,other,systematic review,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41447897_AUTO1,PMID_41447897,neuroprotection,animal study,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41449627_GLM1,PMID_41449627,antioxidant,animal study,theanine,theanine,storage/aging,storage/aging,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41458132_GLM1,PMID_41458132,antioxidant,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41458664_AUTO1,PMID_41458664,anti-inflammatory,cohort study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41459787_AUTO1,PMID_41459787,other,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,high_uncertainty,high_uncertainty,0.550,0.550,false,false,false
+PMID_41462286_GLM1,PMID_41462286,anti-obesity,cohort study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41470906_GLM1,PMID_41470906,metabolic improvement,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41474664_GLM1,PMID_41474664,other,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41475763_GLM1,PMID_41475763,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41475763_GLM2,PMID_41475763,other,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41483799_GLM1,PMID_41483799,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41483799_GLM2,PMID_41483799,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41483799_GLM3,PMID_41483799,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41490780_GLM1,PMID_41490780,anti-obesity,randomized controlled trial,multiple component groups,multiple component groups,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41496404_GLM1,PMID_41496404,other,animal study,catechins,catechins,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,aqueous extraction,aqueous extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41515258_GLM1,PMID_41515258,anti-inflammatory,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41515260_GLM1,PMID_41515260,anti-inflammatory,randomized controlled trial,catechins,catechins,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41515260_GLM2,PMID_41515260,anti-obesity,randomized controlled trial,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41517138_GLM1,PMID_41517138,gut microbiota modulation,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41517138_GLM2,PMID_41517138,anti-inflammatory,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41517138_GLM3,PMID_41517138,other,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41519326_GLM1,PMID_41519326,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41519326_GLM2,PMID_41519326,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41534752_GLM1,PMID_41534752,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41534752_GLM2,PMID_41534752,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41544473_GLM1,PMID_41544473,antioxidant,animal study,tea polysaccharides,tea polysaccharides,storage/aging; enzymatic treatment,storage/aging; enzymatic treatment,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41544875_GLM1,PMID_41544875,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,,brick tea processing,,,moderate_uncertainty,low_uncertainty,0.300,0.800,false,true,false
+PMID_41544875_GLM2,PMID_41544875,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_41547013_GLM1,PMID_41547013,gut microbiota modulation,animal study,theanine,theanine,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41547013_GLM2,PMID_41547013,gut microbiota modulation,animal study,theanine,theanine,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41548598_GLM1,PMID_41548598,anti-obesity,cohort study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41548613_GLM1,PMID_41548613,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41548613_GLM2,PMID_41548613,other,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41554089_GLM1,PMID_41554089,other,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41554089_GLM3,PMID_41554089,anti-inflammatory,animal study,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.750,0.750,false,false,false
+PMID_41558631_AUTO1,PMID_41558631,gut microbiota modulation,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,high_uncertainty,high_uncertainty,0.750,0.750,false,false,false
+PMID_41559215_GLM1,PMID_41559215,antioxidant,animal study,theaflavins,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41560832_GLM1,PMID_41560832,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41564650_GLM1,PMID_41564650,anti-inflammatory,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41564650_GLM2,PMID_41564650,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41572086_GLM1,PMID_41572086,other,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41577286_GLM1,PMID_41577286,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41581373_GLM1,PMID_41581373,other,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41581373_GLM2,PMID_41581373,anti-obesity,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41587797_GLM1,PMID_41587797,antioxidant,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41587797_GLM2,PMID_41587797,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41594549_GLM1,PMID_41594549,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_41594549_GLM2,PMID_41594549,neuroprotection,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_41596095_GLM1,PMID_41596095,neuroprotection,systematic review,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41596333_GLM1,PMID_41596333,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41596333_GLM2,PMID_41596333,metabolic improvement,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41599419_GLM1,PMID_41599419,antioxidant,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41599419_GLM2,PMID_41599419,metabolic improvement,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41599419_GLM3,PMID_41599419,neuroprotection,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41599929_GLM1,PMID_41599929,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41599929_GLM2,PMID_41599929,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41599956_GLM1,PMID_41599956,metabolic improvement,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41599956_GLM2,PMID_41599956,other,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41605387_GLM1,PMID_41605387,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41607156_GLM1,PMID_41607156,anti-inflammatory,animal study,catechins,catechins,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41608512_GLM1,PMID_41608512,anti-inflammatory,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41608512_GLM2,PMID_41608512,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41608512_GLM3,PMID_41608512,antioxidant,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41612904_GLM1,PMID_41612904,antioxidant,animal study,whole extract,whole extract,,,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41612904_GLM2,PMID_41612904,anti-inflammatory,animal study,whole extract,whole extract,,,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41612904_GLM3,PMID_41612904,other,animal study,whole extract,whole extract,,,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41617244_AUTO1,PMID_41617244,other,systematic review,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41617902_GLM1,PMID_41617902,antioxidant,animal study,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41617902_GLM2,PMID_41617902,other,animal study,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41621019_GLM1,PMID_41621019,anti-inflammatory,animal study,catechins,catechins,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41621019_GLM2,PMID_41621019,antioxidant,animal study,catechins,catechins,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41621019_GLM3,PMID_41621019,other,animal study,catechins,catechins,enzymatic treatment,enzymatic treatment,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41621929_GLM1,PMID_41621929,antioxidant,animal study,whole extract,whole extract,,,aqueous extraction; solvent extraction; other extraction,aqueous extraction; solvent extraction; other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41622288_GLM1,PMID_41622288,metabolic improvement,systematic review,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41622288_GLM2,PMID_41622288,other,systematic review,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41622499_GLM1,PMID_41622499,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41622499_GLM2,PMID_41622499,anti-inflammatory,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41622499_GLM3,PMID_41622499,metabolic improvement,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41622927_GLM1,PMID_41622927,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41622927_GLM2,PMID_41622927,other,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41623636_GLM1,PMID_41623636,anti-obesity,animal study,whole extract,whole extract,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41623636_GLM2,PMID_41623636,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41623636_GLM3,PMID_41623636,other,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41632836_GLM1,PMID_41632836,metabolic improvement,animal study,mixed polyphenols,mixed polyphenols,storage/aging,storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41632991_GLM2,PMID_41632991,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41632991_GLM3,PMID_41632991,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41645939_GLM1,PMID_41645939,neuroprotection,systematic review,theanine,multiple component groups,,finely ground powder production,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41645939_GLM2,PMID_41645939,other,systematic review,theanine,multiple component groups,,finely ground powder; shading,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41650779_AUTO1,PMID_41650779,antioxidant,animal study,whole extract,whole extract,enzymatic treatment,enzymatic treatment,other extraction,other extraction,high_uncertainty,high_uncertainty,0.750,0.750,false,false,false
+PMID_41652699_GLM1,PMID_41652699,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41652699_GLM2,PMID_41652699,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41655487_GLM1,PMID_41655487,other,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41656465_GLM1,PMID_41656465,other,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,aqueous extraction; other extraction,aqueous extraction; other extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_41656480_GLM1,PMID_41656480,anti-inflammatory,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41656480_GLM2,PMID_41656480,other,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41663711_AUTO1,PMID_41663711,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41664546_GLM1,PMID_41664546,antioxidant,unspecified,mixed polyphenols,mixed polyphenols,pan-firing/fixation,pan-firing/fixation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41665340_GLM1,PMID_41665340,other,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41671305_GLM1,PMID_41671305,metabolic improvement,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41671305_GLM2,PMID_41671305,other,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41671932_AUTO1,PMID_41671932,other,animal study,mixed polyphenols,mixed polyphenols,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41674684_GLM2,PMID_41674684,other,animal study,volatile compounds; mixed polyphenols,volatile compounds; mixed polyphenols,,black tea processing; green tea processing; white tea processing; oolong tea processing,,LC-MS/MS; HS-SPME-GCMS,moderate_uncertainty,moderate_uncertainty,0.550,0.750,false,true,true
+PMID_41678410_GLM1,PMID_41678410,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41678410_GLM2,PMID_41678410,anti-obesity,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41679395_GLM1,PMID_41679395,anti-inflammatory,systematic review,multiple component groups,multiple component groups,,,,essential oil extraction,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_41679395_GLM2,PMID_41679395,other,systematic review,multiple component groups,multiple component groups,,,,essential oil extraction,moderate_uncertainty,moderate_uncertainty,0.300,0.500,false,false,true
+PMID_41679603_GLM1,PMID_41679603,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_41679603_GLM2,PMID_41679603,antioxidant,animal study,tea polysaccharides,tea polysaccharides,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,false,false
+PMID_41683202_GLM1,PMID_41683202,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41684150_GLM1,PMID_41684150,gut microbiota modulation,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41684150_GLM2,PMID_41684150,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41684150_GLM3,PMID_41684150,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41695108_GLM1,PMID_41695108,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41695108_GLM2,PMID_41695108,cardiovascular protection,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41695732_GLM1,PMID_41695732,anti-obesity,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41695820_GLM1,PMID_41695820,anti-inflammatory,systematic review,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41695820_GLM2,PMID_41695820,other,systematic review,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,high_uncertainty,high_uncertainty,0.800,0.800,false,false,false
+PMID_41696766_GLM1,PMID_41696766,antioxidant,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41697452_GLM1,PMID_41697452,other,systematic review,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41697800_AUTO1,PMID_41697800,anti-inflammatory,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41698016_GLM1,PMID_41698016,anti-inflammatory,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41699676_GLM1,PMID_41699676,neuroprotection,animal study,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41703844_GLM1,PMID_41703844,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41703844_GLM2,PMID_41703844,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41703870_GLM1,PMID_41703870,gut microbiota modulation,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41703870_GLM2,PMID_41703870,other,animal study,catechins,catechins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41704297_GLM1,PMID_41704297,anti-inflammatory,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41704297_GLM2,PMID_41704297,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41704879_GLM1,PMID_41704879,antioxidant,animal study,catechins,catechins,roasting,roasting,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41704879_GLM2,PMID_41704879,other,animal study,catechins,catechins,roasting,roasting,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41709514_GLM1,PMID_41709514,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,aqueous extraction; other extraction,aqueous extraction; other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41716005_GLM1,PMID_41716005,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41716005_GLM2,PMID_41716005,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41716005_GLM3,PMID_41716005,gut microbiota modulation,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41717022_AUTO1,PMID_41717022,neuroprotection,cohort study,multiple component groups,multiple component groups,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41730253_GLM1,PMID_41730253,antioxidant,animal study,mixed polyphenols,mixed polyphenols,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41732513_GLM1,PMID_41732513,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,shade drying;hot-air drying;vacuum freeze-drying,,,moderate_uncertainty,moderate_uncertainty,0.300,0.550,false,true,false
+PMID_41738389_GLM1,PMID_41738389,anti-obesity,animal study,theaflavins,theaflavins,,,,,low_uncertainty,low_uncertainty,0.550,0.550,false,false,false
+PMID_41738389_GLM2,PMID_41738389,gut microbiota modulation,animal study,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41738389_GLM3,PMID_41738389,antioxidant,animal study,theaflavins,theaflavins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41745743_AUTO1,PMID_41745743,other,animal study,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41747591_GLM1,PMID_41747591,gut microbiota modulation,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41747591_GLM2,PMID_41747591,neuroprotection,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41747612_GLM1,PMID_41747612,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41750899_GLM1,PMID_41750899,antioxidant,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41754217_GLM1,PMID_41754217,metabolic improvement,systematic review,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41754218_GLM1,PMID_41754218,anti-obesity,systematic review,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41762517_GLM1,PMID_41762517,anti-inflammatory,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41762517_GLM2,PMID_41762517,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41762517_GLM3,PMID_41762517,antioxidant,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41763747_GLM1,PMID_41763747,other,systematic review,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,supercritical fluid extraction,supercritical fluid extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_41763794_GLM1,PMID_41763794,gut microbiota modulation,animal study,tea polysaccharides,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41769406_AUTO1,PMID_41769406,other,animal study,whole extract,whole extract,,,other extraction,other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41769650_GLM1,PMID_41769650,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,black tea manufacturing,,,moderate_uncertainty,low_uncertainty,0.550,0.800,false,true,false
+PMID_41769650_GLM3,PMID_41769650,metabolic improvement,animal study,mixed polyphenols,mixed polyphenols,,black tea manufacturing,,,moderate_uncertainty,low_uncertainty,0.550,0.800,false,true,false
+PMID_41782071_GLM1,PMID_41782071,cardiovascular protection,systematic review,caffeine,caffeine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41782071_GLM2,PMID_41782071,metabolic improvement,systematic review,caffeine,caffeine,,,,,high_uncertainty,high_uncertainty,0.300,0.300,false,false,false
+PMID_41785770_GLM1,PMID_41785770,antioxidant,animal study,catechins,catechins,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41785770_GLM2,PMID_41785770,other,animal study,catechins,catechins,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41788636_GLM1,PMID_41788636,metabolic improvement,meta-analysis,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41788685_GLM1,PMID_41788685,cardiovascular protection,cohort study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41789592_GLM1,PMID_41789592,gut microbiota modulation,systematic review,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41789592_GLM2,PMID_41789592,other,systematic review,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41791619_GLM1,PMID_41791619,gut microbiota modulation,systematic review,multiple component groups,multiple component groups,roasting,roasting,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41791619_GLM3,PMID_41791619,anti-obesity,systematic review,multiple component groups,multiple component groups,roasting,roasting,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41794250_GLM1,PMID_41794250,antioxidant,animal study,tea polysaccharides,tea polysaccharides,,,other extraction,other extraction,low_uncertainty,low_uncertainty,0.750,0.750,false,false,false
+PMID_41796839_GLM1,PMID_41796839,anti-obesity,systematic review,theanine,theanine,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41796839_GLM2,PMID_41796839,cardiovascular protection,systematic review,theanine,theanine,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41797132_GLM1,PMID_41797132,antioxidant,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41797132_GLM2,PMID_41797132,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41798939_GLM1,PMID_41798939,gut microbiota modulation,animal study,whole extract,whole extract,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_41798939_GLM2,PMID_41798939,anti-inflammatory,animal study,whole extract,whole extract,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,other extraction,other extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_41798939_GLM3,PMID_41798939,other,animal study,whole extract,whole extract,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,1.000,1.000,false,false,false
+PMID_41799109_GLM1,PMID_41799109,neuroprotection,animal study,theaflavins,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41800414_GLM1,PMID_41800414,other,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41802656_GLM1,PMID_41802656,gut microbiota modulation,systematic review,theanine,theanine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41802656_GLM2,PMID_41802656,other,systematic review,theanine,theanine,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41804768_GLM1,PMID_41804768,gut microbiota modulation,animal study,tea polysaccharides,catechins,,,,,low_uncertainty,low_uncertainty,0.550,0.550,false,false,false
+PMID_41804768_GLM2,PMID_41804768,anti-inflammatory,animal study,tea polysaccharides,catechins,,,,,low_uncertainty,low_uncertainty,0.550,0.550,false,false,false
+PMID_41804768_GLM3,PMID_41804768,other,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41819933_AUTO1,PMID_41819933,other,animal study,caffeine,caffeine,,,aqueous extraction; other extraction,aqueous extraction; other extraction,high_uncertainty,high_uncertainty,0.500,0.500,false,false,false
+PMID_41820002_GLM1,PMID_41820002,metabolic improvement,randomized controlled trial,multiple component groups,multiple component groups,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41828611_GLM1,PMID_41828611,anti-inflammatory,meta-analysis,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41828808_GLM1,PMID_41828808,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41828893_GLM1,PMID_41828893,antioxidant,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41828893_GLM3,PMID_41828893,other,animal study,whole extract,whole extract,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41829159_GLM1,PMID_41829159,gut microbiota modulation,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41829159_GLM2,PMID_41829159,gut microbiota modulation,animal study,multiple component groups,multiple component groups,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41829951_GLM1,PMID_41829951,gut microbiota modulation,meta-analysis,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41829951_GLM2,PMID_41829951,gut microbiota modulation,meta-analysis,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false
+PMID_41830022_GLM1,PMID_41830022,gut microbiota modulation,randomized controlled trial,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41830022_GLM2,PMID_41830022,anti-obesity,randomized controlled trial,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41833670_GLM1,PMID_41833670,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41833670_GLM2,PMID_41833670,other,animal study,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41839464_GLM1,PMID_41839464,other,animal study,mixed polyphenols,mixed polyphenols,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41839755_GLM1,PMID_41839755,antioxidant,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,aqueous extraction,aqueous extraction,low_uncertainty,low_uncertainty,1.000,1.000,false,false,false
+PMID_41844524_AUTO1,PMID_41844524,other,animal study,catechins,catechins,processing category contrast,processing category contrast,,,high_uncertainty,high_uncertainty,0.800,0.800,false,false,false
+PMID_41853594_GLM1,PMID_41853594,antioxidant,animal study,catechins,catechins,storage/aging,storage/aging,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41853598_GLM2,PMID_41853598,metabolic improvement,animal study,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41853609_GLM1,PMID_41853609,other,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41853609_GLM2,PMID_41853609,metabolic improvement,animal study,caffeine,caffeine,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41855828_GLM1,PMID_41855828,antioxidant,animal study,multiple component groups,multiple component groups,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41858500_GLM1,PMID_41858500,antioxidant,animal study,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41858500_GLM2,PMID_41858500,other,animal study,mixed polyphenols,mixed polyphenols,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.500,0.500,false,false,false
+PMID_41859366_GLM1,PMID_41859366,other,animal study,caffeine,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41861686_GLM1,PMID_41861686,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41861686_GLM2,PMID_41861686,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,enzymatic treatment,enzymatic treatment,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41863176_GLM1,PMID_41863176,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41863176_GLM2,PMID_41863176,other,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41863981_GLM1,PMID_41863981,gut microbiota modulation,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41863981_GLM2,PMID_41863981,other,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41863981_GLM3,PMID_41863981,antioxidant,animal study,tea polysaccharides,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41867690_AUTO1,PMID_41867690,antioxidant,animal study,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,other extraction,other extraction,high_uncertainty,high_uncertainty,0.750,0.750,false,false,false
+PMID_41868711_GLM1,PMID_41868711,metabolic improvement,animal study,catechins,catechins,,brick-like form,,,moderate_uncertainty,low_uncertainty,0.300,0.800,false,true,false
+PMID_41880967_GLM1,PMID_41880967,antioxidant,animal study,theaflavins,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41882045_GLM1,PMID_41882045,other,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41882045_GLM2,PMID_41882045,antioxidant,animal study,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41884463_GLM1,PMID_41884463,other,animal study,volatile compounds; mixed polyphenols,volatile compounds; mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41888324_GLM1,PMID_41888324,other,systematic review,mixed polyphenols,mixed polyphenols,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41897706_GLM1,PMID_41897706,other,animal study,theaflavins,theaflavins,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41898599_GLM1,PMID_41898599,antioxidant,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,low_uncertainty,low_uncertainty,0.800,0.800,false,false,false
+PMID_41898599_GLM2,PMID_41898599,other,systematic review,mixed polyphenols,mixed polyphenols,fermentation/oxidation,fermentation/oxidation,,,moderate_uncertainty,moderate_uncertainty,0.800,0.800,false,false,false
+PMID_41899489_GLM1,PMID_41899489,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41899489_GLM2,PMID_41899489,gut microbiota modulation,animal study,tea polysaccharides,tea polysaccharides,,,,,moderate_uncertainty,moderate_uncertainty,0.300,0.300,false,false,false
+PMID_41901054_GLM1,PMID_41901054,anti-obesity,systematic review,mixed polyphenols,mixed polyphenols,,decaffeination,,,moderate_uncertainty,moderate_uncertainty,0.550,0.800,false,true,false
+PMID_41907215_GLM1,PMID_41907215,gut microbiota modulation,systematic review,catechins,catechins,,,,,moderate_uncertainty,moderate_uncertainty,0.550,0.550,false,false,false
+PMID_41911645_AUTO1,PMID_41911645,anti-inflammatory,animal study,catechins,catechins,,,other extraction,other extraction,moderate_uncertainty,moderate_uncertainty,0.750,0.750,false,false,false

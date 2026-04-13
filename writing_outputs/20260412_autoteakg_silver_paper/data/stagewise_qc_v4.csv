@@ -1,0 +1,4 @@
+stage,processing_present,extraction_present,missing_context_flags,unmapped_labels,patch_errors_after_retry,unresolved_edges,node_count,edge_count
+Rules-only silver layer,146,154,365,not_applicable,not_applicable,0,1963,8162
+Abstract-level targeted LLM,167,170,329,0,0,0,1979,8168
+Methods-section targeted LLM,183,185,303,0,0,0,1989,8195

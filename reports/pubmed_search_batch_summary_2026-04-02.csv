@@ -1,0 +1,5 @@
+batch_name,date_searched,query_count,requested_retmax_per_query,total_query_hits,unique_pmids,normalized_rows,include_count,maybe_count,exclude_count
+tea_pubmed_batch_2026-03-31_large,2026-03-31,5,120,600,508,508,388,31,89
+tea_pubmed_batch_2026-03-31_large_v2,2026-03-31,5,120,600,508,508,376,25,107
+tea_full_test_2026-04-01,2026-04-01,5,5,25,21,21,14,2,5
+tea_full_prod_2026-04-01,2026-04-01,5,100,500,421,421,310,20,91

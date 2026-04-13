@@ -1,0 +1,62 @@
+node_id,node_type,label,year,journal,title,effect_direction,confidence_score,claim_text_raw
+paper:PMID_36449351,Paper,PMID_36449351,2022,Food & Function,Heimao tea polysaccharides ameliorate obesity by enhancing gut microbiota-dependent adipocytes thermogenesis in mice fed with high fat diet,,,
+record:PMID_36449351_R1,EvidenceRecord,PMID_36449351_R1,,,,positive,0.96,"Heimao tea polysaccharides ameliorated obesity by enhancing gut microbiota-dependent adipocyte thermogenesis in mice fed a high-fat diet, with Dubosiella and Romboutsia closely associated with the anti-obesity effect."
+tea_type:dark_post_fermented_tea,TeaType,dark/post-fermented tea,,,,,,
+component_group:tea_polysaccharides,ComponentGroup,tea polysaccharides,,,,,,
+activity:anti_obesity,ActivityCategory,anti-obesity,,,,,,
+study_type:animal_study,StudyType,animal study,,,,,,
+evidence_level:preclinical_in_vivo,EvidenceLevel,preclinical_in_vivo,,,,,,
+mechanism:gut_microbiota_dependent_thermogenesis,Mechanism,gut microbiota-dependent thermogenesis,,,,,,
+microbiota:dubosiella_romboutsia,MicrobiotaFeature,Dubosiella; Romboutsia,,,,,,
+phenotype:obesity_related_phenotype,HostPhenotype,obesity-related phenotype,,,,,,
+record:PMID_36449351_R2,EvidenceRecord,PMID_36449351_R2,,,,positive,0.96,Dubosiella and Romboutsia increased significantly and were negatively correlated with body weight and positively correlated with iBAT index in HMTP-treated obese mice.
+activity:gut_microbiota_modulation,ActivityCategory,gut microbiota modulation,,,,,,
+mechanism:microbiota_thermogenesis_axis,Mechanism,microbiota-thermogenesis axis,,,,,,
+phenotype:adipocyte_thermogenesis,HostPhenotype,adipocyte thermogenesis,,,,,,
+paper:PMID_38031409,Paper,PMID_38031409,2024,British Journal of Nutrition,The effects of green tea extract supplementation on body composition obesity-related hormones and oxidative stress markers: a grade-assessed systematic review and dose-response meta-analysis of randomised controlled trials,,,
+record:PMID_38031409_R2,EvidenceRecord,PMID_38031409_R2,,,,positive,Green tea extract supplementation improved oxidative stress markers in randomized trials.,
+activity:antioxidant,ActivityCategory,antioxidant,,,,,,
+tea_type:unspecified_tea,TeaType,unspecified tea,,,,,,
+activity:metabolic_improvement,ActivityCategory,metabolic improvement,,,,,,
+activity:neuroprotection,ActivityCategory,neuroprotection,,,,,,
+paper:PMID_38745671,Paper,PMID_38745671,2024,Frontiers in Immunology,Green tea extract suppresses airway inflammation via oxidative stress-driven MAPKs/MMP-9 signaling in asthmatic mice and human airway epithelial cells,,,
+record:PMID_38745671_R1,EvidenceRecord,PMID_38745671_R1,,,,positive,Green tea extract suppressed airway inflammation via oxidative stress-driven MAPKs/MMP-9 signaling.,
+record:PMID_38745671_R2,EvidenceRecord,PMID_38745671_R2,,,,positive,Green tea extract reduced oxidative-stress-related signaling in the asthmatic model.,
+microbiota:oxidative_stress_driven_signaling_reduction,MicrobiotaFeature,oxidative stress-driven signaling reduction,,,,,,
+paper:PMID_39153277,Paper,PMID_39153277,2024,Phytomedicine,Yellow tea polysaccharides protect against non-alcoholic fatty liver disease via regulation of gut microbiota and bile acid metabolism in mice,,,
+record:PMID_39153277_R1,EvidenceRecord,PMID_39153277_R1,,,,positive,0.97,"YTP altered colonic bile-acid composition, increased conjugated and non-12OH bile acids, decreased FXR, FGF15, FGFR4, and ASBT, increased Cyp7a1 and Cyp27a1, and inhibited hepatic cholesterol accumulation in NAFLD mice."
+mechanism:alternative_bile_acid_synthesis_activation,Mechanism,alternative bile acid synthesis activation,,,,,,
+mechanism:fxr_fgf15_fgfr4_asbt_suppression,Mechanism,FXR-FGF15-FGFR4-ASBT suppression,,,,,,
+mechanism:fxr_shp_pathway_modulation,Mechanism,FXR-SHP pathway modulation,,,,,,
+microbiota:muribaculaceae_pseudomonas_acterium_coprostanoligenes_group_clostridiales_lachnospiraceae_nk4a136_group_delftia_dubosiella_romboutsia,MicrobiotaFeature,Muribaculaceae; Pseudomonas; acterium_coprostanoligenes_group; Clostridiales; Lachnospiraceae_NK4A136_group; Delftia; Dubosiella; Romboutsia,,,,,,
+metabolite:conjugated_bile_acids_non_12oh_bile_acids,MicrobialMetabolite,conjugated bile acids; non-12OH bile acids,,,,,,
+phenotype:nafld_phenotype,HostPhenotype,NAFLD phenotype,,,,,,
+record:PMID_39153277_R2,EvidenceRecord,PMID_39153277_R2,,,,positive,0.96,"YTP reshaped the intestinal microbiome by decreasing BSH-producing genera and increasing taurine-metabolism genera, with multiple genera strongly correlated with specific bile-acid monomers."
+mechanism:bile_salt_hydrolase_related_microbial_remodeling,Mechanism,bile salt hydrolase-related microbial remodeling,,,,,,
+mechanism:taurine_metabolism_genera_increase,Mechanism,taurine-metabolism genera increase,,,,,,
+record:PMID_39255891_R1,EvidenceRecord,PMID_39255891_R1,,,,positive,0.96,"TFPS significantly mitigated HFD-induced metabolic syndrome, including reductions in body weight, fat accumulation, liver steatosis, TC, TG, LDL-C, and pro-inflammatory cytokines TNF-alpha, IL-6, and IL-1beta, with increased IL-10."
+record:PMID_39255891_R2,EvidenceRecord,PMID_39255891_R2,,,,positive,0.94,Tea flower polysaccharide attenuated metabolic syndrome in association with modulation of gut microbiota in HFD-induced mice.
+paper:PMID_39479919,Paper,PMID_39479919,2024,Food & Function,Inhibitory effect of tea flower polysaccharides on oxidative stress and microglial oxidative damage in aging mice by regulating gut microbiota,,,
+record:PMID_39479919_R1,EvidenceRecord,PMID_39479919_R1,,,,positive,0.97,"TFPS improved gut microbiota homeostasis, reduced the Firmicutes to Bacteroidota ratio, increased Lactobacillus, increased SOD CAT and POD activity, and reduced MDA in aging mice."
+mechanism:nf_kb_suppression,Mechanism,NF-kB suppression,,,,,,
+mechanism:antioxidant_enzyme_restoration,Mechanism,antioxidant enzyme restoration,,,,,,
+mechanism:oxidative_stress_reduction,Mechanism,oxidative stress reduction,,,,,,
+microbiota:firmicutes_bacteroidota_ratio_lactobacillus,MicrobiotaFeature,Firmicutes/Bacteroidota ratio; Lactobacillus,,,,,,
+phenotype:oxidative_damage_phenotype,HostPhenotype,oxidative damage phenotype,,,,,,
+record:PMID_39479919_R2,EvidenceRecord,PMID_39479919_R2,,,,positive,0.96,"TFPS reduced excessive hippocampal microglial activation, down-regulated IL-6 IL-1beta TNF-alpha and NF-kB, and alleviated neuroinflammation in aging mice while regulating gut microbiota."
+mechanism:microglial_activation_reduction,Mechanism,microglial activation reduction,,,,,,
+mechanism:neuroinflammation_suppression,Mechanism,neuroinflammation suppression,,,,,,
+phenotype:microglial_oxidative_damage,HostPhenotype,microglial oxidative damage,,,,,,
+record:PMID_40160899_R1,EvidenceRecord,PMID_40160899_R1,,,,positive,"Green tea improved oxidative status markers including TAC, SOD, GPX and reduced MDA in the meta-analysis.",
+record:PMID_40640361_R1,EvidenceRecord,PMID_40640361_R1,,,,positive,0.91,Tea polysaccharides altered gut microbiota and physiological health indicators in mice.
+record:PMID_40640361_R2,EvidenceRecord,PMID_40640361_R2,,,,positive,0.89,Tea polysaccharides improved physiological health indicators in mice alongside gut microbiota changes.
+paper:PMID_40957830,Paper,PMID_40957830,2025,Journal of Agricultural and Food Chemistry,Bai Mao Tea Polysaccharides Induce Adipose Tissue Browning and Ameliorate Diet-Induced Obesity by Modulating Butyrate Production and Gut Microbiota Composition,,,
+record:PMID_40957830_R1,EvidenceRecord,PMID_40957830_R1,,,,positive,0.97,"BMTP significantly reduced body weight, improved insulin sensitivity, decreased adipocyte volume, increased multivesicular adipocyte-like cells, and upregulated UCP1 in iWAT and iBAT."
+mechanism:microbiota_butyrate_adipose_axis,Mechanism,microbiota-butyrate-adipose axis,,,,,,
+mechanism:thermogenesis_activation,Mechanism,thermogenesis activation,,,,,,
+microbiota:bifidobacterium_species,MicrobiotaFeature,Bifidobacterium species,,,,,,
+metabolite:butyrate,MicrobialMetabolite,butyrate,,,,,,
+record:PMID_40957830_R2,EvidenceRecord,PMID_40957830_R2,,,,positive,0.97,BMTP increased serum and colonic butyric acid levels and shifted gut microbiota composition; antibiotic treatment worsened obesity while butyrate supplementation partially restored body weight insulin sensitivity and thermogenic proteins PGC-1alpha and UCP1.
+mechanism:butyrate_mediated_adipose_browning,Mechanism,butyrate-mediated adipose browning,,,,,,
+mechanism:pgc_1alpha_ucp1_thermogenic_programming,Mechanism,PGC-1alpha/UCP1 thermogenic programming,,,,,,
+phenotype:adipose_browning,HostPhenotype,adipose browning,,,,,,

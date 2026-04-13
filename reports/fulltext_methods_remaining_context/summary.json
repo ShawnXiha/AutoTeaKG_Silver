@@ -1,0 +1,11 @@
+{
+  "record_count": 329,
+  "paper_count": 213,
+  "records_with_pmcid": 151,
+  "records_with_methods_sections": 151,
+  "records_without_pmc_fulltext": 178,
+  "paper_status_counts": {
+    "sections_extracted": 109,
+    "no_pmc_fulltext": 104
+  }
+}

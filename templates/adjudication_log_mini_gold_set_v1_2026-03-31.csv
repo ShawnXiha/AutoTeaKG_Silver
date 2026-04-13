@@ -1,0 +1,10 @@
+record_id,field_name,original_value,adjudicated_value,reason,impact_level,notes
+PMID_39274868_R1,endpoint_label,gut microbiota composition/function modulation,gut microbiota composition and function modulation,Normalized punctuation and wording for consistency,low,No semantic change
+PMID_39920567_R1,compound_name,,tea polyphenols,Interpretive review is explicitly about tea polyphenols,medium,Improves compound-group linkage
+PMID_39920567_R1,effect_direction,positive,mixed,Paper is cautionary and interpretive rather than a direct positive efficacy claim,high,Important for evidence semantics
+PMID_40314930_R1,endpoint_label,cognition outcome summary in healthy participants,cognition and mood related outcomes in healthy participants,Title and likely synthesis cover both cognition and mood,medium,Broader but more faithful endpoint
+PMID_40314930_R1,effect_direction,positive,mixed,Meta-analysis combines tea, L-theanine, and L-theanine plus caffeine with heterogeneous outcomes,high,Prevents overclaiming
+PMID_39574401_R1,microbiota_taxon,Akkermansia; other taxa as reported,taxa as reported,Need full-text verification before naming specific taxa in gold set,high,Conservative normalization
+PMID_39574401_R2,host_phenotype,barrier/inflammation state,barrier and inflammation state,Standardized wording,low,No semantic change
+PMID_38137271_R1,processing_step,withering;rolling;fermentation/oxidation;drying,withering;rolling;fermentation/oxidation;drying,Confirmed as normalized sequence from review scope,low,Retained
+PMID_40477896_R1,notes,Phase-2 oriented context paper,Phase-2 oriented context paper not counted in phase-1 core efficacy summary,Clarifies analysis partition,medium,Useful for later statistics scripts

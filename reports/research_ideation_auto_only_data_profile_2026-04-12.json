@@ -1,0 +1,358 @@
+{
+  "date": "2026-04-12",
+  "ideation_mode": "auto_only_no_manual_annotation_dependency",
+  "input_files": {
+    "papers": "data\\merged_batches\\tea_pubmed_batch_2026-03-31_large_v2_llm_merged\\included_papers_llm_merged.csv",
+    "records": "data\\merged_batches\\tea_pubmed_batch_2026-03-31_large_v2_llm_merged\\evidence_records_llm_merged.csv",
+    "search_archive": "reports\\pubmed_search_archive_2026-04-02.json"
+  },
+  "excluded_manual_sources": [
+    "templates/evidence_records_expanded_batch_v1_2026-03-31.csv",
+    "templates/evidence_records_mini_gold_set_v1_2026-03-31.csv",
+    "templates/adjudication_log_mini_gold_set_v1_2026-03-31.csv",
+    "templates/llm_manual_audit_worksheet_2026-04-02.csv"
+  ],
+  "counts": {
+    "merged_papers": 524,
+    "merged_records_all": 669,
+    "llm_records_used": 596,
+    "auto_candidate_records_available": 39,
+    "manual_records_excluded_detected": 28,
+    "llm_distinct_papers": 365,
+    "llm_human_records": 128,
+    "llm_microbiome_records": 184,
+    "llm_low_confidence_records_lt_0_80": 21,
+    "llm_missing_mechanism_records": 159,
+    "llm_generic_or_missing_mechanism_records": 194
+  },
+  "confidence": {
+    "n": 596,
+    "min": 0.5,
+    "max": 0.95,
+    "mean": 0.8901677852348993
+  },
+  "distributions": {
+    "activity_category": [
+      [
+        "other",
+        160
+      ],
+      [
+        "gut microbiota modulation",
+        151
+      ],
+      [
+        "antioxidant",
+        78
+      ],
+      [
+        "anti-inflammatory",
+        70
+      ],
+      [
+        "metabolic improvement",
+        41
+      ],
+      [
+        "anti-obesity",
+        40
+      ],
+      [
+        "cardiovascular protection",
+        30
+      ],
+      [
+        "neuroprotection",
+        26
+      ]
+    ],
+    "study_type": [
+      [
+        "animal study",
+        270
+      ],
+      [
+        "systematic review",
+        192
+      ],
+      [
+        "cohort study",
+        65
+      ],
+      [
+        "randomized controlled trial",
+        38
+      ],
+      [
+        "meta-analysis",
+        25
+      ],
+      [
+        "unspecified",
+        4
+      ],
+      [
+        "in vitro",
+        2
+      ]
+    ],
+    "evidence_level": [
+      [
+        "preclinical_in_vivo",
+        270
+      ],
+      [
+        "evidence_synthesis_nonquantitative",
+        195
+      ],
+      [
+        "human_observational",
+        63
+      ],
+      [
+        "human_interventional",
+        38
+      ],
+      [
+        "evidence_synthesis",
+        24
+      ],
+      [
+        "low_preclinical",
+        3
+      ],
+      [
+        "in_vitro",
+        1
+      ],
+      [
+        "ex vivo",
+        1
+      ],
+      [
+        "significant",
+        1
+      ]
+    ],
+    "effect_direction": [
+      [
+        "positive",
+        293
+      ],
+      [
+        "unclear",
+        155
+      ],
+      [
+        "negative",
+        142
+      ],
+      [
+        "no_clear_effect",
+        5
+      ],
+      [
+        "mixed",
+        1
+      ]
+    ],
+    "tea_type": [
+      [
+        "unspecified tea",
+        315
+      ],
+      [
+        "green tea",
+        198
+      ],
+      [
+        "fermented tea",
+        27
+      ],
+      [
+        "black tea",
+        21
+      ],
+      [
+        "dark tea",
+        19
+      ],
+      [
+        "white tea",
+        8
+      ],
+      [
+        "yellow tea",
+        6
+      ],
+      [
+        "oolong tea",
+        2
+      ]
+    ],
+    "mechanism_label": [
+      [
+        "microbiota-associated mechanism",
+        28
+      ],
+      [
+        "antioxidant activity",
+        7
+      ],
+      [
+        "barrier-related mechanism",
+        6
+      ],
+      [
+        "oxidative-stress-related mechanism",
+        3
+      ],
+      [
+        "modulation of gut microbiota composition",
+        3
+      ],
+      [
+        "gene-environment interaction",
+        3
+      ],
+      [
+        "immunomodulation",
+        3
+      ],
+      [
+        "phenolic transformation",
+        3
+      ],
+      [
+        "oxidative stress reduction",
+        3
+      ],
+      [
+        "phenolic compounds",
+        2
+      ],
+      [
+        "radical scavenging",
+        2
+      ],
+      [
+        "regulation of gut microbiota",
+        2
+      ],
+      [
+        "metabolite correlation",
+        2
+      ],
+      [
+        "hydrogen bonding and electrostatic interactions",
+        2
+      ],
+      [
+        "prebiotic effect",
+        2
+      ],
+      [
+        "antioxidant mechanism",
+        2
+      ],
+      [
+        "microbial metabolite production",
+        2
+      ],
+      [
+        "67-kDa laminin receptor (67LR) in myeloid cells",
+        2
+      ],
+      [
+        "upregulation of tight junction proteins",
+        2
+      ],
+      [
+        "Nrf2/ARE pathway activation",
+        2
+      ]
+    ],
+    "microbiota_taxon": [
+      [
+        "gut microbiota",
+        7
+      ],
+      [
+        "Akkermansia muciniphila",
+        4
+      ],
+      [
+        "Lactobacillus; Bifidobacterium",
+        4
+      ],
+      [
+        "Bifidobacterium",
+        3
+      ],
+      [
+        "Streptococcus mutans",
+        2
+      ],
+      [
+        "Acetobacteraceae; Saccharomycetaceae",
+        2
+      ],
+      [
+        "Bacteroidota; Proteobacteria",
+        2
+      ],
+      [
+        "Helicobacter pylori",
+        2
+      ],
+      [
+        "Alistipes, Akkermansia, Coprococcus, NK4A214_group, Collinsella, Rikenellaceae_RC9_gut_group",
+        2
+      ],
+      [
+        "gut microbiota composition",
+        2
+      ],
+      [
+        "Blautia; Faecalibaculum; Colidextribacter",
+        2
+      ],
+      [
+        "Aspergillus tubingensis",
+        1
+      ],
+      [
+        "increased Prevotella and Subdoligranulum; decreased Oscillibacter, Desulfovibrio, Firmicutes, Verrucomicrobia",
+        1
+      ],
+      [
+        "beneficial gut microbiota",
+        1
+      ],
+      [
+        "Coprococcus; Bifidobacterium",
+        1
+      ],
+      [
+        "Bifidobacterium; Faecalibacterium; Lactobacillus",
+        1
+      ],
+      [
+        "Lactobacillus; Ligilactobacillus; Actinobacteria",
+        1
+      ],
+      [
+        "Staphylococcus aureus; Bacillus pumilus; Bacillus subtilis",
+        1
+      ],
+      [
+        "Firmicutes; Bacteroidetes",
+        1
+      ],
+      [
+        "Akkermansia; Allobaculum; Lactobacillus",
+        1
+      ]
+    ]
+  }
+}

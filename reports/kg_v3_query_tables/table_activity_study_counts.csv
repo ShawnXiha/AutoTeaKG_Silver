@@ -1,0 +1,57 @@
+activity_category,study_type,count
+gut microbiota modulation,animal study,91
+gut microbiota modulation,systematic review,45
+gut microbiota modulation,cohort study,7
+gut microbiota modulation,randomized controlled trial,9
+gut microbiota modulation,meta-analysis,3
+gut microbiota modulation,unspecified,0
+gut microbiota modulation,in vitro,0
+antioxidant,animal study,54
+antioxidant,systematic review,17
+antioxidant,cohort study,3
+antioxidant,randomized controlled trial,3
+antioxidant,meta-analysis,2
+antioxidant,unspecified,3
+antioxidant,in vitro,0
+anti-inflammatory,animal study,33
+anti-inflammatory,systematic review,25
+anti-inflammatory,cohort study,10
+anti-inflammatory,randomized controlled trial,6
+anti-inflammatory,meta-analysis,4
+anti-inflammatory,unspecified,0
+anti-inflammatory,in vitro,1
+anti-obesity,animal study,12
+anti-obesity,systematic review,11
+anti-obesity,cohort study,10
+anti-obesity,randomized controlled trial,7
+anti-obesity,meta-analysis,5
+anti-obesity,unspecified,0
+anti-obesity,in vitro,0
+metabolic improvement,animal study,11
+metabolic improvement,systematic review,12
+metabolic improvement,cohort study,7
+metabolic improvement,randomized controlled trial,9
+metabolic improvement,meta-analysis,2
+metabolic improvement,unspecified,0
+metabolic improvement,in vitro,0
+cardiovascular protection,animal study,0
+cardiovascular protection,systematic review,7
+cardiovascular protection,cohort study,19
+cardiovascular protection,randomized controlled trial,1
+cardiovascular protection,meta-analysis,4
+cardiovascular protection,unspecified,0
+cardiovascular protection,in vitro,0
+neuroprotection,animal study,9
+neuroprotection,systematic review,17
+neuroprotection,cohort study,2
+neuroprotection,randomized controlled trial,1
+neuroprotection,meta-analysis,1
+neuroprotection,unspecified,0
+neuroprotection,in vitro,0
+other,animal study,78
+other,systematic review,63
+other,cohort study,17
+other,randomized controlled trial,7
+other,meta-analysis,4
+other,unspecified,2
+other,in vitro,1

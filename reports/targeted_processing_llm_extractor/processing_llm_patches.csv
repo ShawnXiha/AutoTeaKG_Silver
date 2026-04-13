@@ -1,0 +1,1 @@
+record_id,paper_id,processing_present,extraction_present,component_present,tea_type,material_form,component_group,processing_step,extraction_method,compound_name,cultivar,origin,evidence_terms,raw_context_phrase,confidence_score,reasoning_short,patch_status,patch_uncertainty_flags

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Uncertainty-class assignment rules. The severe flag set includes low LLM confidence, taxonomy expansion needed, missing component context, generic mechanism, and invalid controlled-vocabulary labels.}
+\label{tab:uncertainty_classes}
+\begin{tabular}{p{0.26\linewidth}p{0.55\linewidth}p{0.12\linewidth}}
+\toprule
+Class & Rule & Final count \\
+\midrule
+Low uncertainty & Silver confidence $\geq 0.80$ and no severe uncertainty flag. & 100 \\
+Moderate uncertainty & Silver confidence $\geq 0.60$ and at most two severe uncertainty flags. & 470 \\
+High uncertainty & All remaining records. & 65 \\
+\bottomrule
+\end{tabular}
+\end{table}

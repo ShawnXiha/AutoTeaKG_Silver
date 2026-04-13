@@ -1,0 +1,13 @@
+flag,trigger,interpretation,severity
+low_llm_confidence,Original LLM confidence score is below 0.80.,The extracted evidence record should be prioritized for review.,severe
+taxonomy_expansion_needed,The normalized activity category is `other`.,The record is either out of scope or requires activity-taxonomy expansion.,severe
+missing_component_context,No component group is available after rule and LLM context extraction.,The record lacks a key exposure descriptor.,severe
+missing_processing_or_extraction_context,Both processing step and extraction method are empty.,The record cannot support processing-aware comparison.,moderate
+generic_mechanism,Mechanism label is empty or belongs to a generic placeholder list.,The record supports an activity claim but weakly supports mechanistic graph reasoning.,severe
+missing_named_microbiota,Activity is gut microbiota modulation but no named taxon is extracted.,Microbiome interpretation should remain generic.,moderate
+preclinical_only,Study type is animal study.,The claim should not be interpreted as direct human evidence.,moderate
+review_summary_record,Study type is systematic review.,The record summarizes literature rather than representing one primary experiment.,moderate
+low_evidence_level,Evidence level is low_preclinical or in_vitro.,The claim has weak translational support.,moderate
+uncertain_effect_direction,"Effect direction is unclear, no_clear_effect, or mixed.",The extracted claim should not be counted as straightforward positive support.,moderate
+missing_abstract,No abstract text is available.,The record has reduced text evidence for automatic extraction.,moderate
+invalid_*,A controlled-vocabulary field contains an invalid label.,The record violates schema constraints and requires normalization or exclusion.,severe

@@ -1,0 +1,213 @@
+{
+  "schema_name": "tea_evidence_schema_v1",
+  "date": "2026-03-31",
+  "description": "Database-first, graph-ready schema for tea functional activity evidence.",
+  "phases": {
+    "phase_1": "Evidence-graded database",
+    "phase_2": "Processing-aware extension",
+    "phase_3": "Microbiome mechanism KG pilot"
+  },
+  "entities": {
+    "Paper": {
+      "primary_key": "paper_id",
+      "fields": [
+        "paper_id",
+        "title",
+        "authors",
+        "journal",
+        "year",
+        "doi",
+        "pmid",
+        "abstract"
+      ]
+    },
+    "EvidenceRecord": {
+      "primary_key": "record_id",
+      "fields": [
+        "record_id",
+        "paper_id",
+        "tea_material_id",
+        "extract_id",
+        "component_group_id",
+        "activity_category_id",
+        "endpoint_id",
+        "study_type_id",
+        "evidence_level_id",
+        "model_system_id",
+        "dose_exposure_id",
+        "effect_direction",
+        "claim_text_raw",
+        "confidence_score"
+      ]
+    },
+    "TeaMaterial": {
+      "primary_key": "tea_material_id",
+      "fields": [
+        "tea_material_id",
+        "tea_type",
+        "material_form",
+        "cultivar",
+        "origin",
+        "raw_description"
+      ]
+    },
+    "Extract": {
+      "primary_key": "extract_id",
+      "fields": [
+        "extract_id",
+        "tea_material_id",
+        "extraction_method",
+        "extract_type",
+        "solvent",
+        "raw_description"
+      ]
+    },
+    "CompoundGroup": {
+      "primary_key": "component_group_id",
+      "fields": [
+        "component_group_id",
+        "normalized_name",
+        "description"
+      ]
+    },
+    "Endpoint": {
+      "primary_key": "endpoint_id",
+      "fields": [
+        "endpoint_id",
+        "activity_category",
+        "endpoint_label",
+        "raw_endpoint_text"
+      ]
+    },
+    "ModelSystem": {
+      "primary_key": "model_system_id",
+      "fields": [
+        "model_system_id",
+        "study_type",
+        "system_label",
+        "species_or_population"
+      ]
+    },
+    "DoseExposure": {
+      "primary_key": "dose_exposure_id",
+      "fields": [
+        "dose_exposure_id",
+        "value_text",
+        "unit_text",
+        "duration_text"
+      ]
+    },
+    "ProcessingContext": {
+      "primary_key": "processing_context_id",
+      "fields": [
+        "processing_context_id",
+        "tea_material_id",
+        "processing_step",
+        "stage_order",
+        "raw_description"
+      ]
+    },
+    "MechanismRecord": {
+      "primary_key": "mechanism_record_id",
+      "fields": [
+        "mechanism_record_id",
+        "record_id",
+        "mechanism_label",
+        "raw_text"
+      ]
+    },
+    "MicrobiomeRecord": {
+      "primary_key": "microbiome_record_id",
+      "fields": [
+        "microbiome_record_id",
+        "record_id",
+        "taxon_name",
+        "microbial_metabolite",
+        "host_phenotype",
+        "raw_text"
+      ]
+    }
+  },
+  "controlled_vocabularies": {
+    "tea_type": [
+      "green tea",
+      "oolong tea",
+      "black tea",
+      "white tea",
+      "dark/post-fermented tea",
+      "fermented tea beverage",
+      "unspecified tea"
+    ],
+    "material_form": [
+      "tea leaf",
+      "tea infusion",
+      "tea extract",
+      "purified component",
+      "enriched fraction",
+      "fermented beverage",
+      "unspecified material"
+    ],
+    "component_group": [
+      "catechins",
+      "theaflavins",
+      "theanine",
+      "caffeine",
+      "tea polysaccharides",
+      "volatile compounds",
+      "mixed polyphenols",
+      "whole extract",
+      "multiple component groups",
+      "unspecified"
+    ],
+    "activity_category": [
+      "antioxidant",
+      "anti-inflammatory",
+      "metabolic improvement",
+      "anti-obesity",
+      "gut microbiota modulation",
+      "neuroprotection",
+      "cardiovascular protection",
+      "anticancer",
+      "other"
+    ],
+    "study_type": [
+      "in vitro",
+      "animal study",
+      "randomized controlled trial",
+      "cohort study",
+      "meta-analysis",
+      "systematic review"
+    ],
+    "evidence_level": [
+      "low_preclinical",
+      "preclinical_in_vivo",
+      "human_interventional",
+      "human_observational",
+      "evidence_synthesis",
+      "evidence_synthesis_nonquantitative"
+    ],
+    "effect_direction": [
+      "positive",
+      "negative",
+      "mixed",
+      "no_clear_effect"
+    ]
+  },
+  "relations": [
+    "Paper has EvidenceRecord",
+    "EvidenceRecord abouts TeaMaterial",
+    "EvidenceRecord abouts Extract",
+    "EvidenceRecord abouts CompoundGroup",
+    "EvidenceRecord supports ActivityCategory",
+    "EvidenceRecord measured_by Endpoint",
+    "EvidenceRecord evaluated_in ModelSystem",
+    "EvidenceRecord has_level EvidenceLevel",
+    "EvidenceRecord has_dose DoseExposure",
+    "TeaMaterial has_processing ProcessingContext",
+    "Extract derived_from TeaMaterial",
+    "Extract contains_or_enriches CompoundGroup",
+    "CompoundGroup modulates MicrobiotaTaxon",
+    "MicrobiotaTaxon links_to MicrobialMetabolite",
+    "MicrobialMetabolite affects HostPhenotype"
+  ]
+}

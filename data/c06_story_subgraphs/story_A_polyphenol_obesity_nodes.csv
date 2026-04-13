@@ -1,0 +1,31 @@
+node_id,node_type,label,year,journal,title,effect_direction,confidence_score,claim_text_raw
+record:PMID_36449351_R1,EvidenceRecord,PMID_36449351_R1,,,,positive,0.96,"Heimao tea polysaccharides ameliorated obesity by enhancing gut microbiota-dependent adipocyte thermogenesis in mice fed a high-fat diet, with Dubosiella and Romboutsia closely associated with the anti-obesity effect."
+activity:anti_obesity,ActivityCategory,anti-obesity,,,,,,
+study_type:animal_study,StudyType,animal study,,,,,,
+evidence_level:preclinical_in_vivo,EvidenceLevel,preclinical_in_vivo,,,,,,
+phenotype:obesity_related_phenotype,HostPhenotype,obesity-related phenotype,,,,,,
+activity:gut_microbiota_modulation,ActivityCategory,gut microbiota modulation,,,,,,
+component_group:mixed_polyphenols,ComponentGroup,mixed polyphenols,,,,,,
+tea_type:unspecified_tea,TeaType,unspecified tea,,,,,,
+paper:PMID_38430822,Paper,PMID_38430822,2024,Nutrition Research,A green tea extract confection decreases circulating endotoxin and fasting glucose by improving gut barrier function but without affecting systemic inflammation: A double-blind placebo-controlled randomized trial in healthy adults and adults with metabolic syndrome,,,
+record:PMID_38430822_R2,EvidenceRecord,PMID_38430822_R2,,,,no_clear_effect,0.95,The trial suggested reduced gut inflammation and improved barrier function but without improvement in systemic inflammation markers.
+record:PMID_38745351_R1,EvidenceRecord,PMID_38745351_R1,,,,positive,0.98,"OTP relieved microglia activation, reduced LPS and glutamate-related neurotoxicity, increased SCFAs, upregulated Muribaculaceae and Clostridia_UCG-014, downregulated Desulfovibrio, and improved synaptic plasticity markers including BDNF, PSD-95, and SYN."
+mechanism:intestinal_barrier_protection,Mechanism,intestinal barrier protection,,,,,,
+microbiota:muribaculaceae_clostridia_ucg_014_desulfovibrio,MicrobiotaFeature,Muribaculaceae; Clostridia_UCG-014; Desulfovibrio,,,,,,
+metabolite:lps_scfas_glutamate,MicrobialMetabolite,LPS; SCFAs; glutamate,,,,,,
+phenotype:cognitive_impairment_phenotype,HostPhenotype,cognitive impairment phenotype,,,,,,
+paper:PMID_39574401,Paper,PMID_39574401,2024,Molecular Nutrition and Food Research,Tea Polyphenols Reduced Obesity by Modulating Gut Microbiota-SCFAs-Barrier and Inflammation in High-Fat Diet-Induced Mice,,,
+record:PMID_39574401_R1,EvidenceRecord,PMID_39574401_R1,,,,positive,0.97,"Tea polyphenols attenuated HFD-induced weight gain, liver and adipose accumulation, improved liver fat content, and suppressed inflammatory signaling while modulating gut microbiota and SCFAs."
+mechanism:gut_barrier_preservation,Mechanism,gut barrier preservation,,,,,,
+mechanism:tlr4_signaling_inhibition,Mechanism,TLR4 signaling inhibition,,,,,,
+mechanism:inflammatory_cytokine_suppression,Mechanism,inflammatory cytokine suppression,,,,,,
+microbiota:blautia_faecalibaculum_colidextribacter,MicrobiotaFeature,Blautia; Faecalibaculum; Colidextribacter,,,,,,
+metabolite:scfas,MicrobialMetabolite,SCFAs,,,,,,
+record:PMID_39574401_R2,EvidenceRecord,PMID_39574401_R2,,,,positive,0.97,"Tea polyphenols increased Blautia and Faecalibaculum, reduced Colidextribacter, activated G protein-coupled receptors, inhibited histone deacetylases, enhanced intestinal tight junction expression, and preserved intestinal barrier integrity."
+mechanism:g_protein_coupled_receptor_activation,Mechanism,G protein-coupled receptor activation,,,,,,
+mechanism:histone_deacetylase_inhibition,Mechanism,histone deacetylase inhibition,,,,,,
+mechanism:tight_junction_enhancement,Mechanism,tight junction enhancement,,,,,,
+mechanism:barrier_protection,Mechanism,barrier protection,,,,,,
+phenotype:intestinal_barrier_integrity_and_reduced_inflammation_state,HostPhenotype,intestinal barrier integrity and reduced inflammation state,,,,,,
+record:PMID_40957830_R1,EvidenceRecord,PMID_40957830_R1,,,,positive,0.97,"BMTP significantly reduced body weight, improved insulin sensitivity, decreased adipocyte volume, increased multivesicular adipocyte-like cells, and upregulated UCP1 in iWAT and iBAT."
+metabolite:butyrate,MicrobialMetabolite,butyrate,,,,,,

@@ -1,0 +1,307 @@
+record_id,paper_id,raw_processing,normalized_processing,unmapped_processing,raw_extraction,normalized_extraction,unmapped_extraction,changed
+PMID_41901054_GLM1,PMID_41901054,decaffeination,decaffeination,,,,,false
+PMID_41898599_GLM1,PMID_41898599,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41898599_GLM2,PMID_41898599,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41897706_GLM1,PMID_41897706,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41884463_GLM1,PMID_41884463,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41868711_GLM1,PMID_41868711,brick-like form,compressed/brick tea processing,,,,,true
+PMID_41861686_GLM1,PMID_41861686,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41861686_GLM2,PMID_41861686,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41858500_GLM1,PMID_41858500,,,,other extraction,other extraction,,false
+PMID_41858500_GLM2,PMID_41858500,,,,other extraction,other extraction,,false
+PMID_41853609_GLM1,PMID_41853609,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41853609_GLM2,PMID_41853609,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41853598_GLM2,PMID_41853598,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41853594_GLM1,PMID_41853594,storage/aging,storage/aging,,,,,false
+PMID_41839755_GLM1,PMID_41839755,fermentation/oxidation,fermentation/oxidation,,aqueous extraction,aqueous extraction,,false
+PMID_41839464_GLM1,PMID_41839464,storage/aging,storage/aging,,,,,false
+PMID_41829951_GLM1,PMID_41829951,,,,other extraction,other extraction,,false
+PMID_41829951_GLM2,PMID_41829951,,,,other extraction,other extraction,,false
+PMID_41829159_GLM1,PMID_41829159,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41829159_GLM2,PMID_41829159,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41828893_GLM1,PMID_41828893,,,,other extraction,other extraction,,false
+PMID_41828893_GLM3,PMID_41828893,,,,other extraction,other extraction,,false
+PMID_41820002_GLM1,PMID_41820002,storage/aging,storage/aging,,,,,false
+PMID_41798939_GLM1,PMID_41798939,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,other extraction,other extraction,,false
+PMID_41798939_GLM2,PMID_41798939,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,other extraction,other extraction,,false
+PMID_41798939_GLM3,PMID_41798939,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,other extraction,other extraction,,false
+PMID_41794250_GLM1,PMID_41794250,,,,other extraction,other extraction,,false
+PMID_41791619_GLM1,PMID_41791619,roasting,roasting,,,,,false
+PMID_41791619_GLM3,PMID_41791619,roasting,roasting,,,,,false
+PMID_41789592_GLM1,PMID_41789592,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41789592_GLM2,PMID_41789592,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41785770_GLM1,PMID_41785770,storage/aging,storage/aging,,,,,false
+PMID_41785770_GLM2,PMID_41785770,storage/aging,storage/aging,,,,,false
+PMID_41769650_GLM1,PMID_41769650,black tea manufacturing,black tea processing,,,,,true
+PMID_41769650_GLM3,PMID_41769650,black tea manufacturing,black tea processing,,,,,true
+PMID_41763747_GLM1,PMID_41763747,fermentation/oxidation,fermentation/oxidation,,supercritical fluid extraction,supercritical fluid extraction,,false
+PMID_41754218_GLM1,PMID_41754218,,,,other extraction,other extraction,,false
+PMID_41750899_GLM1,PMID_41750899,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41747591_GLM1,PMID_41747591,,,,other extraction,other extraction,,false
+PMID_41747591_GLM2,PMID_41747591,,,,other extraction,other extraction,,false
+PMID_41732513_GLM1,PMID_41732513,shade drying;hot-air drying;vacuum freeze-drying,drying,,,,,true
+PMID_41730253_GLM1,PMID_41730253,storage/aging,storage/aging,,,,,false
+PMID_41709514_GLM1,PMID_41709514,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_41704879_GLM1,PMID_41704879,roasting,roasting,,,,,false
+PMID_41704879_GLM2,PMID_41704879,roasting,roasting,,,,,false
+PMID_41703870_GLM1,PMID_41703870,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41703870_GLM2,PMID_41703870,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41703844_GLM1,PMID_41703844,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41703844_GLM2,PMID_41703844,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41695820_GLM1,PMID_41695820,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41695820_GLM2,PMID_41695820,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41679395_GLM1,PMID_41679395,,,,essential oil extraction,essential oil extraction,,false
+PMID_41679395_GLM2,PMID_41679395,,,,essential oil extraction,essential oil extraction,,false
+PMID_41678410_GLM1,PMID_41678410,,,,other extraction,other extraction,,false
+PMID_41678410_GLM2,PMID_41678410,,,,other extraction,other extraction,,false
+PMID_41674684_GLM2,PMID_41674684,black tea processing; green tea processing; white tea processing; oolong tea processing,black tea processing; green tea processing; white tea processing; oolong tea processing,,LC-MS/MS; HS-SPME-GCMS,analytical characterization,,true
+PMID_41671305_GLM1,PMID_41671305,,,,other extraction,other extraction,,false
+PMID_41671305_GLM2,PMID_41671305,,,,other extraction,other extraction,,false
+PMID_41665340_GLM1,PMID_41665340,,,,other extraction,other extraction,,false
+PMID_41664546_GLM1,PMID_41664546,pan-firing/fixation,pan-firing/fixation,,,,,false
+PMID_41656480_GLM1,PMID_41656480,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41656480_GLM2,PMID_41656480,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41655487_GLM1,PMID_41655487,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41652699_GLM1,PMID_41652699,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41652699_GLM2,PMID_41652699,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41645939_GLM1,PMID_41645939,finely ground powder production,powder/matcha processing,,,,,true
+PMID_41645939_GLM2,PMID_41645939,finely ground powder; shading,powder/matcha processing; shading,,,,,true
+PMID_41632836_GLM1,PMID_41632836,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_41621929_GLM1,PMID_41621929,,,,aqueous extraction; solvent extraction; other extraction,aqueous extraction; solvent extraction; other extraction,,false
+PMID_41621019_GLM1,PMID_41621019,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41621019_GLM2,PMID_41621019,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41621019_GLM3,PMID_41621019,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41612904_GLM1,PMID_41612904,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_41612904_GLM2,PMID_41612904,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_41612904_GLM3,PMID_41612904,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_41607156_GLM1,PMID_41607156,,,,other extraction,other extraction,,false
+PMID_41605387_GLM1,PMID_41605387,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_41599956_GLM1,PMID_41599956,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41599956_GLM2,PMID_41599956,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41599419_GLM1,PMID_41599419,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41599419_GLM2,PMID_41599419,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41599419_GLM3,PMID_41599419,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41596333_GLM1,PMID_41596333,,,,other extraction,other extraction,,false
+PMID_41596333_GLM2,PMID_41596333,,,,other extraction,other extraction,,false
+PMID_41581373_GLM1,PMID_41581373,,,,other extraction,other extraction,,false
+PMID_41581373_GLM2,PMID_41581373,,,,other extraction,other extraction,,false
+PMID_41554089_GLM1,PMID_41554089,,,,other extraction,other extraction,,false
+PMID_41554089_GLM3,PMID_41554089,,,,other extraction,other extraction,,false
+PMID_41548598_GLM1,PMID_41548598,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41547013_GLM1,PMID_41547013,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41547013_GLM2,PMID_41547013,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41544875_GLM1,PMID_41544875,brick tea processing,compressed/brick tea processing,,,,,true
+PMID_41544473_GLM1,PMID_41544473,storage/aging; enzymatic treatment,storage/aging; enzymatic treatment,,,,,false
+PMID_41534752_GLM1,PMID_41534752,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41534752_GLM2,PMID_41534752,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41515260_GLM1,PMID_41515260,,,,other extraction,other extraction,,false
+PMID_41515260_GLM2,PMID_41515260,,,,other extraction,other extraction,,false
+PMID_41496404_GLM1,PMID_41496404,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,aqueous extraction,aqueous extraction,,false
+PMID_41475763_GLM1,PMID_41475763,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41475763_GLM2,PMID_41475763,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41449627_GLM1,PMID_41449627,storage/aging,storage/aging,,,,,false
+PMID_41384531_GLM1,PMID_41384531,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41384531_GLM2,PMID_41384531,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41384531_GLM3,PMID_41384531,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41308222_GLM1,PMID_41308222,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,,,false
+PMID_41308222_GLM2,PMID_41308222,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,,,false
+PMID_41308222_GLM3,PMID_41308222,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,,,false
+PMID_41046082_GLM1,PMID_41046082,drying,drying,,,,,false
+PMID_41045993_GLM1,PMID_41045993,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41656465_GLM1,PMID_41656465,fermentation/oxidation,fermentation/oxidation,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_41517138_GLM1,PMID_41517138,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41517138_GLM2,PMID_41517138,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41517138_GLM3,PMID_41517138,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41458132_GLM1,PMID_41458132,fermentation/oxidation; roasting,fermentation/oxidation; roasting,,,,,false
+PMID_41427140_GLM1,PMID_41427140,tea processing by-product,processing by-product,,,,,true
+PMID_41427140_GLM2,PMID_41427140,tea dust production,processing by-product,,,,,true
+PMID_41427140_GLM3,PMID_41427140,tea processing by-product,processing by-product,,,,,true
+PMID_41373414_GLM1,PMID_41373414,,,,other extraction,other extraction,,false
+PMID_41357894_GLM1,PMID_41357894,,,,other extraction,other extraction,,false
+PMID_41357894_GLM2,PMID_41357894,,,,other extraction,other extraction,,false
+PMID_41341495_GLM1,PMID_41341495,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_41304966_GLM1,PMID_41304966,fermentation/oxidation,fermentation/oxidation,,aqueous extraction,aqueous extraction,,false
+PMID_41303338_GLM1,PMID_41303338,,,,other extraction,other extraction,,false
+PMID_41277259_GLM1,PMID_41277259,roasting,roasting,,,,,false
+PMID_41274681_GLM2,PMID_41274681,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_41207049_GLM1,PMID_41207049,pan-firing/fixation,pan-firing/fixation,,,,,false
+PMID_41175620_GLM2,PMID_41175620,thermal processing; heating,thermal processing/heating,,,,,true
+PMID_41163054_GLM1,PMID_41163054,,,,other extraction,other extraction,,false
+PMID_41163054_GLM2,PMID_41163054,,,,other extraction,other extraction,,false
+PMID_41156555_GLM1,PMID_41156555,,,,other extraction,other extraction,,false
+PMID_41156555_GLM2,PMID_41156555,,,,other extraction,other extraction,,false
+PMID_41106481_GLM1,PMID_41106481,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41106481_GLM2,PMID_41106481,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41106481_GLM3,PMID_41106481,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_41089755_GLM1,PMID_41089755,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41089755_GLM2,PMID_41089755,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41067627_GLM1,PMID_41067627,processing transformations,processing category contrast,,,,,true
+PMID_41061287_GLM1,PMID_41061287,storage/aging,storage/aging,,,,,false
+PMID_41061287_GLM2,PMID_41061287,storage/aging,storage/aging,,,,,false
+PMID_41061287_GLM3,PMID_41061287,storage/aging,storage/aging,,,,,false
+PMID_41052623_GLM1,PMID_41052623,,,,aqueous extraction,aqueous extraction,,false
+PMID_41011225_GLM1,PMID_41011225,,,,other extraction,other extraction,,false
+PMID_41010543_GLM1,PMID_41010543,,,,other extraction,other extraction,,false
+PMID_41010475_GLM1,PMID_41010475,,,,other extraction,other extraction,,false
+PMID_41010475_GLM3,PMID_41010475,,,,other extraction,other extraction,,false
+PMID_41009815_GLM1,PMID_41009815,minimal processing,minimal processing,,,,,false
+PMID_41009815_GLM2,PMID_41009815,minimal processing,minimal processing,,,,,false
+PMID_40976893_GLM1,PMID_40976893,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_40969419_GLM1,PMID_40969419,,,,other extraction,other extraction,,false
+PMID_40969419_GLM2,PMID_40969419,,,,other extraction,other extraction,,false
+PMID_40969419_GLM3,PMID_40969419,,,,other extraction,other extraction,,false
+PMID_40944237_GLM1,PMID_40944237,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_40930359_GLM1,PMID_40930359,,,,other extraction,other extraction,,false
+PMID_40923241_GLM1,PMID_40923241,,,,other extraction,other extraction,,false
+PMID_40923241_GLM2,PMID_40923241,,,,other extraction,other extraction,,false
+PMID_40917836_GLM1,PMID_40917836,,,,other extraction,other extraction,,false
+PMID_40917836_GLM2,PMID_40917836,,,,other extraction,other extraction,,false
+PMID_40910807_GLM1,PMID_40910807,,,,chromatography; mass spectrometry; nuclear magnetic resonance,analytical characterization,,true
+PMID_40910807_GLM2,PMID_40910807,,,,chromatography; mass spectrometry; nuclear magnetic resonance,analytical characterization,,true
+PMID_40909391_GLM1,PMID_40909391,,,,cold brewing; hot brewing,brewing/infusion,,true
+PMID_40909391_GLM2,PMID_40909391,,,,cold brewing; hot brewing,brewing/infusion,,true
+PMID_40906738_GLM1,PMID_40906738,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40906738_GLM2,PMID_40906738,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40902558_GLM1,PMID_40902558,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40887285_GLM1,PMID_40887285,,,,other extraction,other extraction,,false
+PMID_40875308_GLM1,PMID_40875308,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40875308_GLM2,PMID_40875308,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40871693_GLM1,PMID_40871693,,,,other extraction,other extraction,,false
+PMID_40871693_GLM2,PMID_40871693,,,,other extraction,other extraction,,false
+PMID_40870767_GLM1,PMID_40870767,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_40870767_GLM2,PMID_40870767,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_40870767_GLM3,PMID_40870767,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_40834920_GLM1,PMID_40834920,storage/aging,storage/aging,,,,,false
+PMID_40822528_GLM1,PMID_40822528,,,,isolation,isolation/purification,,true
+PMID_40822528_GLM2,PMID_40822528,,,,isolation,isolation/purification,,true
+PMID_40822528_GLM3,PMID_40822528,,,,isolated,isolation/purification,,true
+PMID_40812038_GLM1,PMID_40812038,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40812038_GLM2,PMID_40812038,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40774472_GLM1,PMID_40774472,,,,other extraction,other extraction,,false
+PMID_40768551_GLM1,PMID_40768551,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_40748185_GLM1,PMID_40748185,fermentation/oxidation; enzymatic treatment,fermentation/oxidation; enzymatic treatment,,,,,false
+PMID_40748185_GLM2,PMID_40748185,fermentation/oxidation; enzymatic treatment,fermentation/oxidation; enzymatic treatment,,,,,false
+PMID_40732996_GLM1,PMID_40732996,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,,,,false
+PMID_40732996_GLM2,PMID_40732996,fermentation/oxidation; storage/aging,fermentation/oxidation; storage/aging,,,,,false
+PMID_40709622_GLM1,PMID_40709622,fermentation/oxidation,fermentation/oxidation,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_40709622_GLM2,PMID_40709622,fermentation/oxidation,fermentation/oxidation,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_40701649_GLM2,PMID_40701649,,,,extract,other extraction,,true
+PMID_40664289_GLM1,PMID_40664289,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40664289_GLM2,PMID_40664289,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40664289_GLM3,PMID_40664289,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40637142_GLM1,PMID_40637142,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40609356_GLM1,PMID_40609356,,,,other extraction,other extraction,,false
+PMID_40609356_GLM2,PMID_40609356,,,,other extraction,other extraction,,false
+PMID_40543124_GLM1,PMID_40543124,,,,other extraction,other extraction,,false
+PMID_40534238_GLM1,PMID_40534238,,,,other extraction,other extraction,,false
+PMID_40436588_GLM1,PMID_40436588,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40436588_GLM2,PMID_40436588,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40436588_GLM3,PMID_40436588,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40391588_GLM1,PMID_40391588,,,,other extraction,other extraction,,false
+PMID_40391588_GLM2,PMID_40391588,,,,other extraction,other extraction,,false
+PMID_40326418_GLM1,PMID_40326418,,,,other extraction,other extraction,,false
+PMID_40314930_GLM1,PMID_40314930,,,,other extraction,other extraction,,false
+PMID_40308148_GLM1,PMID_40308148,,,,other extraction,other extraction,,false
+PMID_40253129_GLM1,PMID_40253129,,,,other extraction,other extraction,,false
+PMID_40253129_GLM2,PMID_40253129,,,,other extraction,other extraction,,false
+PMID_40253129_GLM3,PMID_40253129,,,,other extraction,other extraction,,false
+PMID_40245621_GLM1,PMID_40245621,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40245621_GLM2,PMID_40245621,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40241697_GLM1,PMID_40241697,storage/aging,storage/aging,,,,,false
+PMID_40164251_GLM1,PMID_40164251,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40164251_GLM2,PMID_40164251,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_40126033_GLM1,PMID_40126033,,,,other extraction,other extraction,,false
+PMID_40101818_GLM1,PMID_40101818,,,,other extraction,other extraction,,false
+PMID_40020803_GLM1,PMID_40020803,,,,other extraction,other extraction,,false
+PMID_40020803_GLM2,PMID_40020803,,,,other extraction,other extraction,,false
+PMID_39997764_GLM1,PMID_39997764,,,,aqueous extraction,aqueous extraction,,false
+PMID_39997764_GLM2,PMID_39997764,,,,aqueous extraction,aqueous extraction,,false
+PMID_39997764_GLM3,PMID_39997764,,,,aqueous extraction,aqueous extraction,,false
+PMID_39967149_GLM1,PMID_39967149,,,,isolation; purification,isolation/purification,,true
+PMID_39967149_GLM2,PMID_39967149,,,,isolation; purification,isolation/purification,,true
+PMID_39967149_GLM3,PMID_39967149,,,,isolation; purification,isolation/purification,,true
+PMID_39954639_GLM1,PMID_39954639,storage/aging,storage/aging,,,,,false
+PMID_39954639_GLM2,PMID_39954639,storage/aging,storage/aging,,,,,false
+PMID_39948758_GLM1,PMID_39948758,raw; ripened; post-fermentation,raw vs ripened processing; storage/aging,,,,,true
+PMID_39948758_GLM2,PMID_39948758,raw Pu-erh; ripened Pu-erh,raw vs ripened processing,,,,,true
+PMID_39943157_GLM1,PMID_39943157,,,,other extraction,other extraction,,false
+PMID_39943157_GLM2,PMID_39943157,,,,other extraction,other extraction,,false
+PMID_39900709_GLM1,PMID_39900709,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_39900709_GLM2,PMID_39900709,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_39900709_GLM3,PMID_39900709,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_39806767_GLM1,PMID_39806767,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_39806767_GLM2,PMID_39806767,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_39745600_GLM1,PMID_39745600,,,,other extraction,other extraction,,false
+PMID_39632169_GLM1,PMID_39632169,,,,other extraction,other extraction,,false
+PMID_39571432_GLM1,PMID_39571432,black tea formation,black tea processing,,,,,true
+PMID_39571432_GLM2,PMID_39571432,black tea formation,black tea processing,,,,,true
+PMID_39522375_GLM1,PMID_39522375,,,,other extraction,other extraction,,false
+PMID_39522375_GLM2,PMID_39522375,,,,other extraction,other extraction,,false
+PMID_39096025_GLM2,PMID_39096025,enzymatic treatment,enzymatic treatment,,,,,false
+PMID_38764154_GLM3,PMID_38764154,matcha production,powder/matcha processing,,,,,true
+PMID_39391512_GLM1,PMID_39391512,,,,other extraction,other extraction,,false
+PMID_39391512_GLM2,PMID_39391512,,,,other extraction,other extraction,,false
+PMID_39339787_GLM1,PMID_39339787,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_39339787_GLM2,PMID_39339787,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_39339787_GLM3,PMID_39339787,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_39153160_GLM1,PMID_39153160,,,,other extraction,other extraction,,false
+PMID_39153160_GLM3,PMID_39153160,,,,other extraction,other extraction,,false
+PMID_39125321_GLM1,PMID_39125321,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_39047823_GLM1,PMID_39047823,,,,other extraction,other extraction,,false
+PMID_39047823_GLM2,PMID_39047823,,,,other extraction,other extraction,,false
+PMID_39033639_GLM1,PMID_39033639,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_39014963_GLM1,PMID_39014963,,,,other extraction,other extraction,,false
+PMID_39014963_GLM3,PMID_39014963,,,,other extraction,other extraction,,false
+PMID_38878905_GLM1,PMID_38878905,,,,other extraction,other extraction,,false
+PMID_38848972_GLM1,PMID_38848972,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_38848972_GLM2,PMID_38848972,storage/aging,storage/aging,,other extraction,other extraction,,false
+PMID_38031409_GLM1,PMID_38031409,,,,other extraction,other extraction,,false
+PMID_38031409_GLM2,PMID_38031409,,,,other extraction,other extraction,,false
+PMID_37584203_GLM1,PMID_37584203,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_37584203_GLM2,PMID_37584203,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_37584203_GLM3,PMID_37584203,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41435602_GLM1,PMID_41435602,,,,other extraction,other extraction,,false
+PMID_41435602_GLM2,PMID_41435602,,,,other extraction,other extraction,,false
+PMID_41371855_GLM1,PMID_41371855,,,,purification,isolation/purification,,true
+PMID_41371855_GLM2,PMID_41371855,,,,purification,isolation/purification,,true
+PMID_41366683_GLM1,PMID_41366683,,,,other extraction,other extraction,,false
+PMID_41337925_GLM1,PMID_41337925,enzymatic treatment,enzymatic treatment,,other extraction,other extraction,,false
+PMID_41337925_GLM3,PMID_41337925,enzymatic treatment,enzymatic treatment,,other extraction,other extraction,,false
+PMID_41275554_GLM1,PMID_41275554,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41275554_GLM2,PMID_41275554,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41623636_GLM1,PMID_41623636,,,,other extraction,other extraction,,false
+PMID_41623636_GLM2,PMID_41623636,,,,other extraction,other extraction,,false
+PMID_41623636_GLM3,PMID_41623636,,,,other extraction,other extraction,,false
+PMID_40077632_GLM1,PMID_40077632,,,,other extraction,other extraction,,false
+PMID_40077632_GLM2,PMID_40077632,,,,other extraction,other extraction,,false
+PMID_40077632_GLM3,PMID_40077632,,,,other extraction,other extraction,,false
+PMID_41911645_AUTO1,PMID_41911645,,,,other extraction,other extraction,,false
+PMID_41867690_AUTO1,PMID_41867690,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_41844524_AUTO1,PMID_41844524,processing category contrast,processing category contrast,,,,,false
+PMID_41819933_AUTO1,PMID_41819933,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_41769406_AUTO1,PMID_41769406,,,,other extraction,other extraction,,false
+PMID_41745743_AUTO1,PMID_41745743,,,,other extraction,other extraction,,false
+PMID_41717022_AUTO1,PMID_41717022,,,,other extraction,other extraction,,false
+PMID_41697800_AUTO1,PMID_41697800,,,,other extraction,other extraction,,false
+PMID_41663711_AUTO1,PMID_41663711,,,,other extraction,other extraction,,false
+PMID_41650779_AUTO1,PMID_41650779,enzymatic treatment,enzymatic treatment,,other extraction,other extraction,,false
+PMID_41617244_AUTO1,PMID_41617244,,,,other extraction,other extraction,,false
+PMID_41558631_AUTO1,PMID_41558631,fermentation/oxidation,fermentation/oxidation,,other extraction,other extraction,,false
+PMID_41447897_AUTO1,PMID_41447897,,,,other extraction,other extraction,,false
+PMID_41459787_AUTO1,PMID_41459787,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41458664_AUTO1,PMID_41458664,,,,other extraction,other extraction,,false
+PMID_41271838_AUTO1,PMID_41271838,fermentation/oxidation,fermentation/oxidation,,,,,false
+PMID_41088897_AUTO1,PMID_41088897,,,,other extraction,other extraction,,false
+PMID_41081687_AUTO1,PMID_41081687,,,,aqueous extraction,aqueous extraction,,false
+PMID_41055146_AUTO1,PMID_41055146,,,,aqueous extraction; other extraction,aqueous extraction; other extraction,,false
+PMID_40555782_AUTO1,PMID_40555782,,,,other extraction,other extraction,,false
+PMID_40421240_AUTO1,PMID_40421240,,,,other extraction,other extraction,,false
+PMID_40027965_AUTO1,PMID_40027965,,,,other extraction,other extraction,,false
+PMID_39914738_AUTO1,PMID_39914738,,,,other extraction,other extraction,,false
+PMID_39849851_AUTO1,PMID_39849851,,,,other extraction,other extraction,,false
+PMID_39849851_AUTO2,PMID_39849851,,,,other extraction,other extraction,,false
+PMID_39686858_AUTO1,PMID_39686858,,,,other extraction,other extraction,,false
+PMID_39115505_AUTO1,PMID_39115505,,,,other extraction,other extraction,,false
+PMID_38781878_AUTO1,PMID_38781878,processing category contrast,processing category contrast,,other extraction,other extraction,,false
+PMID_38778685_AUTO1,PMID_38778685,,,,other extraction,other extraction,,false
+PMID_38719093_AUTO1,PMID_38719093,,,,other extraction,other extraction,,false

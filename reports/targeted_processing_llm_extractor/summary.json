@@ -1,0 +1,11 @@
+{
+  "input": "D:\\projects\\paper_writing\\teakg\\reports\\autoteakg_silver_v1\\autoteakg_silver_records.csv",
+  "output_dir": "reports\\targeted_processing_llm_extractor",
+  "target_count": 365,
+  "patch_count": 0,
+  "error_count": 0,
+  "dry_run": true,
+  "mock": false,
+  "applied_patches": false,
+  "patched_summary": null
+}

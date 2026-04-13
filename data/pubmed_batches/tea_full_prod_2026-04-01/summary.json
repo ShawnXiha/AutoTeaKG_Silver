@@ -1,0 +1,13 @@
+{
+  "batch_name": "tea_full_prod_2026-04-01",
+  "date_searched": "2026-04-01",
+  "config_file": "D:\\projects\\paper_writing\\teakg\\scripts\\pubmed_tea_queries_v1.json",
+  "query_count": 5,
+  "requested_retmax_per_query": 100,
+  "total_query_hits": 500,
+  "unique_pmids": 421,
+  "normalized_rows": 421,
+  "include_count": 310,
+  "maybe_count": 20,
+  "exclude_count": 91
+}

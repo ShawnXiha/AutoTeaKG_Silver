@@ -1,0 +1,70 @@
+# Python / environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.venv_nvidia_glm5/
+
+# Local agent/tool state
+.omx/
+.cache/
+
+# Secrets and local environment files
+.env
+.env.*
+*.key
+*secret*
+*token*
+*credential*
+
+# Jupyter / notebooks checkpoints
+.ipynb_checkpoints/
+
+# SQLite and transient database files
+*.sqlite
+*.sqlite-journal
+*.db
+*.db-journal
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+**/bib_check_*
+**/texput.log
+
+# Raw LLM/API response logs: large and not needed for public reproducibility
+**/llm_raw_responses.jsonl
+**/processing_llm_raw_responses.jsonl
+
+# Temporary smoke-test outputs
+sqlite_smoke_test.sqlite*
+reports/*_smoke*/
+reports/*_dryrun*/
+reports/*_mock*/
+data/llm_annotations/*smoke*/
+data/llm_annotations/*test*/
+data/llm_annotations/
+reports/methods_processing_llm_batches/
+reports/methods_processing_llm_retry_failed/
+reports/targeted_processing_llm_extractor_full/
+reports/targeted_processing_llm_extractor_retry_429/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

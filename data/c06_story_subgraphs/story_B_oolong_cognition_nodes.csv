@@ -1,0 +1,22 @@
+node_id,node_type,label,year,journal,title,effect_direction,confidence_score,claim_text_raw
+study_type:animal_study,StudyType,animal study,,,,,,
+evidence_level:preclinical_in_vivo,EvidenceLevel,preclinical_in_vivo,,,,,,
+component_group:mixed_polyphenols,ComponentGroup,mixed polyphenols,,,,,,
+paper:PMID_38745351,Paper,PMID_38745351,2024,Journal of Agricultural and Food Chemistry,Gut Microbiota Mediate the Neuroprotective Effect of Oolong Tea Polyphenols in Cognitive Impairment Induced by Circadian Rhythm Disorder,,,
+record:PMID_38745351_R1,EvidenceRecord,PMID_38745351_R1,,,,positive,0.98,"OTP relieved microglia activation, reduced LPS and glutamate-related neurotoxicity, increased SCFAs, upregulated Muribaculaceae and Clostridia_UCG-014, downregulated Desulfovibrio, and improved synaptic plasticity markers including BDNF, PSD-95, and SYN."
+tea_type:oolong_tea,TeaType,oolong tea,,,,,,
+activity:neuroprotection,ActivityCategory,neuroprotection,,,,,,
+mechanism:microglia_activation_reduction,Mechanism,microglia activation reduction,,,,,,
+mechanism:intestinal_barrier_protection,Mechanism,intestinal barrier protection,,,,,,
+mechanism:bdnf_psd95_syn_synaptic_plasticity_support,Mechanism,BDNF-PSD95-SYN synaptic plasticity support,,,,,,
+microbiota:muribaculaceae_clostridia_ucg_014_desulfovibrio,MicrobiotaFeature,Muribaculaceae; Clostridia_UCG-014; Desulfovibrio,,,,,,
+metabolite:lps_scfas_glutamate,MicrobialMetabolite,LPS; SCFAs; glutamate,,,,,,
+phenotype:cognitive_impairment_phenotype,HostPhenotype,cognitive impairment phenotype,,,,,,
+record:PMID_39153277_R1,EvidenceRecord,PMID_39153277_R1,,,,positive,0.97,"YTP altered colonic bile-acid composition, increased conjugated and non-12OH bile acids, decreased FXR, FGF15, FGFR4, and ASBT, increased Cyp7a1 and Cyp27a1, and inhibited hepatic cholesterol accumulation in NAFLD mice."
+microbiota:muribaculaceae_pseudomonas_acterium_coprostanoligenes_group_clostridiales_lachnospiraceae_nk4a136_group_delftia_dubosiella_romboutsia,MicrobiotaFeature,Muribaculaceae; Pseudomonas; acterium_coprostanoligenes_group; Clostridiales; Lachnospiraceae_NK4A136_group; Delftia; Dubosiella; Romboutsia,,,,,,
+metabolite:conjugated_bile_acids_non_12oh_bile_acids,MicrobialMetabolite,conjugated bile acids; non-12OH bile acids,,,,,,
+record:PMID_39153277_R2,EvidenceRecord,PMID_39153277_R2,,,,positive,0.96,"YTP reshaped the intestinal microbiome by decreasing BSH-producing genera and increasing taurine-metabolism genera, with multiple genera strongly correlated with specific bile-acid monomers."
+paper:PMID_39479919,Paper,PMID_39479919,2024,Food & Function,Inhibitory effect of tea flower polysaccharides on oxidative stress and microglial oxidative damage in aging mice by regulating gut microbiota,,,
+record:PMID_39479919_R2,EvidenceRecord,PMID_39479919_R2,,,,positive,0.96,"TFPS reduced excessive hippocampal microglial activation, down-regulated IL-6 IL-1beta TNF-alpha and NF-kB, and alleviated neuroinflammation in aging mice while regulating gut microbiota."
+mechanism:microglial_activation_reduction,Mechanism,microglial activation reduction,,,,,,
+phenotype:microglial_oxidative_damage,HostPhenotype,microglial oxidative damage,,,,,,

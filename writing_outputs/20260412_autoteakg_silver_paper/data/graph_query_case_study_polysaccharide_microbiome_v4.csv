@@ -1,0 +1,6 @@
+record_id,paper_id,tea_type,component_group,mechanism_or_path,microbial_metabolite,host_phenotype,evidence_level,uncertainty_class
+PMID_41899489_GLM1,PMID_41899489,black tea,tea polysaccharides,gut-liver axis: promotes butyrate production to skew macrophages to M2,butyric acid,reduced liver inflammation and injury,preclinical_in_vivo,low_uncertainty
+PMID_41899489_GLM2,PMID_41899489,black tea,tea polysaccharides,TPS promotes gut microbiota production of butyric acid,butyric acid,,preclinical_in_vivo,low_uncertainty
+PMID_41475763_GLM1,PMID_41475763,unspecified tea,tea polysaccharides,enrichment of SCFA producers,"butyrate, acetate, propionate",reduced hepatic lipid deposition,preclinical_in_vivo,moderate_uncertainty
+PMID_41475763_GLM2,PMID_41475763,unspecified tea,tea polysaccharides,microbiota-gut-liver axis signaling,"butyrate, isovalerate","reduced LDL-C, hepatic lipid deposition",preclinical_in_vivo,moderate_uncertainty
+PMID_41861686_GLM1,PMID_41861686,yellow tea,tea polysaccharides,barrier-related mechanism,SCFAs,intestinal barrier integrity,preclinical_in_vivo,low_uncertainty

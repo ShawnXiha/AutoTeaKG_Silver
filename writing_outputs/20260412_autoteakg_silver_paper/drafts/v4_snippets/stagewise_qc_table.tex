@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Stage-wise ablation and quality-control summary. Each stage adds context or normalizes previous outputs while preserving a zero unresolved-edge graph export.}
+\label{tab:stagewise_qc}
+\begin{tabular}{p{0.27\linewidth}rrrrrr}
+\toprule
+Stage & Proc. & Extr. & Missing & Unmapped & Errors & Bad edges \\
+\midrule
+Rules-only silver layer & 146 & 154 & 365 & not_applicable & not_applicable & 0 \\
+Abstract-level targeted LLM & 167 & 170 & 329 & 0 & 0 & 0 \\
+Methods-section targeted LLM & 183 & 185 & 303 & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

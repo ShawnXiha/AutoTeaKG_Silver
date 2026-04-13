@@ -1,0 +1,13 @@
+master_papers=D:\projects\paper_writing\teakg\templates\included_papers_expanded_batch_2026-03-31.csv
+master_records=D:\projects\paper_writing\teakg\templates\evidence_records_expanded_batch_v1_2026-03-31.csv
+batch_dir=data\pubmed_batches\tea_pubmed_batch_2026-03-31_large_v2
+batch_screened_file=data\pubmed_batches\tea_pubmed_batch_2026-03-31_large_v2\normalized_included_papers.csv
+merged_paper_count=524
+master_paper_count=21
+batch_paper_count=508
+new_rows_added=503
+duplicate_rows_seen=5
+rows_updated_or_enriched=5
+merged_papers_file=data\merged_batches\merge_2026-03-31_v1\included_papers_merged.csv
+merged_candidate_records_file=data\merged_batches\merge_2026-03-31_v1\candidate_records_merged.csv
+merged_db_file=data\merged_batches\merge_2026-03-31_v1\teakg_merged.sqlite

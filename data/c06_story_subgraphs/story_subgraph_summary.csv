@@ -1,0 +1,4 @@
+story_name,node_count,edge_count,terms
+story_A_polyphenol_obesity,30,33,pmid_39574401; blautia; faecalibaculum; colidextribacter; scfas; tight_junction; barrier; tlr4; obesity_related_phenotype
+story_B_oolong_cognition,21,19,pmid_38745351; muribaculaceae; clostridia_ucg_014; desulfovibrio; lps; glutamate; bdnf; synaptic; cognitive_impairment; microglia
+story_C_polysaccharide_family,61,93,pmid_40957830; pmid_39153277; pmid_36449351; pmid_39479919; tea_polysaccharides; bifidobacterium; butyrate; thermogenesis; fxr; bile; nafld; lactobacillus; oxidative; nf_kb; microglial; dubosiella; romboutsia

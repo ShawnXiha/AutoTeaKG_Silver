@@ -1,0 +1,8 @@
+figure,purpose
+fig_context_coverage,"Grouped bar chart showing processing/extraction context recovery across auto rules, abstract LLM, and methods LLM."
+fig_missing_context_burden,Bar chart showing residual missing processing/extraction context after each extraction stage.
+fig_activity_evidence_heatmap,Heatmap of activity categories by evidence level.
+fig_uncertainty_by_activity,Stacked horizontal bar chart showing uncertainty class composition per activity.
+fig_processing_extraction_labels,Two-panel horizontal bar chart of normalized processing and extraction labels.
+fig_kg_composition,Two-panel horizontal bar chart of KG node and edge type counts.
+fig_fulltext_methods_funnel,Bar chart showing PMC full-text availability and methods extraction coverage.

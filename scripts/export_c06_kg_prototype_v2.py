@@ -1,0 +1,293 @@
+import csv
+import re
+import sqlite3
+from collections import Counter
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DB_PATH = ROOT / "data" / "teakg_v1.sqlite"
+OUT_DIR = ROOT / "data" / "c06_kg_prototype_v2"
+NODES_PATH = OUT_DIR / "nodes.csv"
+EDGES_PATH = OUT_DIR / "edges.csv"
+SUMMARY_PATH = OUT_DIR / "summary.md"
+
+
+PLACEHOLDER_EXACT = {
+    "",
+    "taxa as reported",
+    "microbial metabolites as reported",
+    "needs manual extraction",
+    "microbiota-related host phenotype",
+    "candidate endpoint from title",
+}
+
+PLACEHOLDER_CONTAINS = [
+    "as reported",
+    "review synthesis",
+]
+
+
+def slug(value: str) -> str:
+    value = value.strip().lower()
+    value = re.sub(r"[^a-z0-9]+", "_", value)
+    value = re.sub(r"_+", "_", value).strip("_")
+    return value or "unknown"
+
+
+def norm_text(value: str) -> str:
+    return (value or "").strip()
+
+
+def is_placeholder(value: str) -> bool:
+    value = norm_text(value).lower()
+    if value in PLACEHOLDER_EXACT:
+        return True
+    return any(token in value for token in PLACEHOLDER_CONTAINS)
+
+
+def keep_value(value: str) -> bool:
+    value = norm_text(value)
+    return bool(value) and not is_placeholder(value)
+
+
+def add_node(nodes: dict, node_id: str, node_type: str, label: str, **attrs):
+    if node_id not in nodes:
+        row = {"node_id": node_id, "node_type": node_type, "label": label}
+        row.update(attrs)
+        nodes[node_id] = row
+
+
+def add_edge(edges: list, source: str, target: str, edge_type: str, provenance: str = ""):
+    edges.append(
+        {
+            "source_id": source,
+            "target_id": target,
+            "edge_type": edge_type,
+            "provenance": provenance,
+        }
+    )
+
+
+def fetch_rows():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    try:
+        cur = conn.cursor()
+        query = """
+        SELECT
+            r.record_id,
+            r.paper_id,
+            p.title,
+            p.year,
+            p.journal,
+            r.tea_type,
+            r.component_group,
+            r.activity_category,
+            r.study_type,
+            r.evidence_level,
+            r.mechanism_label,
+            r.microbiota_taxon,
+            r.microbial_metabolite,
+            r.host_phenotype,
+            r.effect_direction,
+            r.claim_text_raw,
+            r.confidence_score
+        FROM evidence_records_raw r
+        LEFT JOIN included_papers_raw p ON p.paper_id = r.paper_id
+        WHERE
+            r.activity_category IN (
+                'gut microbiota modulation',
+                'anti-obesity',
+                'metabolic improvement',
+                'neuroprotection',
+                'anti-inflammatory',
+                'antioxidant'
+            )
+            OR LOWER(COALESCE(r.mechanism_label, '')) LIKE '%microbiota%'
+            OR LOWER(COALESCE(r.mechanism_label, '')) LIKE '%scfa%'
+            OR LOWER(COALESCE(r.mechanism_label, '')) LIKE '%bile acid%'
+            OR LOWER(COALESCE(r.mechanism_label, '')) LIKE '%barrier%'
+            OR COALESCE(r.microbiota_taxon, '') <> ''
+            OR COALESCE(r.microbial_metabolite, '') <> ''
+        ORDER BY r.paper_id, r.record_id
+        """
+        return cur.execute(query).fetchall()
+    finally:
+        conn.close()
+
+
+def split_mechanisms(text: str):
+    text = norm_text(text)
+    if not keep_value(text):
+        return []
+    parts = [part.strip() for part in text.split(";") if keep_value(part)]
+    return parts
+
+
+def build_graph(rows):
+    nodes = {}
+    edges = []
+
+    for row in rows:
+        paper_id = row["paper_id"]
+        record_id = row["record_id"]
+        provenance = paper_id
+
+        paper_node = f"paper:{paper_id}"
+        add_node(
+            nodes,
+            paper_node,
+            "Paper",
+            paper_id,
+            year=row["year"],
+            journal=row["journal"],
+            title=row["title"],
+        )
+
+        record_node = f"record:{record_id}"
+        add_node(
+            nodes,
+            record_node,
+            "EvidenceRecord",
+            record_id,
+            effect_direction=row["effect_direction"],
+            confidence_score=row["confidence_score"],
+            claim_text_raw=row["claim_text_raw"],
+        )
+        add_edge(edges, paper_node, record_node, "HAS_RECORD", provenance)
+
+        tea_type = norm_text(row["tea_type"])
+        if keep_value(tea_type):
+            tea_node = f"tea_type:{slug(tea_type)}"
+            add_node(nodes, tea_node, "TeaType", tea_type)
+            add_edge(edges, record_node, tea_node, "HAS_TEA_TYPE", provenance)
+
+        component_group = norm_text(row["component_group"])
+        if keep_value(component_group):
+            comp_node = f"component_group:{slug(component_group)}"
+            add_node(nodes, comp_node, "ComponentGroup", component_group)
+            add_edge(edges, record_node, comp_node, "HAS_COMPONENT_GROUP", provenance)
+
+        activity = norm_text(row["activity_category"])
+        if keep_value(activity):
+            act_node = f"activity:{slug(activity)}"
+            add_node(nodes, act_node, "ActivityCategory", activity)
+            add_edge(edges, record_node, act_node, "SUPPORTS_ACTIVITY", provenance)
+
+        study_type = norm_text(row["study_type"])
+        if keep_value(study_type):
+            study_node = f"study_type:{slug(study_type)}"
+            add_node(nodes, study_node, "StudyType", study_type)
+            add_edge(edges, record_node, study_node, "HAS_STUDY_TYPE", provenance)
+
+        evidence_level = norm_text(row["evidence_level"])
+        if keep_value(evidence_level):
+            ev_node = f"evidence_level:{slug(evidence_level)}"
+            add_node(nodes, ev_node, "EvidenceLevel", evidence_level)
+            add_edge(edges, record_node, ev_node, "HAS_EVIDENCE_LEVEL", provenance)
+
+        for mech_part in split_mechanisms(row["mechanism_label"]):
+            mech_node = f"mechanism:{slug(mech_part)}"
+            add_node(nodes, mech_node, "Mechanism", mech_part)
+            add_edge(edges, record_node, mech_node, "ACTS_VIA", provenance)
+
+        microbiota = norm_text(row["microbiota_taxon"])
+        micro_node = ""
+        if keep_value(microbiota):
+            micro_node = f"microbiota:{slug(microbiota)}"
+            add_node(nodes, micro_node, "MicrobiotaFeature", microbiota)
+            add_edge(edges, record_node, micro_node, "MODULATES_MICROBIOTA", provenance)
+
+        metabolite = norm_text(row["microbial_metabolite"])
+        metabolite_node = ""
+        if keep_value(metabolite):
+            metabolite_node = f"metabolite:{slug(metabolite)}"
+            add_node(nodes, metabolite_node, "MicrobialMetabolite", metabolite)
+            if micro_node:
+                add_edge(edges, micro_node, metabolite_node, "LINKS_TO_METABOLITE", provenance)
+            else:
+                add_edge(edges, record_node, metabolite_node, "LINKS_TO_METABOLITE", provenance)
+
+        phenotype = norm_text(row["host_phenotype"])
+        if keep_value(phenotype):
+            phenotype_node = f"phenotype:{slug(phenotype)}"
+            add_node(nodes, phenotype_node, "HostPhenotype", phenotype)
+            add_edge(edges, record_node, phenotype_node, "ASSOCIATED_HOST_PHENOTYPE", provenance)
+            if metabolite_node:
+                add_edge(edges, metabolite_node, phenotype_node, "AFFECTS_HOST_PHENOTYPE", provenance)
+
+    node_counts = Counter(node["node_type"] for node in nodes.values())
+    edge_counts = Counter(edge["edge_type"] for edge in edges)
+    return nodes, edges, node_counts, edge_counts
+
+
+def write_csv(path: Path, fieldnames, rows):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_summary(rows, node_counts, edge_counts):
+    lines = [
+        "# C06 KG Prototype v2 Summary",
+        "",
+        "Date: 2026-03-31",
+        f"Source database: `{DB_PATH.name}`",
+        "",
+        "## Scope",
+        "",
+        f"- Source evidence records selected for prototype: {len(rows)}",
+        f"- Exported node count: {sum(node_counts.values())}",
+        f"- Exported edge count: {sum(edge_counts.values())}",
+        "",
+        "## Cleanup Rules",
+        "",
+        "- Removed placeholder microbiota nodes such as `taxa as reported`.",
+        "- Removed low-information metabolite placeholders such as `microbial metabolites as reported`.",
+        "- Removed generic host phenotype placeholders such as `microbiota-related host phenotype`.",
+        "- Preserved `EvidenceRecord` nodes and provenance edges.",
+        "",
+        "## Node Types",
+        "",
+    ]
+    for node_type, count in sorted(node_counts.items()):
+        lines.append(f"- {node_type}: {count}")
+    lines.extend(["", "## Edge Types", ""])
+    for edge_type, count in sorted(edge_counts.items()):
+        lines.append(f"- {edge_type}: {count}")
+    lines.extend(
+        [
+            "",
+            "## Recommended Uses",
+            "",
+            "- Better suited than v1 for presentation screenshots and graph demos.",
+            "- Still not a final production KG because some mechanisms remain broad review-level concepts.",
+            "- Use this export when you want clearer topological structure with less placeholder noise.",
+        ]
+    )
+    SUMMARY_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def main():
+    rows = fetch_rows()
+    nodes, edges, node_counts, edge_counts = build_graph(rows)
+    write_csv(
+        NODES_PATH,
+        ["node_id", "node_type", "label", "year", "journal", "title", "effect_direction", "confidence_score", "claim_text_raw"],
+        list(nodes.values()),
+    )
+    write_csv(EDGES_PATH, ["source_id", "target_id", "edge_type", "provenance"], edges)
+    write_summary(rows, node_counts, edge_counts)
+    print(f"Exported nodes to: {NODES_PATH}")
+    print(f"Exported edges to: {EDGES_PATH}")
+    print(f"Exported summary to: {SUMMARY_PATH}")
+    print(f"Rows used: {len(rows)}")
+    print(f"Node count: {sum(node_counts.values())}")
+    print(f"Edge count: {sum(edge_counts.values())}")
+
+
+if __name__ == "__main__":
+    main()

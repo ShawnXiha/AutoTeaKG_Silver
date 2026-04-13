@@ -1,0 +1,565 @@
+[
+  {
+    "paperId": "598a64b9ce0566e3aaecc8dbeccbedfc617543f7",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2508-03438",
+      "ArXiv": "2508.03438",
+      "DOI": "10.1007/978-3-031-96262-2_15",
+      "CorpusId": 280526447
+    },
+    "publicationVenue": {
+      "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+      "name": "arXiv.org",
+      "alternate_names": [
+        "ArXiv"
+      ],
+      "issn": "2331-8422",
+      "url": "https://arxiv.org"
+    },
+    "url": "https://www.semanticscholar.org/paper/598a64b9ce0566e3aaecc8dbeccbedfc617543f7",
+    "title": "Data Overdose? Time for a Quadruple Shot: Knowledge Graph Construction using Enhanced Triple Extraction",
+    "venue": "arXiv.org",
+    "year": 2025,
+    "citationCount": 0,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2508.03438, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2069825566",
+        "name": "T. J. Elliott"
+      },
+      {
+        "authorId": "2370899008",
+        "name": "Stephen P. Levitt"
+      },
+      {
+        "authorId": "1504921375",
+        "name": "K. Nixon"
+      },
+      {
+        "authorId": "153103170",
+        "name": "M. Bekker"
+      }
+    ],
+    "abstract": "The rapid expansion of publicly-available medical data presents a challenge for clinicians and researchers alike, increasing the gap between the volume of scientific literature and its applications. The steady growth of studies and findings overwhelms medical professionals at large, hindering their ability to systematically review and understand the latest knowledge. This paper presents an approach to information extraction and automatic knowledge graph (KG) generation to identify and connect biomedical knowledge. Through a pipeline of large language model (LLM) agents, the system decomposes 44 PubMed abstracts into semantically meaningful proposition sentences and extracts KG triples from these sentences. The triples are enhanced using a combination of open domain and ontology-based information extraction methodologies to incorporate ontological categories. On top of this, a context variable is included during extraction to allow the triple to stand on its own - thereby becoming `quadruples'. The extraction accuracy of the LLM is validated by comparing natural language sentences generated from the enhanced triples to the original propositions, achieving an average cosine similarity of 0.874. The similarity for generated sentences of enhanced triples were compared with generated sentences of ordinary triples showing an increase as a result of the context variable. Furthermore, this research explores the ability for LLMs to infer new relationships and connect clusters in the knowledge base of the knowledge graph. This approach leads the way to provide medical practitioners with a centralised, updated in real-time, and sustainable knowledge source, and may be the foundation of similar gains in a wide variety of fields.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "498f055c8a6c2231083e507a5c4f10f5dc1e0c60",
+    "externalIds": {
+      "ACL": "2024.bionlp-1.23",
+      "ArXiv": "2301.12473",
+      "DBLP": "conf/bionlp/ArsenyanBSSS24",
+      "DOI": "10.18653/v1/2024.bionlp-1.23",
+      "CorpusId": 256390090
+    },
+    "publicationVenue": {
+      "id": "3afb600a-49ad-40aa-858c-081def027584",
+      "name": "Workshop on Biomedical Natural Language Processing",
+      "type": "conference",
+      "alternate_names": [
+        "BioNLP",
+        "Workshop Biomed Nat Lang Process"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/paper/498f055c8a6c2231083e507a5c4f10f5dc1e0c60",
+    "title": "Large Language Models for Biomedical Knowledge Graph Construction: Information extraction from EMR notes",
+    "venue": "Workshop on Biomedical Natural Language Processing",
+    "year": 2023,
+    "citationCount": 30,
+    "openAccessPdf": {
+      "url": "https://arxiv.org/pdf/2301.12473",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2301.12473, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2203364129",
+        "name": "Vahan Arsenyan"
+      },
+      {
+        "authorId": "2273490022",
+        "name": "Spartak Bughdaryan"
+      },
+      {
+        "authorId": "2273490685",
+        "name": "Fadi Shaya"
+      },
+      {
+        "authorId": "2295958700",
+        "name": "Kent W. Small"
+      },
+      {
+        "authorId": "107967444",
+        "name": "Davit Shahnazaryan"
+      }
+    ],
+    "abstract": "The automatic construction of knowledge graphs (KGs) is an important research area in medicine, with far-reaching applications spanning drug discovery and clinical trial design. These applications hinge on the accurate identification of interactions among medical and biological entities. In this study, we propose an end-to-end machine learning solution based on large language models (LLMs) that utilize electronic medical record notes to construct KGs. The entities used in the KG construction process are diseases, factors, treatments, as well as manifestations that coexist with the patient while experiencing the disease. Given the critical need for high-quality performance in medical applications, we embark on a comprehensive assessment of 12 LLMs of various architectures, evaluating their performance and safety attributes. To gauge the quantitative efficacy of our approach by assessing both precision and recall, we manually annotate a dataset provided by the Macula and Retina Institute. We also assess the qualitative performance of LLMs, such as the ability to generate structured outputs or the tendency to hallucinate. The results illustrate that in contrast to encoder-only and encoder-decoder, decoder-only LLMs require further investigation. Additionally, we provide guided prompt design to utilize such LLMs. The application of the proposed methodology is demonstrated on age-related macular degeneration.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "0605aa2706e5ebc1b87a5007ec356ff4f018ac02",
+    "externalIds": {
+      "DOI": "10.1109/ECIS65594.2025.11086863",
+      "CorpusId": 280392838
+    },
+    "publicationVenue": {
+      "id": "809f6dd1-7dd8-4d79-a46d-4726c3a67128",
+      "name": "European Conference on Information Systems",
+      "type": "conference",
+      "alternate_names": [
+        "ECIS",
+        "Eur Conf Inf Syst"
+      ],
+      "url": "https://aisel.aisnet.org/ecis/"
+    },
+    "url": "https://www.semanticscholar.org/paper/0605aa2706e5ebc1b87a5007ec356ff4f018ac02",
+    "title": "Information Extraction and Knowledge Graph Construction of Chinese Scientific and Technical Literature Based on Fine-Tuning Large Language Models",
+    "venue": "European Conference on Information Systems",
+    "year": 2025,
+    "citationCount": 0,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/ECIS65594.2025.11086863?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/ECIS65594.2025.11086863, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Conference"
+    ],
+    "authors": [
+      {
+        "authorId": "2113860952",
+        "name": "Xinyuan She"
+      },
+      {
+        "authorId": "50134050",
+        "name": "Yahong Yu"
+      },
+      {
+        "authorId": "2382845442",
+        "name": "Lizhang Chen"
+      }
+    ],
+    "abstract": "The effectiveness of literature retrieval depends on researchers’ experience and understanding of knowledge. To improve the retrieval efficiency and effect, this paper establishes an information extraction model based on a fine-tuned large language model for Chinese scientific and technological literature. It extracts specific information in the abstracts according to the readers' needs. The article manually labeled 1051 Chinese scientific and technical literature abstracts with the theme of ‘Knowledge Graph’, and constructed the experimental dataset of the model. The experiments compare the large language models such as DeepSeek, Llama3, Mistral, Gemma, etc. Meanwhile, the UIE model and the Bert model are compared with the large language models. The experiments show that the large language models have more obvious advantages in literature information extraction, and the F1 value of Mistral fine-tuning model validation ROUGE-L reaches 0.9213, which is about 0.21 higher than the un-fine-tuning F1 value, and 0.13 higher than that of UIE. Finally, this paper utilizes Neo4j to present the results of literature information extraction to the readers in the form of a knowledge graph.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "30e806abc612b43b0f653222c27ad64ef9eb1c63",
+    "externalIds": {
+      "DBLP": "conf/www/JadhavPTDP25",
+      "DOI": "10.1145/3701716.3717817",
+      "CorpusId": 278822707
+    },
+    "publicationVenue": {
+      "id": "e07422f9-c065-40c3-a37b-75e98dce79fe",
+      "name": "The Web Conference",
+      "type": "conference",
+      "alternate_names": [
+        "Web Conf",
+        "WWW"
+      ],
+      "url": "http://www.iw3c2.org/"
+    },
+    "url": "https://www.semanticscholar.org/paper/30e806abc612b43b0f653222c27ad64ef9eb1c63",
+    "title": "Leveraging Large Language Models for Biomedical Knowledge Graph Construction and Querying: An Advanced NLP Approach",
+    "venue": "The Web Conference",
+    "year": 2025,
+    "citationCount": 1,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3701716.3717817?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3701716.3717817, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Book",
+      "JournalArticle",
+      "Conference"
+    ],
+    "authors": [
+      {
+        "authorId": "2308481744",
+        "name": "Suramya Jadhav"
+      },
+      {
+        "authorId": "2362919525",
+        "name": "Suki Perumal"
+      },
+      {
+        "authorId": "2362921675",
+        "name": "Yasmin Tadavi"
+      },
+      {
+        "authorId": "2362921781",
+        "name": "Bikshita Dash"
+      },
+      {
+        "authorId": "2303545954",
+        "name": "S. Parthiban"
+      }
+    ],
+    "abstract": "This paper introduces a novel methodology for constructing a comprehensive biomedical knowledge graph by applying advanced Natural Language Processing (NLP) techniques. By leveraging Large Language Models (LLMs) and a multifaceted prompt engineering approach, we effectively perform Named Entity Recognition (NER) and Relation Extraction (RE) on biomedical literature, targeting entities such as diseases, drugs, proteins, procedures, and symptoms. Our methodology incorporates eight distinct prompt engineering strategies for NER and a standardized approach for RE, facilitating the extraction of intricate inter-entity relationships. The resulting knowledge graph amalgamates diverse data sources into a unified framework, enabling efficient querying, visualization, and analysis of biomedical information. Furthermore, we present an innovative query processing pipeline that integrates GPT-3.5 turbo with the knowledge graph, allowing users to interact with the graph through natural language. This integrated system empowers the discovery of novel correlations, accelerating scientific research and fostering interdisciplinary collaboration. This represents a substantial contribution to the field of biomedical knowledge graph construction, offering a robust platform for accelerating scientific discovery and informing clinical decision-making.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "ed3e538782b84995da673d1366249a02d2a6611f",
+    "externalIds": {
+      "ArXiv": "2503.06475",
+      "DBLP": "journals/corr/abs-2503-06475",
+      "DOI": "10.48550/arXiv.2503.06475",
+      "CorpusId": 276902641
+    },
+    "publicationVenue": {
+      "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+      "name": "arXiv.org",
+      "alternate_names": [
+        "ArXiv"
+      ],
+      "issn": "2331-8422",
+      "url": "https://arxiv.org"
+    },
+    "url": "https://www.semanticscholar.org/paper/ed3e538782b84995da673d1366249a02d2a6611f",
+    "title": "SKG-LLM: Developing a Mathematical Model for Stroke Knowledge Graph Construction Using Large Language Models",
+    "venue": "arXiv.org",
+    "year": 2025,
+    "citationCount": 1,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.06475, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2349375590",
+        "name": "Ali Sarabadani"
+      },
+      {
+        "authorId": "2314450400",
+        "name": "Kheirolah Rahsepar Fard"
+      },
+      {
+        "authorId": "2251193688",
+        "name": "Hamid Dalvand"
+      }
+    ],
+    "abstract": "The purpose of this study is to introduce SKG-LLM. A knowledge graph (KG) is constructed from stroke-related articles using mathematical and large language models (LLMs). SKG-LLM extracts and organizes complex relationships from the biomedical literature, using it to increase the accuracy and depth of KG in stroke research. In the proposed method, GPT-4 was used for data pre-processing, and the extraction of embeddings was also done by GPT-4 in the whole KG construction process. The performance of the proposed model was tested with two evaluation criteria: Precision and Recall. For further validation of the proposed model, GPT-4 was used. Compared with Wikidata and WN18RR, the proposed KG-LLM approach performs better, especially in precision and recall. By including GPT-4 in the preprocessing process, the SKG-LLM model achieved a precision score of 0.906 and a recall score of 0.923. Expert reviews further improved the results and increased precision to 0.923 and recall to 0.918. The knowledge graph constructed by SKG-LLM contains 2692 nodes and 5012 edges, which are 13 distinct types of nodes and 24 types of edges.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "2087f5a686b078e74b8066b60b2b83cdb8bd4dfe",
+    "externalIds": {
+      "DOI": "10.2174/0122102981269053230921074451",
+      "CorpusId": 264150681
+    },
+    "publicationVenue": {
+      "id": "4088d4da-d589-4a00-ad6e-3ffdb38dffb1",
+      "name": "Current Chinese Science",
+      "alternate_names": [
+        "Curr Chin Sci"
+      ],
+      "issn": "2210-2981",
+      "alternate_issns": [
+        "2210-2914"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/paper/2087f5a686b078e74b8066b60b2b83cdb8bd4dfe",
+    "title": "Distant Supervision-based Relation Extraction for Literature-Related Biomedical Knowledge Graph Construction",
+    "venue": "Current Chinese Science",
+    "year": 2023,
+    "citationCount": 0,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2174/0122102981269053230921074451?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2174/0122102981269053230921074451, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2193604347",
+        "name": "Rui Hua"
+      },
+      {
+        "authorId": "35742927",
+        "name": "Zixin Shu"
+      },
+      {
+        "authorId": "1863138248",
+        "name": "D. Yan"
+      },
+      {
+        "authorId": "2258806671",
+        "name": "Kuo Yang"
+      },
+      {
+        "authorId": "2144707113",
+        "name": "Xinyan Wang"
+      },
+      {
+        "authorId": "2259825585",
+        "name": "Chuang Cheng"
+      },
+      {
+        "authorId": "2249924315",
+        "name": "Xuezhong Zhou"
+      },
+      {
+        "authorId": "2258782865",
+        "name": "Qiang Zhu"
+      }
+    ],
+    "abstract": "\n\nThe task of relation extraction is a crucial component in the construction\nof a knowledge graph. However, it often necessitates a significant amount of manual annotation,\nwhich can be time-consuming and expensive. Distant supervision, as a technique, seeks to mitigate\nthis challenge by generating a large volume of pseudo-training data at a minimal cost,\nachieved by mapping triple facts onto the raw text.\n\n\n\nThe aim of this study is to explore the novelty and potential of the distant supervisionbased\nrelation extraction approach. By leveraging this innovative method, we aim to enhance\nknowledge reliability and facilitate new knowledge discovery, establishing associations between\nknowledge from specific biomedical data or existing knowledge graphs and literature.\n\n\n\nThis study presents a methodology to construct a biomedical knowledge graph employing\ndistant supervision techniques. Through establishing links between knowledge entities and\nrelevant literature sources, we methodically extract and integrate information, thereby expanding\nand enriching the knowledge graph. This study identified five types of biomedical entities (e.g.,\ndiseases, symptoms and genes) and four kinds of relationships. These were linked to PubMed literature\nand divided into training and testing datasets. To mitigate data noise, the training set underwent\npreprocessing, while the testing set was manually curated.\n\n\n\nThis study introduces a methodology for constructing a biomedical knowledge graph using distant supervision techniques. By establishing connections between knowledge entities and relevant literature sources, we systematically extract and integrate information to expand and enrich the knowledge graph.\n\n\n\nIn our research, we successfully associated 230,698 triples from the existing knowledge\ngraph with relevant literature. Furthermore, we identified additional 205,148 new triples directly\nsourced from these studies.\n\n\n\nOur study markedly advances the field of biomedical knowledge graph enrichment,\nparticularly in the context of Traditional Chinese Medicine (TCM). By validating a substantial\nnumber of triples through literature associations and uncovering over 200,000 new triples, we\nhave made a significant stride in promoting the development of evidence-based medicine in TCM.\nThe results underscore the potential of using a distant supervision-based relation extraction approach\nto both validate and expand knowledge bases, contributing to the broader progression of\nevidence-based practices in the realm of TCM.\n\n\n\nKeywords: Relation extraction, knowledge graph, distant supervision, named entity recognition, literature, biomedical knowledge graph.\n",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "75862abe9ee4df264ebe0672d336e074f39ea978",
+    "externalIds": {
+      "DOI": "10.3390/electronics13193936",
+      "CorpusId": 273193379
+    },
+    "publicationVenue": {
+      "id": "ccd8e532-73c6-414f-bc91-271bbb2933e2",
+      "name": "Electronics",
+      "type": "journal",
+      "issn": "1450-5843",
+      "alternate_issns": [
+        "2079-9292",
+        "0883-4989"
+      ],
+      "url": "http://www.electronics.etfbl.net/",
+      "alternate_urls": [
+        "http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-247562",
+        "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:ch:bel-247562",
+        "https://www.mdpi.com/journal/electronics"
+      ]
+    },
+    "url": "https://www.semanticscholar.org/paper/75862abe9ee4df264ebe0672d336e074f39ea978",
+    "title": "Information Extraction of Aviation Accident Causation Knowledge Graph: An LLM-Based Approach",
+    "venue": "Electronics",
+    "year": 2024,
+    "citationCount": 19,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3390/electronics13193936",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/electronics13193936?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/electronics13193936, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2189307798",
+        "name": "Lu Chen"
+      },
+      {
+        "authorId": "2244256366",
+        "name": "Jihui Xu"
+      },
+      {
+        "authorId": "2359818989",
+        "name": "Tianyu Wu"
+      },
+      {
+        "authorId": "2325876354",
+        "name": "Jie Liu"
+      }
+    ],
+    "abstract": "Summarizing the causation of aviation accidents is conducive to enhancing aviation safety. The knowledge graph of aviation accident causation, constructed based on aviation accident reports, can assist in analyzing the causes of aviation accidents. With the continuous development of artificial intelligence technology, leveraging large language models for information extraction and knowledge graph construction has demonstrated significant advantages. This paper proposes an information extraction method for aviation accident causation based on Claude-prompt, which relies on the large-scale pre-trained language model Claude 3.5. Through prompt engineering, combined with a few-shot learning strategy and a self-judgment mechanism, this method achieves automatic extraction of accident-cause entities and their relationships. Experimental results indicate that this approach effectively improves the accuracy of information extraction, overcoming the limitations of traditional methods in terms of accuracy and efficiency in processing complex texts. It provides strong support for subsequently constructing a structured knowledge graph of aviation accident causation and conducting causation analysis of aviation accidents.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "6cb77cbbef6002c86d2631c872dcf720961b2bb1",
+    "externalIds": {
+      "DBLP": "conf/bibm/LuoLYLZJ25",
+      "DOI": "10.1109/BIBM66473.2025.11357039",
+      "CorpusId": 285175783
+    },
+    "publicationVenue": {
+      "id": "6363ebc9-706a-4203-b804-148cbf8810ce",
+      "name": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "type": "conference",
+      "alternate_names": [
+        "Bioinform Biomed",
+        "BIBM",
+        "IEEE Int Conf Bioinform Biomed",
+        "Bioinformatics and Biomedicine"
+      ],
+      "url": "http://www.wikicfp.com/cfp/program?id=283"
+    },
+    "url": "https://www.semanticscholar.org/paper/6cb77cbbef6002c86d2631c872dcf720961b2bb1",
+    "title": "LLM-Assisted Nutrition-Disease Knowledge Graph Construction and Multi-View Fusion Framework for Link Prediction",
+    "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "year": 2025,
+    "citationCount": 0,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/BIBM66473.2025.11357039?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/BIBM66473.2025.11357039, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "authors": [
+      {
+        "authorId": "2118198610",
+        "name": "Yuchen Luo"
+      },
+      {
+        "authorId": "2407741427",
+        "name": "Zhanhua Lu"
+      },
+      {
+        "authorId": "2407737811",
+        "name": "Jiatai Yang"
+      },
+      {
+        "authorId": "47130665",
+        "name": "Sijia Liu"
+      },
+      {
+        "authorId": "2269139831",
+        "name": "Weizhong Zhao"
+      },
+      {
+        "authorId": "2255485203",
+        "name": "Xingpeng Jiang"
+      }
+    ],
+    "abstract": "The critical role of nutrients in intervening in human diseases has made a deeper exploration of microbial metabolic processes greatly needed. Bacteriophages serve as key regulators in maintaining microecological balance. Existing studies have revealed that nutrients promote bacteriophage production in gut bacteria, subsequently affecting bacterial abundance and influencing disease development. However, current research lacks systematic integration of the relationships among bacteriophages, nutrition, gut bacteria, and diseases, which partially limits our understanding of the intervention mechanisms between nutrition and diseases. To address this, we constructed a novel knowledge graph, KGNBVD, focusing on the interconnections among dietary nutrition, gut bacteria, bacteriophages, and human diseases by harnessing large-scale biomedical literature and the promptdriven capabilities of large language models (lLMs). Additionally, to elucidate the mechanistic role of bacteriophages in linking nutrients and human diseases, we proposed a multi-view fusion approach that fully explore the features of KGNBVD. Extensive experimental results demonstrated that our method outperforms state-of-the-art methods in predicting four-entity interactions with AUC values of 96.20 % and $\\mathbf{F 1}$ scores of $\\mathbf{8 9. 7 2 \\%}$. Moreover, results of case study validated that our method can identify high-probability candidate entities for previously unseen entity interactions, effectively predicting potential interactions between nutrition and human diseases.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "db96e019410006c3ee0ae0184800ab206f8704dd",
+    "externalIds": {
+      "DBLP": "conf/emnlp/ZhangS24",
+      "ACL": "2024.emnlp-main.548",
+      "ArXiv": "2404.03868",
+      "DOI": "10.48550/arXiv.2404.03868",
+      "CorpusId": 268987666
+    },
+    "publicationVenue": {
+      "id": "41bf9ed3-85b3-4c90-b015-150e31690253",
+      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "type": "conference",
+      "alternate_names": [
+        "Empir Method Nat Lang Process",
+        "Empirical Methods in Natural Language Processing",
+        "Conf Empir Method Nat Lang Process",
+        "EMNLP"
+      ],
+      "url": "https://www.aclweb.org/portal/emnlp"
+    },
+    "url": "https://www.semanticscholar.org/paper/db96e019410006c3ee0ae0184800ab206f8704dd",
+    "title": "Extract, Define, Canonicalize: An LLM-based Framework for Knowledge Graph Construction",
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "year": 2024,
+    "citationCount": 101,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2404.03868, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Conference"
+    ],
+    "authors": [
+      {
+        "authorId": "2295607413",
+        "name": "Bowen Zhang"
+      },
+      {
+        "authorId": "2295511978",
+        "name": "Harold Soh"
+      }
+    ],
+    "abstract": "In this work, we are interested in automated methods for knowledge graph creation (KGC) from input text. Progress on large language models (LLMs) has prompted a series of recent works applying them to KGC, e.g., via zero/few-shot prompting. Despite successes on small domain-specific datasets, these models face difficulties scaling up to text common in many real-world applications. A principal issue is that, in prior methods, the KG schema has to be included in the LLM prompt to generate valid triplets; larger and more complex schemas easily exceed the LLMs’ context window length. Furthermore, there are scenarios where a fixed pre-defined schema is not available and we would like the method to construct a high-quality KG with a succinct self-generated schema. To address these problems, we propose a three-phase framework named Extract-Define-Canonicalize (EDC): open information extraction followed by schema definition and post-hoc canonicalization. EDC is flexible in that it can be applied to settings where a pre-defined target schema is available and when it is not; in the latter case, it constructs a schema automatically and applies self-canonicalization. To further improve performance, we introduce a trained component that retrieves schema elements relevant to the input text; this improves the LLMs’ extraction performance in a retrieval-augmented generation-like manner. We demonstrate on three KGC benchmarks that EDC is able to extract high-quality triplets without any parameter tuning and with significantly larger schemas compared to prior works. Code for EDC is available at https://github.com/clear-nus/edc.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  },
+  {
+    "paperId": "1436674e18611af06b94ee1f664f071442ed854a",
+    "externalIds": {
+      "DBLP": "journals/tmm/WangLLZSS25",
+      "DOI": "10.1109/TMM.2025.3557717",
+      "CorpusId": 277558212
+    },
+    "publicationVenue": {
+      "id": "10e76a35-58d6-443c-9683-fc16f2dd0a92",
+      "name": "IEEE transactions on multimedia",
+      "type": "journal",
+      "alternate_names": [
+        "IEEE Transactions on Multimedia",
+        "IEEE Trans Multimedia",
+        "IEEE trans multimedia"
+      ],
+      "issn": "1520-9210",
+      "url": "http://ieeexplore.ieee.org/servlet/opac?punumber=6046"
+    },
+    "url": "https://www.semanticscholar.org/paper/1436674e18611af06b94ee1f664f071442ed854a",
+    "title": "An Adaptive Framework Embedded With LLM for Knowledge Graph Construction",
+    "venue": "IEEE transactions on multimedia",
+    "year": 2025,
+    "citationCount": 8,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TMM.2025.3557717?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TMM.2025.3557717, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2260710028",
+        "name": "Qingwang Wang"
+      },
+      {
+        "authorId": "2342273349",
+        "name": "Chaohui Li"
+      },
+      {
+        "authorId": "2341654789",
+        "name": "Yi Liu"
+      },
+      {
+        "authorId": "2353741872",
+        "name": "Qiubai Zhu"
+      },
+      {
+        "authorId": "2163721029",
+        "name": "Jian Song"
+      },
+      {
+        "authorId": "2260711072",
+        "name": "Tao Shen"
+      }
+    ],
+    "abstract": "Knowledge graph construction is aimed at storing and representing the knowledge of the objective world in a structured form. Existing methods for automatic construction of knowledge graphs have problems such as difficulty in understanding potential semantics and low precision. The emergence of Large Language Models (LLMs) provides an effective way for automatic knowledge graph construction. However, using LLMs as automatic knowledge graph construction engines relies on the embedding of schema layers, which brings challenges to the input length of LLMs. In this paper, we present a framework for Adaptive Construction of Knowledge Graph by leveraging the exceptional generation capabilities of LLMs and the latent relational semantic information of triples, named ACKG-LLM. Our proposed framework divides the knowledge graph construction task into three subtasks within a unified pipeline: triple extraction of open information, additional relational semantic information embedding and knowledge graph normalization based on schema-level embedding. The framework can construct knowledge graphs in different domains, making up for the defects of existing frameworks that need to retrain and fine-tune the internal model. Extensive experiments demonstrate that our proposed ACKG-LLM performs favorably against representative methods on the REBEL and WiKi-NRE datasets.",
+    "query": "LLM biomedical knowledge graph construction information extraction literature"
+  }
+]

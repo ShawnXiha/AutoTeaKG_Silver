@@ -1,0 +1,42 @@
+[
+  {
+    "search_id": "S001",
+    "query_id": "Q1",
+    "query_name": "Broad review retrieval",
+    "query": "((\"tea\"[Title/Abstract] OR \"green tea\"[Title/Abstract] OR \"oolong tea\"[Title/Abstract] OR \"black tea\"[Title/Abstract] OR \"Camellia sinensis\"[Title/Abstract]) AND (\"review\"[Publication Type] OR review[Title]) AND (\"bioactive\"[Title/Abstract] OR \"functional activity\"[Title/Abstract] OR antioxidant[Title/Abstract] OR anti-inflammatory[Title/Abstract] OR microbiota[Title/Abstract] OR metabolic[Title/Abstract]))",
+    "result_count": 681,
+    "returned_count": 100
+  },
+  {
+    "search_id": "S002",
+    "query_id": "Q2",
+    "query_name": "Functional activity primary studies",
+    "query": "((\"tea\"[Title/Abstract] OR \"green tea\"[Title/Abstract] OR \"oolong tea\"[Title/Abstract] OR \"black tea\"[Title/Abstract] OR \"Camellia sinensis\"[Title/Abstract]) AND (\"tea extract\"[Title/Abstract] OR \"catechin*\"[Title/Abstract] OR EGCG[Title/Abstract] OR theaflavin*[Title/Abstract] OR theanine[Title/Abstract] OR caffeine[Title/Abstract] OR \"tea polysaccharide*\"[Title/Abstract] OR \"tea polyphenol*\"[Title/Abstract]) AND (\"antioxidant\"[Title/Abstract] OR \"anti-inflammatory\"[Title/Abstract] OR inflammation[Title/Abstract] OR obesity[Title/Abstract] OR metabolic[Title/Abstract] OR neuroprotect*[Title/Abstract] OR cardiovascular[Title/Abstract]))",
+    "result_count": 1659,
+    "returned_count": 100
+  },
+  {
+    "search_id": "S003",
+    "query_id": "Q3",
+    "query_name": "Microbiome-focused studies",
+    "query": "((\"tea\"[Title/Abstract] OR \"green tea\"[Title/Abstract] OR \"oolong tea\"[Title/Abstract] OR \"black tea\"[Title/Abstract] OR \"fermented tea\"[Title/Abstract] OR \"Camellia sinensis\"[Title/Abstract]) AND (\"gut microbiota\"[Title/Abstract] OR microbiome[Title/Abstract] OR \"short-chain fatty acid*\"[Title/Abstract] OR SCFA[Title/Abstract] OR barrier[Title/Abstract]) AND (\"tea extract\"[Title/Abstract] OR \"tea polyphenol*\"[Title/Abstract] OR catechin*[Title/Abstract] OR theaflavin*[Title/Abstract]))",
+    "result_count": 253,
+    "returned_count": 100
+  },
+  {
+    "search_id": "S004",
+    "query_id": "Q4",
+    "query_name": "Processing-aware studies",
+    "query": "((\"tea\"[Title/Abstract] OR \"green tea\"[Title/Abstract] OR \"oolong tea\"[Title/Abstract] OR \"black tea\"[Title/Abstract] OR \"Camellia sinensis\"[Title/Abstract]) AND (processing[Title/Abstract] OR extraction[Title/Abstract] OR fermentation[Title/Abstract] OR \"ultrasound extraction\"[Title/Abstract] OR \"microwave extraction\"[Title/Abstract] OR \"supercritical extraction\"[Title/Abstract]) AND (\"bioactive\"[Title/Abstract] OR antioxidant[Title/Abstract] OR anti-inflammatory[Title/Abstract] OR metabol*[Title/Abstract] OR microbiota[Title/Abstract]))",
+    "result_count": 1022,
+    "returned_count": 100
+  },
+  {
+    "search_id": "S005",
+    "query_id": "Q5",
+    "query_name": "Human evidence",
+    "query": "((\"tea\"[Title/Abstract] OR \"green tea\"[Title/Abstract] OR \"oolong tea\"[Title/Abstract] OR \"black tea\"[Title/Abstract] OR \"Camellia sinensis\"[Title/Abstract]) AND (\"randomized controlled trial\"[Publication Type] OR \"cohort\"[Title/Abstract] OR \"meta-analysis\"[Publication Type] OR \"prospective\"[Title/Abstract]) AND (antioxidant[Title/Abstract] OR inflammation[Title/Abstract] OR obesity[Title/Abstract] OR metabolic[Title/Abstract] OR cardiovascular[Title/Abstract]))",
+    "result_count": 247,
+    "returned_count": 100
+  }
+]

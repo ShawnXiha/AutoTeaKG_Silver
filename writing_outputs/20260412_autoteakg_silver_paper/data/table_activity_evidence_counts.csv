@@ -1,0 +1,57 @@
+activity_category,evidence_level,count,activity_total
+gut microbiota modulation,preclinical_in_vivo,91,155
+gut microbiota modulation,evidence_synthesis_nonquantitative,45,155
+gut microbiota modulation,human_observational,7,155
+gut microbiota modulation,human_interventional,9,155
+gut microbiota modulation,evidence_synthesis,3,155
+gut microbiota modulation,low_preclinical,0,155
+gut microbiota modulation,in_vitro,0,155
+antioxidant,preclinical_in_vivo,54,81
+antioxidant,evidence_synthesis_nonquantitative,17,81
+antioxidant,human_observational,3,81
+antioxidant,human_interventional,3,81
+antioxidant,evidence_synthesis,2,81
+antioxidant,low_preclinical,1,81
+antioxidant,in_vitro,1,81
+anti-inflammatory,preclinical_in_vivo,33,79
+anti-inflammatory,evidence_synthesis_nonquantitative,25,79
+anti-inflammatory,human_observational,10,79
+anti-inflammatory,human_interventional,6,79
+anti-inflammatory,evidence_synthesis,4,79
+anti-inflammatory,low_preclinical,1,79
+anti-inflammatory,in_vitro,0,79
+anti-obesity,preclinical_in_vivo,12,45
+anti-obesity,evidence_synthesis_nonquantitative,11,45
+anti-obesity,human_observational,10,45
+anti-obesity,human_interventional,7,45
+anti-obesity,evidence_synthesis,5,45
+anti-obesity,low_preclinical,0,45
+anti-obesity,in_vitro,0,45
+metabolic improvement,preclinical_in_vivo,11,41
+metabolic improvement,evidence_synthesis_nonquantitative,12,41
+metabolic improvement,human_observational,7,41
+metabolic improvement,human_interventional,9,41
+metabolic improvement,evidence_synthesis,2,41
+metabolic improvement,low_preclinical,0,41
+metabolic improvement,in_vitro,0,41
+cardiovascular protection,preclinical_in_vivo,0,31
+cardiovascular protection,evidence_synthesis_nonquantitative,10,31
+cardiovascular protection,human_observational,17,31
+cardiovascular protection,human_interventional,1,31
+cardiovascular protection,evidence_synthesis,3,31
+cardiovascular protection,low_preclinical,0,31
+cardiovascular protection,in_vitro,0,31
+neuroprotection,preclinical_in_vivo,9,30
+neuroprotection,evidence_synthesis_nonquantitative,17,30
+neuroprotection,human_observational,2,30
+neuroprotection,human_interventional,1,30
+neuroprotection,evidence_synthesis,1,30
+neuroprotection,low_preclinical,0,30
+neuroprotection,in_vitro,0,30
+other,preclinical_in_vivo,78,170
+other,evidence_synthesis_nonquantitative,63,170
+other,human_observational,17,170
+other,human_interventional,7,170
+other,evidence_synthesis,4,170
+other,low_preclinical,1,170
+other,in_vitro,0,170

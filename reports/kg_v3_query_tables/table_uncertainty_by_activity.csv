@@ -1,0 +1,25 @@
+activity_category,uncertainty_class,count,activity_total,share
+gut microbiota modulation,low_uncertainty,43,155,0.27741935483870966
+gut microbiota modulation,moderate_uncertainty,106,155,0.6838709677419355
+gut microbiota modulation,high_uncertainty,6,155,0.03870967741935484
+antioxidant,low_uncertainty,25,82,0.3048780487804878
+antioxidant,moderate_uncertainty,52,82,0.6341463414634146
+antioxidant,high_uncertainty,5,82,0.06097560975609756
+anti-inflammatory,low_uncertainty,16,79,0.20253164556962025
+anti-inflammatory,moderate_uncertainty,53,79,0.6708860759493671
+anti-inflammatory,high_uncertainty,10,79,0.12658227848101267
+anti-obesity,low_uncertainty,5,45,0.1111111111111111
+anti-obesity,moderate_uncertainty,31,45,0.6888888888888889
+anti-obesity,high_uncertainty,9,45,0.2
+metabolic improvement,low_uncertainty,7,41,0.17073170731707318
+metabolic improvement,moderate_uncertainty,32,41,0.7804878048780488
+metabolic improvement,high_uncertainty,2,41,0.04878048780487805
+cardiovascular protection,low_uncertainty,0,31,0.0
+cardiovascular protection,moderate_uncertainty,27,31,0.8709677419354839
+cardiovascular protection,high_uncertainty,4,31,0.12903225806451613
+neuroprotection,low_uncertainty,4,30,0.13333333333333333
+neuroprotection,moderate_uncertainty,22,30,0.7333333333333333
+neuroprotection,high_uncertainty,4,30,0.13333333333333333
+other,low_uncertainty,0,172,0.0
+other,moderate_uncertainty,147,172,0.8546511627906976
+other,high_uncertainty,25,172,0.14534883720930233

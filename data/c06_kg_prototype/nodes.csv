@@ -1,0 +1,111 @@
+node_id,node_type,label,year,journal,title,effect_direction,confidence_score,claim_text_raw
+paper:PMID_36449351,Paper,PMID_36449351,2022,Food & Function,Heimao tea polysaccharides ameliorate obesity by enhancing gut microbiota-dependent adipocytes thermogenesis in mice fed with high fat diet,,,
+record:PMID_36449351_R1,EvidenceRecord,PMID_36449351_R1,,,,positive,0.94,Heimao tea polysaccharides ameliorated obesity by enhancing gut microbiota-dependent adipocyte thermogenesis in mice fed a high-fat diet.
+tea_type:dark_post_fermented_tea,TeaType,dark/post-fermented tea,,,,,,
+component_group:tea_polysaccharides,ComponentGroup,tea polysaccharides,,,,,,
+activity:anti_obesity,ActivityCategory,anti-obesity,,,,,,
+study_type:animal_study,StudyType,animal study,,,,,,
+evidence_level:preclinical_in_vivo,EvidenceLevel,preclinical_in_vivo,,,,,,
+mechanism:gut_microbiota_dependent_thermogenesis,Mechanism,gut microbiota-dependent thermogenesis,,,,,,
+microbiota:taxa_as_reported,MicrobiotaFeature,taxa as reported,,,,,,
+phenotype:obesity_related_phenotype,HostPhenotype,obesity-related phenotype,,,,,,
+record:PMID_36449351_R2,EvidenceRecord,PMID_36449351_R2,,,,positive,0.93,Heimao tea polysaccharides enhanced gut microbiota-dependent adipocyte thermogenesis in obese mice.
+activity:gut_microbiota_modulation,ActivityCategory,gut microbiota modulation,,,,,,
+mechanism:microbiota_thermogenesis_axis,Mechanism,microbiota-thermogenesis axis,,,,,,
+phenotype:adipocyte_thermogenesis,HostPhenotype,adipocyte thermogenesis,,,,,,
+paper:PMID_38031409,Paper,PMID_38031409,2024,British Journal of Nutrition,The effects of green tea extract supplementation on body composition obesity-related hormones and oxidative stress markers: a grade-assessed systematic review and dose-response meta-analysis of randomised controlled trials,,,
+record:PMID_38031409_R1,EvidenceRecord,PMID_38031409_R1,,,,mixed,Dose-response meta-analysis of randomized trials on green tea extract supplementation and body composition/obesity-related hormone outcomes.,
+tea_type:green_tea,TeaType,green tea,,,,,,
+component_group:mixed_polyphenols,ComponentGroup,mixed polyphenols,,,,,,
+study_type:meta_analysis,StudyType,meta-analysis,,,,,,
+evidence_level:evidence_synthesis,EvidenceLevel,evidence_synthesis,,,,,,
+record:PMID_38031409_R2,EvidenceRecord,PMID_38031409_R2,,,,positive,Green tea extract supplementation improved oxidative stress markers in randomized trials.,
+activity:antioxidant,ActivityCategory,antioxidant,,,,,,
+paper:PMID_38056775,Paper,PMID_38056775,2024,Journal of Advanced Research,Biological potential and mechanisms of Tea's bioactive compounds: An Updated review,,,
+record:PMID_38056775_R1,EvidenceRecord,PMID_38056775_R1,,,,positive,0.95,Updated review summarizing anti-inflammatory mechanisms and activities of tea bioactive compounds across studies.
+tea_type:unspecified_tea,TeaType,unspecified tea,,,,,,
+component_group:multiple_component_groups,ComponentGroup,multiple component groups,,,,,,
+activity:anti_inflammatory,ActivityCategory,anti-inflammatory,,,,,,
+study_type:systematic_review,StudyType,systematic review,,,,,,
+evidence_level:evidence_synthesis_nonquantitative,EvidenceLevel,evidence_synthesis_nonquantitative,,,,,,
+mechanism:multiple_mechanisms_summarized,Mechanism,multiple mechanisms summarized,,,,,,
+record:PMID_38056775_R2,EvidenceRecord,PMID_38056775_R2,,,,positive,0.93,Updated review summarizing gut microbiota-related functional activities of tea bioactive compounds.
+mechanism:microbiota_related_mechanisms_summarized,Mechanism,microbiota-related mechanisms summarized,,,,,,
+paper:PMID_38430822,Paper,PMID_38430822,2024,Nutrition Research,A green tea extract confection decreases circulating endotoxin and fasting glucose by improving gut barrier function but without affecting systemic inflammation: A double-blind placebo-controlled randomized trial in healthy adults and adults with metabolic syndrome,,,
+record:PMID_38430822_R1,EvidenceRecord,PMID_38430822_R1,,,,positive,A green tea extract confection decreased circulating endotoxin and fasting glucose by improving gut barrier function in adults.,
+activity:metabolic_improvement,ActivityCategory,metabolic improvement,,,,,,
+study_type:randomized_controlled_trial,StudyType,randomized controlled trial,,,,,,
+evidence_level:human_interventional,EvidenceLevel,human_interventional,,,,,,
+microbiota:gut_barrier_improvement,MicrobiotaFeature,gut barrier improvement,,,,,,
+record:PMID_38430822_R2,EvidenceRecord,PMID_38430822_R2,,,,no_clear_effect,The trial reported improved barrier-related markers without affecting systemic inflammation.,
+paper:PMID_38745351,Paper,PMID_38745351,2024,Journal of Agricultural and Food Chemistry,Gut Microbiota Mediate the Neuroprotective Effect of Oolong Tea Polyphenols in Cognitive Impairment Induced by Circadian Rhythm Disorder,,,
+record:PMID_38745351_R1,EvidenceRecord,PMID_38745351_R1,,,,positive,0.95,Gut microbiota mediated the neuroprotective effect of oolong tea polyphenols in cognitive impairment induced by circadian rhythm disorder.
+tea_type:oolong_tea,TeaType,oolong tea,,,,,,
+activity:neuroprotection,ActivityCategory,neuroprotection,,,,,,
+mechanism:gut_microbiota_mediated_neuroprotection,Mechanism,gut microbiota-mediated neuroprotection,,,,,,
+metabolite:microbial_metabolites_as_reported,MicrobialMetabolite,microbial metabolites as reported,,,,,,
+phenotype:cognitive_impairment_phenotype,HostPhenotype,cognitive impairment phenotype,,,,,,
+paper:PMID_38745671,Paper,PMID_38745671,2024,Frontiers in Immunology,Green tea extract suppresses airway inflammation via oxidative stress-driven MAPKs/MMP-9 signaling in asthmatic mice and human airway epithelial cells,,,
+record:PMID_38745671_R1,EvidenceRecord,PMID_38745671_R1,,,,positive,Green tea extract suppressed airway inflammation via oxidative stress-driven MAPKs/MMP-9 signaling.,
+microbiota:mapks_mmp_9_signaling_modulation,MicrobiotaFeature,MAPKs/MMP-9 signaling modulation,,,,,,
+record:PMID_38745671_R2,EvidenceRecord,PMID_38745671_R2,,,,positive,Green tea extract reduced oxidative-stress-related signaling in the asthmatic model.,
+microbiota:oxidative_stress_driven_signaling_reduction,MicrobiotaFeature,oxidative stress-driven signaling reduction,,,,,,
+paper:PMID_39153277,Paper,PMID_39153277,2024,Phytomedicine,Yellow tea polysaccharides protect against non-alcoholic fatty liver disease via regulation of gut microbiota and bile acid metabolism in mice,,,
+record:PMID_39153277_R1,EvidenceRecord,PMID_39153277_R1,,,,positive,0.95,Yellow tea polysaccharides protected against non-alcoholic fatty liver disease via regulation of gut microbiota and bile acid metabolism in mice.
+mechanism:bile_acid_metabolism_and_microbiota_regulation,Mechanism,bile acid metabolism and microbiota regulation,,,,,,
+metabolite:bile_acid_related_metabolites,MicrobialMetabolite,bile-acid-related metabolites,,,,,,
+phenotype:nafld_phenotype,HostPhenotype,NAFLD phenotype,,,,,,
+record:PMID_39153277_R2,EvidenceRecord,PMID_39153277_R2,,,,positive,0.94,Yellow tea polysaccharides regulated gut microbiota and bile acid metabolism in the NAFLD mouse model.
+mechanism:microbiota_bile_acid_axis,Mechanism,microbiota-bile acid axis,,,,,,
+paper:PMID_39255891,Paper,PMID_39255891,2024,International Journal of Biological Macromolecules,Tea (Camellia sinensis L.) flower polysaccharide attenuates metabolic syndrome in high-fat diet induced mice in association with modulation of gut microbiota,,,
+record:PMID_39255891_R1,EvidenceRecord,PMID_39255891_R1,,,,positive,0.94,Tea flower polysaccharide attenuated metabolic syndrome in high-fat diet induced mice in association with modulation of gut microbiota.
+mechanism:microbiota_associated_metabolic_regulation,Mechanism,microbiota-associated metabolic regulation,,,,,,
+phenotype:metabolic_syndrome_phenotype,HostPhenotype,metabolic syndrome phenotype,,,,,,
+record:PMID_39255891_R2,EvidenceRecord,PMID_39255891_R2,,,,positive,0.93,Tea flower polysaccharide modulated gut microbiota in a metabolic syndrome mouse model.
+mechanism:gut_microbiota_associated_activity,Mechanism,gut microbiota-associated activity,,,,,,
+paper:PMID_39274868,Paper,PMID_39274868,2024,Molecules,Effects of Differently Processed Tea on the Gut Microbiota,,,
+record:PMID_39274868_R1,EvidenceRecord,PMID_39274868_R1,,,,positive,0.95,Review on differently processed tea and gut microbiota effects across tea types.
+mechanism:microbiota_mediated_modulation,Mechanism,microbiota-mediated modulation,,,,,,
+paper:PMID_39452088,Paper,PMID_39452088,2024,Biology,Harnessing the Power of Fermented Tea to Improve Gut Microbiota and Combat Obesity Epidemic,,,
+record:PMID_39452088_R1,EvidenceRecord,PMID_39452088_R1,,,,positive,0.92,Review summarizing fermented tea effects on gut microbiota and obesity-related outcomes.
+mechanism:microbiota_mediated_anti_obesity_mechanisms,Mechanism,microbiota-mediated anti-obesity mechanisms,,,,,,
+paper:PMID_39479919,Paper,PMID_39479919,2024,Food & Function,Inhibitory effect of tea flower polysaccharides on oxidative stress and microglial oxidative damage in aging mice by regulating gut microbiota,,,
+record:PMID_39479919_R1,EvidenceRecord,PMID_39479919_R1,,,,positive,0.95,Tea flower polysaccharides reduced oxidative stress and microglial oxidative damage in aging mice by regulating gut microbiota.
+mechanism:gut_microbiota_associated_oxidative_stress_regulation,Mechanism,gut microbiota-associated oxidative stress regulation,,,,,,
+phenotype:oxidative_damage_phenotype,HostPhenotype,oxidative damage phenotype,,,,,,
+record:PMID_39479919_R2,EvidenceRecord,PMID_39479919_R2,,,,positive,0.93,Tea flower polysaccharides inhibited oxidative damage to microglia from the perspective of regulating gut microbiota.
+mechanism:microglial_protection_via_microbiota,Mechanism,microglial protection via microbiota,,,,,,
+phenotype:microglial_oxidative_damage,HostPhenotype,microglial oxidative damage,,,,,,
+paper:PMID_39574401,Paper,PMID_39574401,2024,Molecular Nutrition and Food Research,Tea Polyphenols Reduced Obesity by Modulating Gut Microbiota-SCFAs-Barrier and Inflammation in High-Fat Diet-Induced Mice,,,
+record:PMID_39574401_R1,EvidenceRecord,PMID_39574401_R1,,,,positive,0.95,"Tea polyphenols reduced obesity by modulating gut microbiota, SCFAs, barrier function, and inflammation in high-fat diet-induced mice."
+mechanism:gut_barrier_and_inflammation_modulation,Mechanism,gut barrier and inflammation modulation,,,,,,
+metabolite:scfas,MicrobialMetabolite,SCFAs,,,,,,
+record:PMID_39574401_R2,EvidenceRecord,PMID_39574401_R2,,,,positive,0.94,Tea polyphenols reshaped gut microbiota and SCFA-related pathways linked to host barrier and inflammatory status.
+mechanism:microbiota_scfas_barrier_axis,Mechanism,microbiota-SCFAs-barrier axis,,,,,,
+phenotype:barrier_and_inflammation_state,HostPhenotype,barrier and inflammation state,,,,,,
+paper:PMID_39732435,Paper,PMID_39732435,2025,Journal of Nutrition,Regular Consumption of Black Tea Kombucha Modulates the Gut Microbiota in Individuals with and without Obesity,,,
+record:PMID_39732435_R1,EvidenceRecord,PMID_39732435_R1,,,,positive,0.94,Regular consumption of black tea kombucha modulated the gut microbiota in individuals with and without obesity.
+tea_type:black_tea,TeaType,black tea,,,,,,
+component_group:whole_extract,ComponentGroup,whole extract,,,,,,
+mechanism:microbiota_modulation,Mechanism,microbiota modulation,,,,,,
+phenotype:microbiota_profile,HostPhenotype,microbiota profile,,,,,,
+paper:PMID_40160899,Paper,PMID_40160899,2025,British Journal of Nutrition,Effects of green tea supplementation on antioxidant status and inflammatory markers in adults: a grade-assessed systematic review and dose-response meta-analysis of randomised controlled trials,,,
+record:PMID_40160899_R1,EvidenceRecord,PMID_40160899_R1,,,,positive,"Green tea improved oxidative status markers including TAC, SOD, GPX and reduced MDA in the meta-analysis.",
+record:PMID_40160899_R2,EvidenceRecord,PMID_40160899_R2,,,,mixed,"Green tea showed limited or mixed effects on inflammatory markers, with improvement not consistent across CRP, IL-6 and TNF-alpha.",
+paper:PMID_40314930,Paper,PMID_40314930,2025,Nutrition Reviews,Effects of Tea (Camellia sinensis) or its Bioactive Compounds l-Theanine or l-Theanine plus Caffeine on Cognition Sleep and Mood in Healthy Participants: A Systematic Review and Meta-Analysis of Randomized Controlled Trials,,,
+record:PMID_40314930_R1,EvidenceRecord,PMID_40314930_R1,,,,mixed,codex_v1,0.91
+component_group:theanine,ComponentGroup,theanine,,,,,,
+phenotype:systematic_review_and_meta_analysis_of_rcts_on_tea_or_l_theanine_or_l_theanine_plus_caffeine_reporting_cognition_related_outcomes_in_healthy_participants,HostPhenotype,Systematic review and meta-analysis of RCTs on tea or L-theanine or L-theanine plus caffeine reporting cognition-related outcomes in healthy participants.,,,,,,
+paper:PMID_40640361,Paper,PMID_40640361,2025,Scientific Reports,Effects of tea polysaccharides on gut microbiota and physiological health indicators in mice,,,
+record:PMID_40640361_R1,EvidenceRecord,PMID_40640361_R1,,,,positive,0.91,Tea polysaccharides altered gut microbiota and physiological health indicators in mice.
+mechanism:physiology_associated_microbiota_modulation,Mechanism,physiology-associated microbiota modulation,,,,,,
+phenotype:physiological_health_indicators,HostPhenotype,physiological health indicators,,,,,,
+record:PMID_40640361_R2,EvidenceRecord,PMID_40640361_R2,,,,positive,0.89,Tea polysaccharides improved physiological health indicators in mice alongside gut microbiota changes.
+mechanism:microbiota_associated_physiological_regulation,Mechanism,microbiota-associated physiological regulation,,,,,,
+paper:PMID_40957830,Paper,PMID_40957830,2025,Journal of Agricultural and Food Chemistry,Bai Mao Tea Polysaccharides Induce Adipose Tissue Browning and Ameliorate Diet-Induced Obesity by Modulating Butyrate Production and Gut Microbiota Composition,,,
+record:PMID_40957830_R1,EvidenceRecord,PMID_40957830_R1,,,,positive,0.95,Bai Mao tea polysaccharides induced adipose tissue browning and ameliorated diet-induced obesity by modulating butyrate production and gut microbiota composition.
+mechanism:butyrate_associated_thermogenesis,Mechanism,butyrate-associated thermogenesis,,,,,,
+metabolite:butyrate,MicrobialMetabolite,butyrate,,,,,,
+record:PMID_40957830_R2,EvidenceRecord,PMID_40957830_R2,,,,positive,0.94,Bai Mao tea polysaccharides modulated gut microbiota composition and butyrate production linked to thermogenesis.
+mechanism:microbiota_butyrate_thermogenesis_axis,Mechanism,microbiota-butyrate-thermogenesis axis,,,,,,
+phenotype:adipose_browning,HostPhenotype,adipose browning,,,,,,

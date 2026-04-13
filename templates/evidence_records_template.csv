@@ -1,0 +1,2 @@
+record_id,paper_id,tea_type,material_form,component_group,compound_name,activity_category,endpoint_label,study_type,evidence_level,model_system,dose_exposure,effect_direction,processing_step,extraction_method,cultivar,origin,mechanism_label,microbiota_taxon,microbial_metabolite,host_phenotype,claim_text_raw,confidence_score,annotator_id,adjudication_status,notes
+PMID_00000001_R1,PMID_00000001,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Uncertainty flags used in AutoTeaKG-Silver. Flags are stored on evidence records and propagated to graph edges through the evidence-record node.}
+\label{tab:uncertainty_flags}
+\begin{tabular}{p{0.23\linewidth}p{0.32\linewidth}p{0.32\linewidth}p{0.08\linewidth}}
+\toprule
+Flag & Trigger & Interpretation & Severity \\
+\midrule
+\texttt{low\_llm\_confidence} & Original LLM confidence score is below 0.80. & The extracted evidence record should be prioritized for review. & severe \\
+\texttt{taxonomy\_expansion\_needed} & The normalized activity category is `other`. & The record is either out of scope or requires activity-taxonomy expansion. & severe \\
+\texttt{missing\_component\_context} & No component group is available after rule and LLM context extraction. & The record lacks a key exposure descriptor. & severe \\
+\texttt{missing\_processing\_or\_extraction\_context} & Both processing step and extraction method are empty. & The record cannot support processing-aware comparison. & moderate \\
+\texttt{generic\_mechanism} & Mechanism label is empty or belongs to a generic placeholder list. & The record supports an activity claim but weakly supports mechanistic graph reasoning. & severe \\
+\texttt{missing\_named\_microbiota} & Activity is gut microbiota modulation but no named taxon is extracted. & Microbiome interpretation should remain generic. & moderate \\
+\texttt{preclinical\_only} & Study type is animal study. & The claim should not be interpreted as direct human evidence. & moderate \\
+\texttt{review\_summary\_record} & Study type is systematic review. & The record summarizes literature rather than representing one primary experiment. & moderate \\
+\texttt{low\_evidence\_level} & Evidence level is low_preclinical or in_vitro. & The claim has weak translational support. & moderate \\
+\texttt{uncertain\_effect\_direction} & Effect direction is unclear, no_clear_effect, or mixed. & The extracted claim should not be counted as straightforward positive support. & moderate \\
+\texttt{missing\_abstract} & No abstract text is available. & The record has reduced text evidence for automatic extraction. & moderate \\
+\texttt{invalid\_*} & A controlled-vocabulary field contains an invalid label. & The record violates schema constraints and requires normalization or exclusion. & severe \\
+\bottomrule
+\end{tabular}
+\end{table}

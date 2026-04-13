@@ -1,0 +1,25 @@
+{
+  "lock_id": "tea_evidence_release_2026-04-02_v1",
+  "date_locked": "2026-04-02",
+  "recommended_for_paper": true,
+  "files": [
+    {
+      "role": "papers_table",
+      "path": "D:\\projects\\paper_writing\\teakg\\data\\merged_batches\\tea_pubmed_batch_2026-03-31_large_v2_llm_merged\\included_papers_llm_merged.csv",
+      "sha256": "e9874a8961048dc5ed170fabd3bc01bb230b7d4708e31a66f2684d7ed31b14c7",
+      "size_bytes": 311385
+    },
+    {
+      "role": "evidence_records_table",
+      "path": "D:\\projects\\paper_writing\\teakg\\data\\merged_batches\\tea_pubmed_batch_2026-03-31_large_v2_llm_merged\\evidence_records_llm_merged.csv",
+      "sha256": "14d9cee39d22b21cc3cb404e41df59c2c773037af89a76bd3c87c1ffea2629e1",
+      "size_bytes": 352483
+    },
+    {
+      "role": "sqlite_database",
+      "path": "D:\\projects\\paper_writing\\teakg\\data\\merged_batches\\tea_pubmed_batch_2026-03-31_large_v2_llm_merged\\teakg_llm_merged.sqlite",
+      "sha256": "5ed2c56f0255cff2c63a4ec55ba6936a281cb39f6b8a24c8daa2367f2983955c",
+      "size_bytes": 790528
+    }
+  ]
+}

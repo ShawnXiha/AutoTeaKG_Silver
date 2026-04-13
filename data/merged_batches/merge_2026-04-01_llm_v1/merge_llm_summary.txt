@@ -1,0 +1,15 @@
+base_papers=D:\projects\paper_writing\teakg\data\merged_batches\merge_2026-03-31_v1\included_papers_merged.csv
+base_records=D:\projects\paper_writing\teakg\data\merged_batches\merge_2026-03-31_v1\candidate_records_merged.csv
+manual_records=D:\projects\paper_writing\teakg\templates\evidence_records_expanded_batch_v1_2026-03-31.csv
+llm_dir=data\llm_annotations\glm5_test_run_v1
+llm_papers=data\llm_annotations\glm5_test_run_v1\llm_screened_papers.csv
+llm_records=data\llm_annotations\glm5_test_run_v1\llm_annotated_records.csv
+merged_paper_count=524
+merged_record_count=477
+llm_papers_applied=3
+llm_records_applied=5
+removed_auto_due_to_llm=3
+removed_auto_due_to_manual=36
+papers_out=data\merged_batches\merge_2026-04-01_llm_v1\included_papers_llm_merged.csv
+records_out=data\merged_batches\merge_2026-04-01_llm_v1\evidence_records_llm_merged.csv
+db_out=data\merged_batches\merge_2026-04-01_llm_v1\teakg_llm_merged.sqlite
