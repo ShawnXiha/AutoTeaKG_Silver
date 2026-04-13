@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AutoTeaKG-Silver Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">AutoTeaKG-Silver</p>
+        <h1>茶功能活性证据图谱浏览器</h1>
+        <p class="lead">
+          把 PubMed 茶研究文献整理成可追溯、可筛选、带不确定性的证据地图。
+          这里展示的是 KG v3 的公开浏览前端原型。
+        </p>
+      </div>
+      <div class="hero__badge">
+        <span>Silver-standard</span>
+        <strong>Evidence KG</strong>
+      </div>
+    </header>
+
+    <main>
+      <section class="metrics" id="metrics"></section>
+
+      <section class="panel two-col">
+        <div>
+          <p class="eyebrow">Evidence Map</p>
+          <h2>证据分布</h2>
+          <p class="muted">
+            每条记录都保留研究类型、证据层级和不确定性。不要把动物实验、综述和人群研究混成同一种证据。
+          </p>
+          <div class="chart-row">
+            <canvas id="activityChart" width="620" height="320"></canvas>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Uncertainty</p>
+          <h2>不确定性分层</h2>
+          <p class="muted">
+            图谱不是“全都正确”的黑箱。低、中、高不确定性被明确标注，方便筛选和复核。
+          </p>
+          <div class="chart-row">
+            <canvas id="uncertaintyChart" width="620" height="320"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Interactive Subgraph</p>
+            <h2>微生物机制子图</h2>
+            <p class="muted">
+              默认展示与茶多糖、肠道菌群、短链脂肪酸和宿主表型相关的子图。点击节点或边查看来源信息。
+            </p>
+          </div>
+          <div class="legend" id="legend"></div>
+        </div>
+        <div class="graph-layout">
+          <canvas id="graphCanvas" width="1080" height="640"></canvas>
+          <aside class="inspector" id="inspector">
+            <h3>选择一个节点或边</h3>
+            <p class="muted">点击图中的元素后，这里会显示标签、类型、证据等级和来源 PMID。</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Evidence Records</p>
+            <h2>证据记录筛选</h2>
+            <p class="muted">按活性、证据等级、不确定性和成分类别筛选。表格只展示前 80 条匹配结果。</p>
+          </div>
+          <button id="resetFilters" class="ghost-btn">重置筛选</button>
+        </div>
+        <div class="filters">
+          <label>活性类别<select id="activityFilter"></select></label>
+          <label>证据等级<select id="evidenceFilter"></select></label>
+          <label>不确定性<select id="uncertaintyFilter"></select></label>
+          <label>成分类别<select id="componentFilter"></select></label>
+          <label class="search">关键词<input id="searchBox" placeholder="PMID、机制、表型、茶类型..." /></label>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Record</th>
+                <th>Tea / Component</th>
+                <th>Activity</th>
+                <th>Evidence</th>
+                <th>Mechanism / Phenotype</th>
+                <th>Uncertainty</th>
+              </tr>
+            </thead>
+            <tbody id="recordsTable"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Source: reports/methods_processing_vocab_normalized</span>
+      <span>GitHub: ShawnXiha/AutoTeaKG_Silver</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
