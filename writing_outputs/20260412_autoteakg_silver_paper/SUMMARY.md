@@ -4,8 +4,10 @@ Date: 2026-04-12
 
 ## Main Deliverables
 
-- Latest final PDF: `final/AutoTeaKG_Silver_v4.pdf`
-- Latest final TeX: `final/AutoTeaKG_Silver_v4.tex`
+- Latest final PDF: `final/AutoTeaKG_Silver_v5.pdf`
+- Latest final TeX: `final/AutoTeaKG_Silver_v5.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v4.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v4.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v3.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v3.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v2.pdf`
@@ -13,7 +15,7 @@ Date: 2026-04-12
 - Previous PDF: `final/AutoTeaKG_Silver_v1.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v1.tex`
 - Editable draft: `drafts/v1_draft.tex`
-- Latest editable draft: `drafts/v4_draft.tex`
+- Latest editable draft: `drafts/v5_draft.tex`
 - References: `references/references.bib`
 - Figures: `figures/`
 - Figure-ready tables: `data/`
@@ -50,11 +52,11 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 
 ## QA
 
-- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed for v1, v2, v3, and v4.
-- Final v4 PDF generated successfully.
+- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed for v1, v2, v3, v4, and v5.
+- Final v5 PDF generated successfully.
 - Citation keys checked against BibTeX: no missing keys.
 - LaTeX log checked: no undefined citations or references.
-- v4 draft length: 3,955 words.
+- v5 draft length: 4,699 words.
 
 ## v2 Additions
 
@@ -81,6 +83,14 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 - Generated `data/graph_query_case_study_polysaccharide_microbiome_v4.csv`.
 - Generated `data/validation_v4/validation_sample_v4.csv` and `data/validation_v4/validation_worksheet_v4.csv`.
 - v4 compiles with no undefined citations or references. Some table overfull warnings remain and should be polished during camera-ready formatting.
+
+## v5 Additions
+
+- Added `Data and Code Availability`.
+- Added `LLM Usage Statement`.
+- Added `Ethics Statement`.
+- Marked data/code availability and LLM usage statement as completed in the v4 action matrix.
+- v5 compiles with no undefined citations or references. Some table overfull warnings remain and should be polished during camera-ready formatting.
 
 ## Review Artifacts
 

@@ -37,3 +37,14 @@ Changes from v3:
 - Added a graph query case study for tea polysaccharides, microbiota/metabolites, and host phenotypes.
 - Added external validation protocol and a stratified 48-record validation sample.
 - Recompiled successfully with no undefined citations or references.
+
+## v5
+
+Date: 2026-04-13
+
+Changes from v4:
+
+- Added `Data and Code Availability`.
+- Added `LLM Usage Statement`.
+- Added `Ethics Statement`.
+- Recompiled successfully with no undefined citations or references.

@@ -4,8 +4,8 @@ P1,Graph query case study,Shows why graph is useful beyond CSV tables,One microb
 P1,Uncertainty model formalization,Central title claim needs formal rules,Uncertainty flag and class definition table,low,high,completed
 P2,Stage-wise ablation and QC table,Shows each extraction stage contributes,Table comparing rules abstract methods normalized KG stages,low,medium-high,completed
 P2,Computational related work expansion,Current related work lacks IE/KG/LLM context,New subsection with 13 verified citations,medium,medium,completed
-P2,Data and code availability statement,Submission compliance and reproducibility,Short data/code availability section,low,medium,pending
-P2,LLM usage statement,Venue compliance for AI-assisted extraction,Short LLM/API usage disclosure,low,medium,pending
+P2,Data and code availability statement,Submission compliance and reproducibility,Short data/code availability section,low,medium,completed
+P2,LLM usage statement,Venue compliance for AI-assisted extraction,Short LLM/API usage disclosure,low,medium,completed
 P3,Venue/template conversion,Generic article format is not submission format,Target venue template and page-fit plan,medium,medium,pending
 P3,Appendix refinement,Keep main text clean while preserving reproducibility,Supplement tables for paths schema vocab uncertainty,low,medium,pending
 P3,Minor layout polish,Remove remaining overfull and tune figure placement,Clean compile log and camera-ready figure placement,low,low,pending
