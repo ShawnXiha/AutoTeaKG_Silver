@@ -4,8 +4,14 @@ Date: 2026-04-12
 
 ## Main Deliverables
 
-- Latest final PDF: `final/AutoTeaKG_Silver_v8_database.pdf`
-- Latest final TeX: `final/AutoTeaKG_Silver_v8_database.tex`
+- Latest final PDF: `final/AutoTeaKG_Silver_v9_database.pdf`
+- Latest final TeX: `final/AutoTeaKG_Silver_v9_database.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v8_database.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v8_database.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v8_database.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v8_database.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v8_database.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v8_database.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v7_database.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v7_database.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v6_database.pdf`
@@ -21,7 +27,7 @@ Date: 2026-04-12
 - Previous PDF: `final/AutoTeaKG_Silver_v1.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v1.tex`
 - Editable draft: `drafts/v1_draft.tex`
-- Latest editable draft: `drafts/v8_database_draft.tex`
+- Latest editable draft: `drafts/v9_database_draft.tex`
 - References: `references/references.bib`
 - Figures: `figures/`
 - Figure-ready tables: `data/`
@@ -66,6 +72,7 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 - LaTeX log checked: no undefined citations or references.
 - v8 Database-oriented draft length: 3,955 words by `texcount -1 -sum`.
 - v8 Database-oriented PDF length: 18 pages.
+- v9 Database-oriented PDF length: 20 pages.
 
 ## v2 Additions
 
@@ -131,6 +138,18 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 - Replaced the longer validation table with a compact field-level validation table in the main text.
 - Added reproducible generation script: `scripts/create_v8_polished_manuscript.py`.
 - Recompiled successfully with no undefined citations or references. Minor overfull warnings remain in long tables and one long subsection title.
+
+
+## v9 Database-Oriented Additions
+
+- Bounded validation wording to the stratified validation sample and completed field judgments.
+- Replaced the reader-facing repository URL with HTTPS.
+- Fixed stale validation appendix wording and added completed validation artifact paths.
+- Added graph-vs-flat keyword retrieval comparison for the tea-polysaccharide microbiome case.
+- Added validation error summary and validation-by-uncertainty supplementary tables.
+- Added an extraction schema summary table to Supplementary Data.
+- Shortened one long Results subsection heading and tightened table layout.
+- Recompiled successfully with no undefined citations or references.
 
 ## Review Artifacts
 

@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{Extraction schema summary for the silver evidence records. Controlled-vocabulary fields are normalized before KG export, while raw labels and evidence terms are retained for auditability.}
+\label{tab:extraction_schema_summary}
+\begin{tabularx}{\linewidth}{p{0.22\linewidth}p{0.28\linewidth}X}
+\toprule
+Field & Field type & Source or normalization rule \\
+\midrule
+tea type & Controlled vocabulary plus raw label & Title/abstract extraction and post-processing \\
+component group & Controlled vocabulary plus raw evidence terms & LLM extraction, rule fallback, vocabulary normalization \\
+activity category & Controlled vocabulary & LLM extraction constrained by activity taxonomy \\
+study type & Controlled vocabulary & LLM extraction and evidence-level normalization \\
+evidence level & Controlled vocabulary & Derived from study type when missing or inconsistent \\
+processing step & Controlled vocabulary plus raw label & Rules, abstract-level targeted extraction, methods-section targeted extraction \\
+extraction method & Controlled vocabulary plus raw label & Rules, abstract-level targeted extraction, methods-section targeted extraction \\
+mechanism label & Free text with specificity scoring & LLM extraction and uncertainty flagging \\
+microbiota, metabolite, phenotype & Free text fields & LLM extraction and graph export \\
+uncertainty class & Low/moderate/high & Derived from confidence, specificity, context completeness, and flags \\
+\bottomrule
+\end{tabularx}
+\end{table}

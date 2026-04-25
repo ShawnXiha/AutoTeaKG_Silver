@@ -1,0 +1,3 @@
+mode,query_or_filter,returned_records,component_constraint,metabolite_phenotype_constraint,evidence_uncertainty,provenance
+Graph evidence-path query,component = tea polysaccharides; microbiome/metabolite or host-phenotype fields present; evidence-record path retained,5,explicit normalized field,explicit path fields,retained per EvidenceRecord,record_id and paper_id retained
+Flat keyword retrieval,polysaccharide AND microbi* AND (liver OR hepatic OR NAFLD) over concatenated record text,14,text match only,not structurally enforced,requires post hoc lookup,"paper match retained, path not retained"

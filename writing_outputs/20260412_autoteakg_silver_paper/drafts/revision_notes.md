@@ -90,3 +90,20 @@ Changes from v7:
 - Revised Results, Discussion, Limitations, and Conclusion to anchor claims to figures/tables and state scope boundaries more explicitly.
 - Added `scripts/create_v8_polished_manuscript.py` to regenerate the v8 figures, snippets, manuscript, and final PDF.
 - Recompiled successfully with no undefined citations or references.
+
+
+## v9 Database-oriented
+
+Date: 2026-04-25
+
+Changes from v8:
+
+- Executed the v9 revision plan from `reviews/REVISION_PLAN_v9.md`.
+- Bounded validation claims to the stratified validation sample and completed field judgments.
+- Replaced the SSH GitHub repository URL with a reader-facing HTTPS URL.
+- Updated stale validation appendix wording and added completed validation artifact paths.
+- Added graph-vs-flat retrieval comparison for the tea-polysaccharide microbiome case.
+- Added validation error summary and validation-by-uncertainty supplementary tables.
+- Added a supplementary extraction schema summary table.
+- Shortened the long resource-composition subsection title and reduced selected table layout pressure.
+- Recompiled successfully with no undefined citations or references.

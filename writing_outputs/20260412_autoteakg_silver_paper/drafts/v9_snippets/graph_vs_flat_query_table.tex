@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Graph query versus flat keyword retrieval for the tea-polysaccharide microbiome case. The comparison is descriptive: the graph query preserves typed constraints and evidence attributes, whereas the keyword query retrieves text matches that require post hoc interpretation.}
+\label{tab:graph_vs_flat_query}
+\begin{tabularx}{\linewidth}{p{0.20\linewidth}p{0.12\linewidth}Xp{0.14\linewidth}p{0.15\linewidth}}
+\toprule
+Mode & Records & Constraint handling & Evidence attrs. & Provenance \\
+\midrule
+Graph evidence-path query & 5 & Component, microbiome/metabolite, and phenotype constraints are typed graph fields. & Retained per EvidenceRecord. & Record and paper identifiers retained along the path. \\
+Flat keyword retrieval & 14 & Text matches identify candidate records, but metabolite/phenotype constraints are not structurally enforced. & Requires post hoc lookup. & Paper matches retained; evidence path not retained. \\
+\bottomrule
+\end{tabularx}
+\end{table}
