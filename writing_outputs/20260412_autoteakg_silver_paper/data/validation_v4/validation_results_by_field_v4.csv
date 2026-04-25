@@ -1,0 +1,8 @@
+field,field_key,completed,correct,minor_issue,major_issue,not_applicable,completion_rate_vs_47,correct_rate_on_completed,acceptable_rate_on_completed
+Activity category,activity_category_decision,37,29,5,2,1,0.787,0.784,0.919
+Study type,study_type_decision,35,28,0,5,2,0.745,0.8,0.8
+Evidence level,evidence_level_decision,35,29,1,3,2,0.745,0.829,0.857
+Component group,component_group_decision,33,29,2,2,0,0.702,0.879,0.939
+Processing step,processing_step_decision,34,34,0,0,0,0.723,1.0,1.0
+Extraction method,extraction_method_decision,33,33,0,0,0,0.702,1.0,1.0
+Mechanism label,mechanism_label_decision,34,32,0,0,2,0.723,0.941,0.941

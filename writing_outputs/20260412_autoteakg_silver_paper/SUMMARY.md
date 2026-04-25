@@ -4,8 +4,10 @@ Date: 2026-04-12
 
 ## Main Deliverables
 
-- Latest final PDF: `final/AutoTeaKG_Silver_v6_database.pdf`
-- Latest final TeX: `final/AutoTeaKG_Silver_v6_database.tex`
+- Latest final PDF: `final/AutoTeaKG_Silver_v7_database.pdf`
+- Latest final TeX: `final/AutoTeaKG_Silver_v7_database.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v6_database.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v6_database.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v5.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v5.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v4.pdf`
@@ -17,7 +19,7 @@ Date: 2026-04-12
 - Previous PDF: `final/AutoTeaKG_Silver_v1.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v1.tex`
 - Editable draft: `drafts/v1_draft.tex`
-- Latest editable draft: `drafts/v6_database_draft.tex`
+- Latest editable draft: `drafts/v7_database_draft.tex`
 - References: `references/references.bib`
 - Figures: `figures/`
 - Figure-ready tables: `data/`
@@ -54,11 +56,11 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 
 ## QA
 
-- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed for v1, v2, v3, v4, v5, and v6 Database-oriented draft.
-- Final v6 Database-oriented PDF generated successfully.
+- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed through v7 Database-oriented draft.
+- Final v7 Database-oriented PDF generated successfully.
 - Citation keys checked against BibTeX: no missing keys.
 - LaTeX log checked: no undefined citations or references.
-- v6 Database-oriented draft length: 4,712 words.
+- v7 Database-oriented draft length: 4,865 words.
 
 ## v2 Additions
 
@@ -103,6 +105,17 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 - Added `reviews/VENUE_CONVERSION_NOTE_v6.md`.
 - Marked venue conversion and appendix refinement as completed in the action matrix.
 - v6 compiles with no undefined citations or references. Minor table layout warnings remain for camera-ready polish.
+
+## v7 Database-Oriented Additions
+
+- Integrated completed external validation results from 47 reviewed records.
+- Added validation-results sentence to the abstract.
+- Added a dedicated Results subsection for field-level validation.
+- Validation artifacts now include:
+  - `reviews/VALIDATION_RESULTS_v4.md`
+  - `data/validation_v4/validation_results_by_field_v4.csv`
+  - `data/validation_v4/validation_results_v4.json`
+- The v4 action matrix now marks extraction-quality validation as completed.
 
 ## Review Artifacts
 

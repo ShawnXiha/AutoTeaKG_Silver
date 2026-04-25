@@ -1,5 +1,5 @@
 priority,task,why,concrete_output,estimated_effort,impact,status
-P1,Extraction-quality validation,Main trust gap for automatic KG construction,Validation sample worksheet and protocol generated; field-level results require reviewer completion,medium,high,protocol_completed
+P1,Extraction-quality validation,Main trust gap for automatic KG construction,Validation protocol plus completed 47-record field-level results table,medium,high,completed
 P1,Graph query case study,Shows why graph is useful beyond CSV tables,One microbiome/path query table and subgraph figure,medium,high,completed
 P1,Uncertainty model formalization,Central title claim needs formal rules,Uncertainty flag and class definition table,low,high,completed
 P2,Stage-wise ablation and QC table,Shows each extraction stage contributes,Table comparing rules abstract methods normalized KG stages,low,medium-high,completed

@@ -1,0 +1,116 @@
+{
+  "reviewed_records": 47,
+  "overall_counter": {
+    "correct": 20,
+    "minor_issue": 13,
+    "not_applicable": 13,
+    "major_issue": 1
+  },
+  "major_issue_counter": {
+    "wrong_study_type": 5,
+    "out_of_scope": 13,
+    "wrong_component": 3,
+    "duplicate_or_unclear": 1,
+    "wrong_activity": 6
+  },
+  "uncertainty_counter": {
+    "low_uncertainty": 14,
+    "moderate_uncertainty": 23,
+    "high_uncertainty": 10
+  },
+  "field_rows": [
+    {
+      "field": "Activity category",
+      "field_key": "activity_category_decision",
+      "completed": 37,
+      "correct": 29,
+      "minor_issue": 5,
+      "major_issue": 2,
+      "not_applicable": 1,
+      "completion_rate_vs_47": 0.787,
+      "correct_rate_on_completed": 0.784,
+      "acceptable_rate_on_completed": 0.919
+    },
+    {
+      "field": "Study type",
+      "field_key": "study_type_decision",
+      "completed": 35,
+      "correct": 28,
+      "minor_issue": 0,
+      "major_issue": 5,
+      "not_applicable": 2,
+      "completion_rate_vs_47": 0.745,
+      "correct_rate_on_completed": 0.8,
+      "acceptable_rate_on_completed": 0.8
+    },
+    {
+      "field": "Evidence level",
+      "field_key": "evidence_level_decision",
+      "completed": 35,
+      "correct": 29,
+      "minor_issue": 1,
+      "major_issue": 3,
+      "not_applicable": 2,
+      "completion_rate_vs_47": 0.745,
+      "correct_rate_on_completed": 0.829,
+      "acceptable_rate_on_completed": 0.857
+    },
+    {
+      "field": "Component group",
+      "field_key": "component_group_decision",
+      "completed": 33,
+      "correct": 29,
+      "minor_issue": 2,
+      "major_issue": 2,
+      "not_applicable": 0,
+      "completion_rate_vs_47": 0.702,
+      "correct_rate_on_completed": 0.879,
+      "acceptable_rate_on_completed": 0.939
+    },
+    {
+      "field": "Processing step",
+      "field_key": "processing_step_decision",
+      "completed": 34,
+      "correct": 34,
+      "minor_issue": 0,
+      "major_issue": 0,
+      "not_applicable": 0,
+      "completion_rate_vs_47": 0.723,
+      "correct_rate_on_completed": 1.0,
+      "acceptable_rate_on_completed": 1.0
+    },
+    {
+      "field": "Extraction method",
+      "field_key": "extraction_method_decision",
+      "completed": 33,
+      "correct": 33,
+      "minor_issue": 0,
+      "major_issue": 0,
+      "not_applicable": 0,
+      "completion_rate_vs_47": 0.702,
+      "correct_rate_on_completed": 1.0,
+      "acceptable_rate_on_completed": 1.0
+    },
+    {
+      "field": "Mechanism label",
+      "field_key": "mechanism_label_decision",
+      "completed": 34,
+      "correct": 32,
+      "minor_issue": 0,
+      "major_issue": 0,
+      "not_applicable": 2,
+      "completion_rate_vs_47": 0.723,
+      "correct_rate_on_completed": 0.941,
+      "acceptable_rate_on_completed": 0.941
+    }
+  ],
+  "anomalies": [
+    {
+      "audit_id": "VAL_016",
+      "record_id": "PMID_41577286_GLM1",
+      "field": "component_group_decision",
+      "value": "in_vitro",
+      "action": "treated_as_blank_invalid_decision"
+    }
+  ]
+}
