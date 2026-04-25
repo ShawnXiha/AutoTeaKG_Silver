@@ -73,3 +73,20 @@ Changes from v6:
 - Updated Methods from `External validation protocol` to completed `External validation`.
 - Added a Results subsection reporting field-level validation performance.
 - Recompiled successfully with no undefined citations or references.
+
+## v8 Database-oriented
+
+Date: 2026-04-25
+
+Changes from v7:
+
+- Revised the title to emphasize the validated silver-standard resource positioning.
+- Rewrote the abstract using a challenge-to-contribution structure and more conservative claim language.
+- Added a claim--evidence map table in the Introduction.
+- Tightened the uncertainty-method description to remove repetition and clarify evidence-record-level propagation.
+- Added an evidence-quality dashboard figure that combines resource scale, context recovery, activity-by-evidence structure, and validation performance.
+- Added a graph utility case diagram that makes the multi-field query logic more explicit.
+- Replaced the detailed validation table in the main text with a compact validation table.
+- Revised Results, Discussion, Limitations, and Conclusion to anchor claims to figures/tables and state scope boundaries more explicitly.
+- Added `scripts/create_v8_polished_manuscript.py` to regenerate the v8 figures, snippets, manuscript, and final PDF.
+- Recompiled successfully with no undefined citations or references.

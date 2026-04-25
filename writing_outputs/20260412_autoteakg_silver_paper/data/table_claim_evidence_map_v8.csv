@@ -1,0 +1,6 @@
+claim,evidence,anchor
+The resource is a graph rather than a flat bibliography.,"635 evidence records, 1,989 nodes, and 8,195 edges with explicit EvidenceRecord provenance.",Table~\ref{tab:dataset_stats}; Figure~\ref{fig:quality_dashboard}
+Evidence support differs across activity classes.,"Activity-by-evidence heatmap separates preclinical, synthesis, observational, and interventional support.",Figure~\ref{fig:activity_evidence}; Figure~\ref{fig:quality_dashboard}
+Processing and extraction context remain a reporting bottleneck.,"Context recovery improves across extraction stages, but 303 records retain missing-context flags.",Table~\ref{tab:stagewise_qc}; Figure~\ref{fig:quality_dashboard}
+The graph supports constrained mechanism queries.,"A tea-polysaccharide query returns microbiome, metabolite, phenotype, evidence, and uncertainty-linked paths.",Table~\ref{tab:graph_query_case}; Figure~\ref{fig:graph_utility_case}
+Human validation supports silver-standard use while identifying weak fields.,Acceptable rates range from 80\% for study type to 100\% for processing and extraction fields.,Table~\ref{tab:validation_results}; Figure~\ref{fig:quality_dashboard}

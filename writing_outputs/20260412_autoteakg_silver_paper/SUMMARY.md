@@ -4,8 +4,10 @@ Date: 2026-04-12
 
 ## Main Deliverables
 
-- Latest final PDF: `final/AutoTeaKG_Silver_v7_database.pdf`
-- Latest final TeX: `final/AutoTeaKG_Silver_v7_database.tex`
+- Latest final PDF: `final/AutoTeaKG_Silver_v8_database.pdf`
+- Latest final TeX: `final/AutoTeaKG_Silver_v8_database.tex`
+- Previous PDF: `final/AutoTeaKG_Silver_v7_database.pdf`
+- Previous TeX: `final/AutoTeaKG_Silver_v7_database.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v6_database.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v6_database.tex`
 - Previous PDF: `final/AutoTeaKG_Silver_v5.pdf`
@@ -19,7 +21,7 @@ Date: 2026-04-12
 - Previous PDF: `final/AutoTeaKG_Silver_v1.pdf`
 - Previous TeX: `final/AutoTeaKG_Silver_v1.tex`
 - Editable draft: `drafts/v1_draft.tex`
-- Latest editable draft: `drafts/v7_database_draft.tex`
+- Latest editable draft: `drafts/v8_database_draft.tex`
 - References: `references/references.bib`
 - Figures: `figures/`
 - Figure-ready tables: `data/`
@@ -28,7 +30,7 @@ Date: 2026-04-12
 
 Title:
 
-`AutoTeaKG-Silver: An Uncertainty-Aware Evidence Graph for Tea Functional Activity Literature`
+`AutoTeaKG-Silver: A Validated Silver-Standard Evidence Graph for Tea Functional Activity Literature`
 
 Core framing:
 
@@ -53,14 +55,17 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 - Full-text methods availability funnel
 - Processing/extraction label distribution
 - Uncertainty by activity
+- Evidence-quality dashboard
+- Graph utility case diagram
 
 ## QA
 
-- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed through v7 Database-oriented draft.
-- Final v7 Database-oriented PDF generated successfully.
+- `pdflatex -> bibtex -> pdflatex -> pdflatex` completed through v8 Database-oriented draft.
+- Final v8 Database-oriented PDF generated successfully.
 - Citation keys checked against BibTeX: no missing keys.
 - LaTeX log checked: no undefined citations or references.
-- v7 Database-oriented draft length: 4,865 words.
+- v8 Database-oriented draft length: 3,955 words by `texcount -1 -sum`.
+- v8 Database-oriented PDF length: 18 pages.
 
 ## v2 Additions
 
@@ -116,6 +121,16 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
   - `data/validation_v4/validation_results_by_field_v4.csv`
   - `data/validation_v4/validation_results_v4.json`
 - The v4 action matrix now marks extraction-quality validation as completed.
+
+## v8 Database-Oriented Additions
+
+- Applied `$paper-writing` section-level polish across title, abstract, Introduction, Methods, Results, Discussion, Limitations, and Conclusion.
+- Added a claim--evidence map table to make the main claims auditable against figure and table anchors.
+- Added a new evidence-quality dashboard figure summarizing resource scale, context recovery, evidence-level distribution, and external validation.
+- Added a clearer graph utility case diagram showing multi-field query constraints, EvidenceRecord provenance, and returned evidence paths.
+- Replaced the longer validation table with a compact field-level validation table in the main text.
+- Added reproducible generation script: `scripts/create_v8_polished_manuscript.py`.
+- Recompiled successfully with no undefined citations or references. Minor overfull warnings remain in long tables and one long subsection title.
 
 ## Review Artifacts
 
