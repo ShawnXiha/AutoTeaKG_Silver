@@ -1,0 +1,9 @@
+priority,task,status,target_files,success_criterion
+P1,Bound validation wording,pending,"drafts/v9_database_draft.tex","Title/abstract/results mention stratified sample and completed field judgments"
+P1,Add validation limitation,pending,"drafts/v9_database_draft.tex","Limitations mention validation sample size and no full-graph manual verification"
+P2,Replace SSH repository URL,pending,"drafts/v9_database_draft.tex","Data availability uses https://github.com/ShawnXiha/AutoTeaKG_Silver"
+P2,Fix stale validation appendix,pending,"drafts/v9_database_draft.tex","Appendix describes completed validation artifacts"
+P3,Add graph-vs-flat query comparison,pending,"data/graph_vs_flat_query_comparison_v9.csv; drafts/v9_snippets/graph_vs_flat_query_table.tex","Table contrasts graph query against flat keyword retrieval"
+P4,Add validation error summary,pending,"data/validation_error_summary_v9.csv; drafts/v9_snippets/validation_error_summary_table.tex","Major issue category counts are summarized"
+P5,Reduce layout warnings,pending,"drafts/v9_database_draft.tex","Long title/table overfull warnings reduced"
+P6,Add extraction schema summary,optional,"drafts/v9_snippets/extraction_schema_summary_table.tex","Supplement lists fields and controlled-vocabulary status"

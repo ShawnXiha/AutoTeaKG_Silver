@@ -134,6 +134,10 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 
 ## Review Artifacts
 
+- Paper self-review v8: `reviews/PAPER_REVIEW_v8.md`
+- Formal peer review v8: `reviews/PEER_REVIEW_v8.md`
+- v9 revision plan: `reviews/REVISION_PLAN_v9.md`
+- v9 action matrix: `reviews/revision_action_matrix_v9.csv`
 - Paper self-review: `reviews/PAPER_REVIEW_v3.md`
 - Formal peer review: `reviews/PEER_REVIEW_v3.md`
 - ScholarEval scoring: `reviews/SCHOLAR_EVALUATION_v3.md`
