@@ -127,11 +127,11 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 
 ## Highest-Priority v4 Tasks
 
-1. Add extraction-quality validation.
-2. Add one graph query case study.
-3. Formalize the uncertainty model.
-4. Add a stage-wise ablation / quality-control table.
-5. Expand computational related work. **Completed as a reference collection task on 2026-04-12; integration into v4 manuscript remains.**
+1. Extraction-quality validation. **Completed on 2026-04-25 and integrated into v7.**
+2. Add one graph query case study. **Completed on 2026-04-25 and integrated into v7.**
+3. Formalize the uncertainty model. **Completed.**
+4. Add a stage-wise ablation / quality-control table. **Completed.**
+5. Expand computational related work. **Completed.**
 
 ## Computational Related Work Collection
 
@@ -143,8 +143,8 @@ AutoTeaKG-Silver is an automatically generated, provenance-rich, uncertainty-awa
 
 ## Next Revision Priorities
 
-1. Add a formal Related Work section.
-2. Add a compact table of dataset construction stages.
-3. Tighten Methods with exact commands/scripts and release paths.
-4. Decide target venue/journal style and convert template if needed.
-5. Add supplementary material for query tables and schema details.
+1. Camera-ready layout polish for long tables and appendix pages.
+2. Decide whether to keep the validation table in the main paper or move it to supplement for page-limited venues.
+3. Choose the final target venue and adapt to the official template.
+4. Prepare cover letter / submission package.
+5. If desired, add one more graph utility example beyond the tea-polysaccharide gut-liver case.
